@@ -7,7 +7,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'id']) : super(locale);
 
   @override
-  String get signature => 'Dikirim dengan Maily';
+  String get signature => 'Dikirim dengan Email Pemko Siantar';
 
   @override
   String get actionCancel => 'Batal';
@@ -49,19 +49,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get actionAddressSearch => 'Cari';
 
   @override
-  String get splashLoading1 => 'Memulai Maily...';
+  String get splashLoading1 => 'Memulai Email Pemko Siantar...';
 
   @override
-  String get splashLoading2 => 'Menyiapkan mesin Maily Anda...';
+  String get splashLoading2 => 'Menyiapkan mesin Email Pemko Siantar Anda...';
 
   @override
-  String get splashLoading3 => 'Meluncurkan Maily dalam 10, 9, 8...';
+  String get splashLoading3 => 'Meluncurkan Email Pemko Siantar dalam 10, 9, 8...';
 
   @override
-  String get welcomePanel1Title => 'Maily';
+  String get welcomePanel1Title => 'Email Pemko Siantar';
 
   @override
-  String get welcomePanel1Text => 'Selamat datang di Maily, asisten email Anda yang ramah dan cepat!';
+  String get welcomePanel1Text => 'Selamat datang di Email Pemko Siantar, asisten email Anda yang ramah dan cepat!';
 
   @override
   String get welcomePanel2Title => 'Akun';
@@ -302,7 +302,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get drawerEntryAbout => 'Tentang Maily';
+  String get drawerEntryAbout => 'Tentang Email Pemko Siantar';
 
   @override
   String get drawerEntrySettings => 'Pengaturan';
@@ -598,7 +598,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get legaleseUsage => 'Dengan menggunakan Maily, Anda menyetujui [PP] dan [KT].';
+  String get legaleseUsage => 'Dengan menggunakan Email Pemko Siantar, Anda menyetujui [PP] dan [KT].';
 
   @override
   String get legalesePrivacyPolicy => 'Kebijakan Privasi';
@@ -607,7 +607,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get legaleseTermsAndConditions => 'Syarat & Ketentuan';
 
   @override
-  String get aboutApplicationLegalese => 'Maily adalah perangkat lunak gratis yang diterbitkan di bawah Lisensi Umum GNU.';
+  String get aboutApplicationLegalese => 'Email Pemko Siantar adalah perangkat lunak gratis yang diterbitkan di bawah Lisensi Umum GNU.';
 
   @override
   String get feedbackActionSuggestFeature => 'Sarankan fitur';
@@ -616,13 +616,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get feedbackActionReportProblem => 'Laporkan masalah';
 
   @override
-  String get feedbackActionHelpDeveloping => 'Bantu mengembangkan Maily';
+  String get feedbackActionHelpDeveloping => 'Bantu mengembangkan Email Pemko Siantar';
 
   @override
   String get feedbackTitle => 'Umpan Balik';
 
   @override
-  String get feedbackIntro => 'Terima kasih telah menguji Maily!';
+  String get feedbackIntro => 'Terima kasih telah menguji Email Pemko Siantar!';
 
   @override
   String get feedbackProvideInfoRequest => 'Harap berikan informasi ini ketika Anda melaporkan masalah:';
@@ -655,13 +655,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsSecurityMessageRenderingPlainText => 'Hanya tampilkan teks pesan';
 
   @override
-  String get settingsSecurityLaunchModeLabel => 'Bagaimana Maily membuka tautan?';
+  String get settingsSecurityLaunchModeLabel => 'Bagaimana Email Pemko Siantar membuka tautan?';
 
   @override
   String get settingsSecurityLaunchModeExternal => 'Buka tautan secara eksternal';
 
   @override
-  String get settingsSecurityLaunchModeInApp => 'Buka tautan di Maily';
+  String get settingsSecurityLaunchModeInApp => 'Buka tautan di Email Pemko Siantar';
 
   @override
   String get settingsActionAccounts => 'Kelola akun';
@@ -694,7 +694,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get folderNamesIntroduction => 'Nama apa yang Anda sukai untuk folder Anda?';
 
   @override
-  String get folderNamesSettingLocalized => 'Nama yang diberikan oleh Maily';
+  String get folderNamesSettingLocalized => 'Nama yang diberikan oleh Email Pemko Siantar';
 
   @override
   String get folderNamesSettingServer => 'Nama yang diberikan oleh layanan';
@@ -812,28 +812,28 @@ class AppLocalizationsEn extends AppLocalizations {
   String get securitySettingsIntro => 'Sesuaikan pengaturan keamanan sesuai kebutuhan pribadi Anda.';
 
   @override
-  String get securityUnlockWithFaceId => 'Buka kunci Maily dengan Face ID.';
+  String get securityUnlockWithFaceId => 'Buka kunci Email Pemko Siantar dengan Face ID.';
 
   @override
-  String get securityUnlockWithTouchId => 'Buka kunci Maily dengan Touch ID.';
+  String get securityUnlockWithTouchId => 'Buka kunci Email Pemko Siantar dengan Touch ID.';
 
   @override
-  String get securityUnlockReason => 'Buka kunci Maily.';
+  String get securityUnlockReason => 'Buka kunci Email Pemko Siantar.';
 
   @override
-  String get securityUnlockDisableReason => 'Buka kunci Maily untuk menonaktifkan kunci.';
+  String get securityUnlockDisableReason => 'Buka kunci Email Pemko Siantar untuk menonaktifkan kunci.';
 
   @override
   String get securityUnlockNotAvailable => 'Perangkat Anda tidak mendukung biometrik, mungkin Anda perlu mengatur opsi buka kunci terlebih dahulu.';
 
   @override
-  String get securityUnlockLabel => 'Kunci Maily';
+  String get securityUnlockLabel => 'Kunci Email Pemko Siantar';
 
   @override
-  String get securityUnlockDescriptionTitle => 'Kunci Maily';
+  String get securityUnlockDescriptionTitle => 'Kunci Email Pemko Siantar';
 
   @override
-  String get securityUnlockDescriptionText => 'Anda dapat memilih untuk mengunci akses ke Maily, sehingga orang lain tidak dapat membaca email Anda bahkan ketika mereka memiliki akses ke perangkat Anda.';
+  String get securityUnlockDescriptionText => 'Anda dapat memilih untuk mengunci akses ke Email Pemko Siantar, sehingga orang lain tidak dapat membaca email Anda bahkan ketika mereka memiliki akses ke perangkat Anda.';
 
   @override
   String get securityLockImmediately => 'Kunci segera';
@@ -845,10 +845,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get securityLockAfter30Minutes => 'Kunci setelah 30 menit';
 
   @override
-  String get lockScreenTitle => 'Maily Terkunci';
+  String get lockScreenTitle => 'Email Pemko Siantar Terkunci';
 
   @override
-  String get lockScreenIntro => 'Maily terkunci, harap autentikasi untuk melanjutkan.';
+  String get lockScreenIntro => 'Email Pemko Siantar terkunci, harap autentikasi untuk melanjutkan.';
 
   @override
   String get lockScreenUnlockAction => 'Buka kunci';
@@ -957,7 +957,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String editAccountFailureToConnectInfo(String name) {
-    return 'Maily tidak dapat terhubung $name.';
+    return 'Email Pemko Siantar tidak dapat terhubung $name.';
   }
 
   @override
@@ -1098,7 +1098,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String accountDetailsErrorHostProblem(String incomingHost, String outgoingHost) {
-    return 'Maily tidak dapat mencapai server email yang ditentukan. Harap periksa pengaturan server masuk Anda "$incomingHost" dan pengaturan server keluar Anda "$outgoingHost".';
+    return 'Email Pemko Siantar tidak dapat mencapai server email yang ditentukan. Harap periksa pengaturan server masuk Anda "$incomingHost" dan pengaturan server keluar Anda "$outgoingHost".';
   }
 
   @override
@@ -1293,22 +1293,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get languageSettingTitle => 'Bahasa';
 
   @override
-  String get languageSettingLabel => 'Pilih bahasa untuk Maily:';
+  String get languageSettingLabel => 'Pilih bahasa untuk Email Pemko Siantar:';
 
   @override
   String get languageSettingSystemOption => 'Bahasa sistem';
 
   @override
-  String get languageSettingConfirmationTitle => 'Gunakan Bahasa Inggris untuk Maily?';
+  String get languageSettingConfirmationTitle => 'Gunakan Bahasa Inggris untuk Email Pemko Siantar?';
 
   @override
   String get languageSettingConfirmationQuery => 'Silakan konfirmasi untuk menggunakan Bahasa Inggris sebagai bahasa yang dipilih Anda.';
 
   @override
-  String get languageSetInfo => 'Maily sekarang ditampilkan dalam Bahasa Inggris.';
+  String get languageSetInfo => 'Email Pemko Siantar sekarang ditampilkan dalam Bahasa Inggris.';
 
   @override
-  String get languageSystemSetInfo => 'Maily sekarang akan menggunakan bahasa sistem atau Bahasa Inggris jika bahasa sistem tidak didukung.';
+  String get languageSystemSetInfo => 'Email Pemko Siantar sekarang akan menggunakan bahasa sistem atau Bahasa Inggris jika bahasa sistem tidak didukung.';
 
   @override
   String get swipeSettingTitle => 'Geser gesek';
@@ -1460,7 +1460,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get extensionsTitle => 'Ekstensi';
 
   @override
-  String get extensionsIntro => 'Dengan ekstensi penyedia layanan email, perusahaan, dan pengembang dapat menyesuaikan Maily dengan fungsionalitas yang berguna.';
+  String get extensionsIntro => 'Dengan ekstensi penyedia layanan email, perusahaan, dan pengembang dapat menyesuaikan Email Pemko Siantar dengan fungsionalitas yang berguna.';
 
   @override
   String get extensionsLearnMoreAction => 'Pelajari lebih lanjut tentang ekstensi';
