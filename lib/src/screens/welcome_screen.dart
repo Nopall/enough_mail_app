@@ -40,6 +40,7 @@ class WelcomeScreen extends ConsumerWidget {
           image: Image.asset(
             'assets/images/maily.png',
             height: 200,
+            padding: const EdgeInsets.all(8),
             fit: BoxFit.cover,
             package: 'enough_mail_app',
           ),
