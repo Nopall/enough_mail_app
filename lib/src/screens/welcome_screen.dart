@@ -24,7 +24,7 @@ class WelcomeScreen extends ConsumerWidget {
       data: ThemeData(
         brightness: Brightness.dark,
         primarySwatch:
-            defaultColor is MaterialColor ? defaultColor : Colors.green,
+            defaultColor is MaterialColor ? defaultColor : Colors.blue,
       ),
       child: SafeArea(
         child: PlatformScaffold(
@@ -57,7 +57,7 @@ class WelcomeScreen extends ConsumerWidget {
             fit: BoxFit.cover,
             package: 'enough_mail_app',
           ),
-          decoration: PageDecoration(pageColor: Colors.green[700]),
+          decoration: PageDecoration(pageColor: Colors.blue[700]),
           footer: _buildFooter(context, localizations),
         )
       ];
