@@ -61,7 +61,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get welcomePanel1Title => 'Email Pemko Siantar';
 
   @override
-  String get welcomePanel1Text => 'Selamat datang di Email Pemko Siantar, asisten email Anda yang ramah dan cepat!';
+  String get welcomePanel1Text => 'Selamat datang di Email Pemko Siantar, Layanan Email yang mudah digunakan!';
 
   @override
   String get welcomePanel2Title => 'Akun';
@@ -607,7 +607,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get legaleseTermsAndConditions => 'Syarat & Ketentuan';
 
   @override
-  String get aboutApplicationLegalese => 'Email Pemko Siantar adalah perangkat lunak gratis yang diterbitkan di bawah Lisensi Umum GNU.';
+  String get aboutApplicationLegalese => 'Email Pemko Siantar adalah Email untuk pemko Pematang Siantar';
 
   @override
   String get feedbackActionSuggestFeature => 'Sarankan fitur';
@@ -616,7 +616,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get feedbackActionReportProblem => 'Laporkan masalah';
 
   @override
-  String get feedbackActionHelpDeveloping => '';
+  String get feedbackActionHelpDeveloping => 'Bantu mengembangkan Email Pemko Siantar';
 
   @override
   String get feedbackTitle => 'Umpan Balik';

@@ -100,7 +100,7 @@
   "@welcomePanel4Text": {
     "description": "Pesan selamat datang ditampilkan di panel keempat"
   },
-  "welcomeActionSignIn": "Masuk ke akun email Anda",
+  "welcomeActionSignIn": "Masuk akun email Anda",
   "@welcomeActionSignIn": {
     "description": "Tombol menampilkan opsi masuk"
   },
@@ -765,7 +765,7 @@
   "@legaleseTermsAndConditions": {
     "description": "Terjemahan Ketentuan "
   },
-  "aboutApplicationLegalese": "Email Pemko Siantar adalah perangkat lunak gratis yang diterbitkan di bawah Lisensi Publik Umum GNU.",
+  "aboutApplicationLegalese": "Email Pemko Siantar adalah Email untuk pemko Pematang Siantar",
   "@aboutApplicationLegalese": {
     "description": "Info hukum ditampilkan dalam dialog tentang."
   },

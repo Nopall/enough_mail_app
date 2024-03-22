@@ -23,32 +23,7 @@ class LocalizedDialogHelper {
         applicationName: 'Email Siantar',
         applicationVersion: version,
         applicationIcon: Icon(CommonPlatformIcons.mailRead),
-        applicationLegalese: localizations.aboutApplicationLegalese,
-        children: [
-          TextButton(
-            child: Text(localizations.feedbackActionSuggestFeature),
-            onPressed: () async {
-              await launcher
-                  .launchUrl(Uri.parse('https://pematangsiantar.go.id/'));
-            },
-          ),
-          TextButton(
-            child: Text(localizations.feedbackActionReportProblem),
-            onPressed: () async {
-              await launcher
-                  .launchUrl(Uri.parse('https://maily.userecho.com/'));
-            },
-          ),
-          TextButton(
-            child: Text(localizations.feedbackActionHelpDeveloping),
-            onPressed: () async {
-              await launcher.launchUrl(Uri.parse(
-                'https://github.com/Enough-Software/enough_mail_app',
-              ));
-            },
-          ),
-          const Legalese(),
-        ],
+        applicationLegalese: localizations.aboutApplicationLegalese
       );
     }
   }
