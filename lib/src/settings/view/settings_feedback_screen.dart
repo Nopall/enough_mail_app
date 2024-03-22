@@ -114,39 +114,7 @@ class _SettingsFeedbackScreenState
                     ),
                   ),
                 ],
-                Padding(
-                  padding: const EdgeInsets.all(8),
-                  child: PlatformTextButton(
-                    child: Text(localizations.feedbackActionSuggestFeature),
-                    onPressed: () async {
-                      await launcher
-                          .launchUrl(Uri.parse('https://maily.userecho.com/'));
-                    },
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8),
-                  child: PlatformTextButton(
-                    child: Text(localizations.feedbackActionReportProblem),
-                    onPressed: () async {
-                      await launcher
-                          .launchUrl(Uri.parse('https://maily.userecho.com/'));
-                    },
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8),
-                  child: PlatformTextButton(
-                    child: Text(localizations.feedbackActionHelpDeveloping),
-                    onPressed: () async {
-                      await launcher.launchUrl(
-                        Uri.parse(
-                          'https://github.com/Enough-Software/enough_mail_app',
-                        ),
-                      );
-                    },
-                  ),
-                ),
+                
               ],
             ),
           ),

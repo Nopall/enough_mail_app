@@ -616,7 +616,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get feedbackActionReportProblem => 'Laporkan masalah';
 
   @override
-  String get feedbackActionHelpDeveloping => 'Bantu mengembangkan Email Pemko Siantar';
+  String get feedbackActionHelpDeveloping => '';
 
   @override
   String get feedbackTitle => 'Umpan Balik';

@@ -777,9 +777,9 @@
   "@feedbackActionReportProblem": {
     "description": "Tindakan untuk melaporkan masalah."
   },
-  "feedbackActionHelpDeveloping": "Membantu mengembangkan Email Pemko Siantar",
+  "feedbackActionHelpDeveloping": "",
   "@feedbackActionHelpDeveloping": {
-    "description": "Tindakan untuk membantu berkembang."
+    "description": ""
   },
   "feedbackTitle": "Masukan",
   "@feedbackTitle": {

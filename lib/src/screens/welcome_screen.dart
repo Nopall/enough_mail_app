@@ -58,33 +58,6 @@ class WelcomeScreen extends ConsumerWidget {
             package: 'enough_mail_app',
           ),
           decoration: PageDecoration(pageColor: Colors.green[700]),
-          footer: _buildFooter(context, localizations),
         )
       ];
-
-  Widget _buildFooter(BuildContext context, AppLocalizations localizations) =>
-      Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(16),
-            child: Shimmer(
-              duration: const Duration(seconds: 4),
-              interval: const Duration(seconds: 6),
-              child: PlatformFilledButtonIcon(
-                icon: Icon(IconService.instance.email),
-                label: Center(
-                  child: Text(localizations.welcomeActionSignIn),
-                ),
-                onPressed: () {
-                  context.goNamed(Routes.accountAdd);
-                },
-              ),
-            ),
-          ),
-          const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-            child: Legalese(),
-          ),
-        ],
-      );
 }
