@@ -20,7 +20,7 @@ class LocalizedDialogHelper {
     if (context.mounted) {
       showAboutDialog(
         context: context,
-        applicationName: 'Maily',
+        applicationName: 'Email Siantar',
         applicationVersion: version,
         applicationIcon: Icon(CommonPlatformIcons.mailRead),
         applicationLegalese: localizations.aboutApplicationLegalese,
@@ -29,7 +29,7 @@ class LocalizedDialogHelper {
             child: Text(localizations.feedbackActionSuggestFeature),
             onPressed: () async {
               await launcher
-                  .launchUrl(Uri.parse('https://maily.userecho.com/'));
+                  .launchUrl(Uri.parse('https://pematangsiantar.go.id/'));
             },
           ),
           TextButton(

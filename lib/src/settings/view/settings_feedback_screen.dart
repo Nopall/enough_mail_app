@@ -34,7 +34,7 @@ class _SettingsFeedbackScreenState
   Future<void> _loadAppInformation() async {
     final packageInfo = await PackageInfo.fromPlatform();
     var textualInfo =
-        'Maily v${packageInfo.version}+${packageInfo.buildNumber}\n'
+        'Email Pemko Siantar v${packageInfo.version}+${packageInfo.buildNumber}\n'
         'Platform '
         '${Platform.operatingSystem} ${Platform.operatingSystemVersion}\n';
     final deviceInfoPlugin = DeviceInfoPlugin();
