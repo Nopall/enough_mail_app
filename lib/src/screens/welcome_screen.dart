@@ -84,7 +84,6 @@ class WelcomeScreen extends ConsumerWidget {
         ),
         const Padding(
           padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-          child: Legalese(),
         ),
       ],
     ),
