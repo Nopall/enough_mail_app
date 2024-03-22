@@ -634,7 +634,7 @@ class PematangsiantarMailHoster extends MailHoster {
   PematangsiantarMailHoster()
       : super(
           'pematangsiantar',
-          'mail.pematangsiantar.go.id',
+          'mx3.mailspace.id',
           ClientConfig()
             ..emailProviders = [
               ConfigEmailProvider(
@@ -643,7 +643,7 @@ class PematangsiantarMailHoster extends MailHoster {
                 incomingServers: [
                   const ServerConfig(
                     type: ServerType.imap,
-                    hostname: 'mail.pematangsiantar.go.id',
+                    hostname: 'mx3.mailspace.id',
                     port: 993,
                     socketType: SocketType.ssl,
                     authentication: Authentication.passwordClearText,
@@ -653,7 +653,7 @@ class PematangsiantarMailHoster extends MailHoster {
                 outgoingServers: [
                   const ServerConfig(
                     type: ServerType.smtp,
-                    hostname: 'mail.pematangsiantar.go.id',
+                    hostname: 'mx3.mailspace.id',
                     port: 465,
                     socketType: SocketType.ssl,
                     authentication: Authentication.passwordClearText,
@@ -662,6 +662,6 @@ class PematangsiantarMailHoster extends MailHoster {
                 ],
               ),
             ],
-          domains: ['pematangsiantar.go.id', 'mail.pematangsiantar.go.id'],
+          domains: ['pematangsiantar.go.id', 'mail.pematangsiantar.go.id', 'mx3.mailspace.id'],
         );
 }
