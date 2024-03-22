@@ -19,6 +19,7 @@ class MailHosterService {
       AppleMailHoster(),
       GmxMailHoster(),
       MailboxOrMailHoster(),
+      PematangsiantarMailHoster(),
     ]);
   }
 
@@ -633,5 +634,41 @@ class MailboxOrMailHoster extends MailHoster {
               ),
             ],
           domains: ['mailbox.org'],
+        );
+}
+
+class PematangsiantarMailHoster extends MailHoster {
+  PematangsiantarMailHoster()
+      : super(
+          'pematangsiantar',
+          'imap.pematangsiantar.go.id',
+          ClientConfig()
+            ..emailProviders = [
+              ConfigEmailProvider(
+                displayName: 'pematangsiantar.go.id',
+                displayShortName: 'Pematang Siantar Mail',
+                incomingServers: [
+                  const ServerConfig(
+                    type: ServerType.imap,
+                    hostname: 'imap.pematangsiantar.go.id',
+                    port: 993,
+                    socketType: SocketType.ssl,
+                    authentication: Authentication.passwordClearText,
+                    usernameType: UsernameType.emailAddress,
+                  ),
+                ],
+                outgoingServers: [
+                  const ServerConfig(
+                    type: ServerType.smtp,
+                    hostname: 'smtp.pematangsiantar.go.id',
+                    port: 465,
+                    socketType: SocketType.ssl,
+                    authentication: Authentication.passwordClearText,
+                    usernameType: UsernameType.emailAddress,
+                  ),
+                ],
+              ),
+            ],
+          domains: ['pematangsiantar.go.id'],
         );
 }
