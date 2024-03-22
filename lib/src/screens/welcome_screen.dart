@@ -25,7 +25,21 @@ class WelcomeScreen extends ConsumerWidget {
         brightness: Brightness.dark,
         primarySwatch:
             defaultColor is MaterialColor ? defaultColor : Colors.green,
-      )
+      ),
+      child: SafeArea(
+        child: PlatformScaffold(
+          body: IntroductionScreen(
+            pages: pages,
+            done: Text(localizations.actionDone),
+            onDone: () {
+              context.goNamed(Routes.accountAdd);
+            },
+            next: Text(localizations.actionNext),
+            skip: Text(localizations.actionSkip),
+            showSkipButton: true,
+          ),
+        ),
+      ),
     ); //Material App
   }
 
@@ -40,38 +54,40 @@ class WelcomeScreen extends ConsumerWidget {
           image: Image.asset(
             'assets/images/maily.png',
             height: 200,
-            padding: const EdgeInsets.all(8),
             fit: BoxFit.cover,
             package: 'enough_mail_app',
           ),
-          decoration: PageDecoration(pageColor: Colors.blue[700]),
+          decoration: PageDecoration(pageColor: Colors.green[700]),
           footer: _buildFooter(context, localizations),
         )
       ];
 
   Widget _buildFooter(BuildContext context, AppLocalizations localizations) =>
-      Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(16),
-            child: Shimmer(
-              duration: const Duration(seconds: 4),
-              interval: const Duration(seconds: 6),
-              child: PlatformFilledButtonIcon(
-                icon: Icon(IconService.instance.email),
-                label: Center(
-                  child: Text(localizations.welcomeActionSignIn),
-                ),
-                onPressed: () {
-                  context.goNamed(Routes.accountAdd);
-                },
+  SingleChildScrollView(
+    child: Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(16),
+          child: Shimmer(
+            duration: const Duration(seconds: 4),
+            interval: const Duration(seconds: 6),
+            child: PlatformFilledButtonIcon(
+              icon: Icon(IconService.instance.email),
+              label: Center(
+                child: Text(localizations.welcomeActionSignIn),
               ),
+              onPressed: () {
+                context.goNamed(Routes.accountAdd);
+              },
             ),
           ),
-          const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-            child: Legalese(),
-          ),
-        ],
-      );
+        ),
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+          child: Legalese(),
+        ),
+      ],
+    ),
+  );
+
 }
