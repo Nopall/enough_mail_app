@@ -7,144 +7,144 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'id']) : super(locale);
 
   @override
-  String get signature => 'Sent with Maily';
+  String get signature => 'Dikirim dengan Maily';
 
   @override
-  String get actionCancel => 'Cancel';
+  String get actionCancel => 'Batal';
 
   @override
   String get actionOk => 'OK';
 
   @override
-  String get actionDone => 'Done';
+  String get actionDone => 'Selesai';
 
   @override
-  String get actionNext => 'Next';
+  String get actionNext => 'Berikutnya';
 
   @override
-  String get actionSkip => 'Skip';
+  String get actionSkip => 'Lewati';
 
   @override
-  String get actionUndo => 'Undo';
+  String get actionUndo => 'Urungkan';
 
   @override
-  String get actionDelete => 'Delete';
+  String get actionDelete => 'Hapus';
 
   @override
-  String get actionAccept => 'Accept';
+  String get actionAccept => 'Terima';
 
   @override
-  String get actionDecline => 'Decline';
+  String get actionDecline => 'Tolak';
 
   @override
   String get actionEdit => 'Edit';
 
   @override
-  String get actionAddressCopy => 'Copy';
+  String get actionAddressCopy => 'Salin';
 
   @override
-  String get actionAddressCompose => 'New message';
+  String get actionAddressCompose => 'Pesan Baru';
 
   @override
-  String get actionAddressSearch => 'Search';
+  String get actionAddressSearch => 'Cari';
 
   @override
-  String get splashLoading1 => 'Maily starting...';
+  String get splashLoading1 => 'Memulai Maily...';
 
   @override
-  String get splashLoading2 => 'Getting your Maily engine ready...';
+  String get splashLoading2 => 'Menyiapkan mesin Maily Anda...';
 
   @override
-  String get splashLoading3 => 'Launching Maily in 10, 9, 8...';
+  String get splashLoading3 => 'Meluncurkan Maily dalam 10, 9, 8...';
 
   @override
   String get welcomePanel1Title => 'Maily';
 
   @override
-  String get welcomePanel1Text => 'Welcome to Maily, your friendly and fast email helper!';
+  String get welcomePanel1Text => 'Selamat datang di Maily, asisten email Anda yang ramah dan cepat!';
 
   @override
-  String get welcomePanel2Title => 'Accounts';
+  String get welcomePanel2Title => 'Akun';
 
   @override
-  String get welcomePanel2Text => 'Manage unlimited email accounts. Read and search for mails in all your accounts at once.';
+  String get welcomePanel2Text => 'Kelola akun email tanpa batas. Baca dan cari email di semua akun Anda sekaligus.';
 
   @override
-  String get welcomePanel3Title => 'Swipe & Long-Press';
+  String get welcomePanel3Title => 'Geser & Tahan Lama';
 
   @override
-  String get welcomePanel3Text => 'Swipe your mails to delete them or to mark them read. Long-press a message to select and manage several messages.';
+  String get welcomePanel3Text => 'Geser email Anda untuk menghapusnya atau menandainya sebagai telah dibaca. Tahan lama pada pesan untuk memilih dan mengelola beberapa pesan.';
 
   @override
-  String get welcomePanel4Title => 'Keep your Inbox clean';
+  String get welcomePanel4Title => 'Jaga Kotak Masuk Anda Bersih';
 
   @override
-  String get welcomePanel4Text => 'Unsubscribe newsletters with just one tap.';
+  String get welcomePanel4Text => 'Berhenti langganan newsletter hanya dengan satu ketukan.';
 
   @override
-  String get welcomeActionSignIn => 'Sign in to your mail account';
+  String get welcomeActionSignIn => 'Masuk ke akun email Anda';
 
   @override
-  String get homeSearchHint => 'Your search';
+  String get homeSearchHint => 'Pencarian Anda';
 
   @override
-  String get homeActionsShowAsStack => 'Show as stack';
+  String get homeActionsShowAsStack => 'Tampilkan sebagai tumpukan';
 
   @override
-  String get homeActionsShowAsList => 'Show as list';
+  String get homeActionsShowAsList => 'Tampilkan sebagai daftar';
 
   @override
-  String get homeEmptyFolderMessage => 'All done!\n\nThere are no messages in this folder.';
+  String get homeEmptyFolderMessage => 'Semua selesai!\n\nTidak ada pesan di folder ini.';
 
   @override
-  String get homeEmptySearchMessage => 'No messages found.';
+  String get homeEmptySearchMessage => 'Tidak ada pesan ditemukan.';
 
   @override
-  String get homeDeleteAllTitle => 'Confirm';
+  String get homeDeleteAllTitle => 'Konfirmasi';
 
   @override
-  String get homeDeleteAllQuestion => 'Really delete all messages?';
+  String get homeDeleteAllQuestion => 'Apakah Anda benar-benar ingin menghapus semua pesan?';
 
   @override
-  String get homeDeleteAllAction => 'Delete all';
+  String get homeDeleteAllAction => 'Hapus semua';
 
   @override
-  String get homeDeleteAllScrubOption => 'Scrub messages';
+  String get homeDeleteAllScrubOption => 'Hapus pesan';
 
   @override
-  String get homeDeleteAllSuccess => 'All messages deleted.';
+  String get homeDeleteAllSuccess => 'Semua pesan telah dihapus.';
 
   @override
-  String get homeMarkAllSeenAction => 'All read';
+  String get homeMarkAllSeenAction => 'Semua dibaca';
 
   @override
-  String get homeMarkAllUnseenAction => 'All unread';
+  String get homeMarkAllUnseenAction => 'Semua belum dibaca';
 
   @override
-  String get homeFabTooltip => 'New message';
+  String get homeFabTooltip => 'Pesan baru';
 
   @override
-  String get homeLoadingMessageSourceTitle => 'Loading...';
+  String get homeLoadingMessageSourceTitle => 'Memuat...';
 
   @override
   String homeLoading(String name) {
-    return 'loading $name...';
+    return 'Memuat $name...';
   }
 
   @override
-  String get swipeActionToggleRead => 'Mark as read/unread';
+  String get swipeActionToggleRead => 'Tandai sebagai telah dibaca/belum dibaca';
 
   @override
-  String get swipeActionDelete => 'Delete';
+  String get swipeActionDelete => 'Hapus';
 
   @override
-  String get swipeActionMarkJunk => 'Mark as junk';
+  String get swipeActionMarkJunk => 'Tandai sebagai sampah';
 
   @override
-  String get swipeActionArchive => 'Archive';
+  String get swipeActionArchive => 'Arsip';
 
   @override
-  String get swipeActionFlag => 'Toggle flag';
+  String get swipeActionFlag => 'Togel bendera';
 
   @override
   String multipleMovedToJunk(int number) {
@@ -157,8 +157,8 @@ class AppLocalizationsEn extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Marked $numberString messages as junk',
-      one: 'One message marked as junk',
+      other: 'Ditandai $numberString pesan sebagai sampah',
+      one: 'Satu pesan ditandai sebagai sampah',
     );
     return '$_temp0';
   }
@@ -174,8 +174,8 @@ class AppLocalizationsEn extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Moved $numberString messages to inbox',
-      one: 'Moved one message to inbox',
+      other: 'Pindah $numberString pesan ke kotak masuk',
+      one: 'Satu pesan dipindahkan ke kotak masuk',
     );
     return '$_temp0';
   }
@@ -191,8 +191,8 @@ class AppLocalizationsEn extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Archived $numberString messages',
-      one: 'Archived one message',
+      other: 'Arsipkan $numberString pesan',
+      one: 'Satu pesan diarsipkan',
     );
     return '$_temp0';
   }
@@ -208,18 +208,18 @@ class AppLocalizationsEn extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Deleted $numberString messages',
-      one: 'Deleted one message',
+      other: 'Menghapus $numberString pesan',
+      one: 'Menghapus satu pesan',
     );
     return '$_temp0';
   }
 
   @override
-  String get multipleSelectionNeededInfo => 'Please select messages first.';
+  String get multipleSelectionNeededInfo => 'Silakan pilih pesan terlebih dahulu.';
 
   @override
   String multipleSelectionActionFailed(String details) {
-    return 'Unable to perform action\nDetails: $details';
+    return 'Tidak dapat melakukan tindakan\nDetail: $details';
   }
 
   @override
@@ -233,79 +233,79 @@ class AppLocalizationsEn extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Move $numberString messages',
-      one: 'Move message',
+      other: 'Pindahkan $numberString pesan',
+      one: 'Pindahkan pesan',
     );
     return '$_temp0';
   }
 
   @override
-  String get messageActionMultipleMarkSeen => 'Mark as read';
+  String get messageActionMultipleMarkSeen => 'Tandai sebagai telah dibaca';
 
   @override
-  String get messageActionMultipleMarkUnseen => 'Mark as unread';
+  String get messageActionMultipleMarkUnseen => 'Tandai sebagai belum dibaca';
 
   @override
-  String get messageActionMultipleMarkFlagged => 'Flag messages';
+  String get messageActionMultipleMarkFlagged => 'Tandai pesan';
 
   @override
-  String get messageActionMultipleMarkUnflagged => 'Unflag messages';
+  String get messageActionMultipleMarkUnflagged => 'Batalkan penanda pesan';
 
   @override
-  String get messageActionViewInSafeMode => 'View without external content';
+  String get messageActionViewInSafeMode => 'Lihat tanpa konten eksternal';
 
   @override
-  String get emailSenderUnknown => '<no sender>';
+  String get emailSenderUnknown => '<tanpa pengirim>';
 
   @override
-  String get dateRangeFuture => 'future';
+  String get dateRangeFuture => 'masa depan';
 
   @override
-  String get dateRangeTomorrow => 'tomorrow';
+  String get dateRangeTomorrow => 'besok';
 
   @override
-  String get dateRangeToday => 'today';
+  String get dateRangeToday => 'hari ini';
 
   @override
-  String get dateRangeYesterday => 'yesterday';
+  String get dateRangeYesterday => 'kemarin';
 
   @override
-  String get dateRangeCurrentWeek => 'this week';
+  String get dateRangeCurrentWeek => 'minggu ini';
 
   @override
-  String get dateRangeLastWeek => 'last week';
+  String get dateRangeLastWeek => 'minggu lalu';
 
   @override
-  String get dateRangeCurrentMonth => 'this month';
+  String get dateRangeCurrentMonth => 'bulan ini';
 
   @override
-  String get dateRangeLastMonth => 'last month';
+  String get dateRangeLastMonth => 'bulan lalu';
 
   @override
-  String get dateRangeCurrentYear => 'this year';
+  String get dateRangeCurrentYear => 'tahun ini';
 
   @override
-  String get dateRangeLongAgo => 'long ago';
+  String get dateRangeLongAgo => 'lama';
 
   @override
-  String get dateUndefined => 'undefined';
+  String get dateUndefined => 'tidak ditentukan';
 
   @override
-  String get dateDayToday => 'today';
+  String get dateDayToday => 'hari ini';
 
   @override
-  String get dateDayYesterday => 'yesterday';
+  String get dateDayYesterday => 'kemarin';
 
   @override
   String dateDayLastWeekday(String day) {
-    return 'last $day';
+    return 'terakhir $day';
   }
 
   @override
-  String get drawerEntryAbout => 'About Maily';
+  String get drawerEntryAbout => 'Tentang Maily';
 
   @override
-  String get drawerEntrySettings => 'Settings';
+  String get drawerEntrySettings => 'Pengaturan';
 
   @override
   String drawerAccountsSectionTitle(int number) {
@@ -318,74 +318,74 @@ class AppLocalizationsEn extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: '$numberString accounts',
-      one: 'One account',
+      other: '$numberString akun',
+      one: 'Satu akun',
     );
     return '$_temp0';
   }
 
   @override
-  String get drawerEntryAddAccount => 'Add account';
+  String get drawerEntryAddAccount => 'Tambahkan akun';
 
   @override
-  String get unifiedAccountName => 'Unified account';
+  String get unifiedAccountName => 'Akun Terpadu';
 
   @override
-  String get unifiedFolderInbox => 'Unified Inbox';
+  String get unifiedFolderInbox => 'Kotak Masuk Terpadu';
 
   @override
-  String get unifiedFolderSent => 'Unified Sent';
+  String get unifiedFolderSent => 'Terkirim Terpadu';
 
   @override
-  String get unifiedFolderDrafts => 'Unified Drafts';
+  String get unifiedFolderDrafts => 'Konsep Terpadu';
 
   @override
-  String get unifiedFolderTrash => 'Unified Trash';
+  String get unifiedFolderTrash => 'Sampah Terpadu';
 
   @override
-  String get unifiedFolderArchive => 'Unified Archive';
+  String get unifiedFolderArchive => 'Arsip Terpadu';
 
   @override
-  String get unifiedFolderJunk => 'Unified Junk';
+  String get unifiedFolderJunk => 'Sampah Terpadu';
 
   @override
-  String get folderInbox => 'Inbox';
+  String get folderInbox => 'Kotak Masuk';
 
   @override
-  String get folderSent => 'Sent';
+  String get folderSent => 'Terkirim';
 
   @override
-  String get folderDrafts => 'Drafts';
+  String get folderDrafts => 'Konsep';
 
   @override
-  String get folderTrash => 'Trash';
+  String get folderTrash => 'Sampah';
 
   @override
-  String get folderArchive => 'Archive';
+  String get folderArchive => 'Arsip';
 
   @override
-  String get folderJunk => 'Junk';
+  String get folderJunk => 'Sampah';
 
   @override
-  String get folderUnknown => 'Unknown';
+  String get folderUnknown => 'Tidak Diketahui';
 
   @override
-  String get viewContentsAction => 'View contents';
+  String get viewContentsAction => 'Lihat konten';
 
   @override
-  String get viewSourceAction => 'View source';
+  String get viewSourceAction => 'Lihat sumber';
 
   @override
-  String get detailsErrorDownloadInfo => 'Message could not be downloaded.';
+  String get detailsErrorDownloadInfo => 'Pesan tidak dapat diunduh.';
 
   @override
-  String get detailsErrorDownloadRetry => 'Retry';
+  String get detailsErrorDownloadRetry => 'Coba lagi';
 
   @override
-  String get detailsHeaderFrom => 'From';
+  String get detailsHeaderFrom => 'Dari';
 
   @override
-  String get detailsHeaderTo => 'To';
+  String get detailsHeaderTo => 'Ke';
 
   @override
   String get detailsHeaderCc => 'CC';
@@ -394,110 +394,110 @@ class AppLocalizationsEn extends AppLocalizations {
   String get detailsHeaderBcc => 'BCC';
 
   @override
-  String get detailsHeaderDate => 'Date';
+  String get detailsHeaderDate => 'Tanggal';
 
   @override
-  String get subjectUndefined => '<without subject>';
+  String get subjectUndefined => '<tanpa subjek>';
 
   @override
-  String get detailsActionShowImages => 'Show images';
+  String get detailsActionShowImages => 'Tampilkan gambar';
 
   @override
-  String get detailsNewsletterActionUnsubscribe => 'Unsubscribe';
+  String get detailsNewsletterActionUnsubscribe => 'Berhenti langganan';
 
   @override
-  String get detailsNewsletterActionResubscribe => 'Re-subscribe';
+  String get detailsNewsletterActionResubscribe => 'Berlangganan kembali';
 
   @override
-  String get detailsNewsletterStatusUnsubscribed => 'Unsubscribed';
+  String get detailsNewsletterStatusUnsubscribed => 'Berhenti langganan';
 
   @override
-  String get detailsNewsletterUnsubscribeDialogTitle => 'Unsubscribe';
+  String get detailsNewsletterUnsubscribeDialogTitle => 'Berhenti langganan';
 
   @override
   String detailsNewsletterUnsubscribeDialogQuestion(String listName) {
-    return 'Do you want to unsubscribe from the mailing list $listName?';
+    return 'Apakah Anda ingin berhenti langganan dari daftar kirim $listName?';
   }
 
   @override
-  String get detailsNewsletterUnsubscribeDialogAction => 'Unsubscribe';
+  String get detailsNewsletterUnsubscribeDialogAction => 'Berhenti langganan';
 
   @override
-  String get detailsNewsletterUnsubscribeSuccessTitle => 'Unsubscribed';
+  String get detailsNewsletterUnsubscribeSuccessTitle => 'Berhenti langganan';
 
   @override
   String detailsNewsletterUnsubscribeSuccessMessage(String listName) {
-    return 'You are now unsubscribed from the mailing list $listName.';
+    return 'Anda sekarang telah berhenti langganan dari daftar kirim $listName.';
   }
 
   @override
-  String get detailsNewsletterUnsubscribeFailureTitle => 'Not unsubscribed';
+  String get detailsNewsletterUnsubscribeFailureTitle => 'Tidak berhasil berhenti langganan';
 
   @override
   String detailsNewsletterUnsubscribeFailureMessage(String listName) {
-    return 'Sorry, but I was unable to unsubscribe you from $listName automatically.';
+    return 'Maaf, tetapi saya tidak dapat berhenti langganan dari $listName secara otomatis.';
   }
 
   @override
-  String get detailsNewsletterResubscribeDialogTitle => 'Re-subscribe';
+  String get detailsNewsletterResubscribeDialogTitle => 'Berlangganan kembali';
 
   @override
   String detailsNewsletterResubscribeDialogQuestion(String listName) {
-    return 'Do you want to subscribe to this mailing list $listName again?';
+    return 'Apakah Anda ingin berlangganan kembali ke daftar kirim ini $listName?';
   }
 
   @override
-  String get detailsNewsletterResubscribeDialogAction => 'Subscribe';
+  String get detailsNewsletterResubscribeDialogAction => 'Berlangganan';
 
   @override
-  String get detailsNewsletterResubscribeSuccessTitle => 'Subscribed';
+  String get detailsNewsletterResubscribeSuccessTitle => 'Berlangganan';
 
   @override
   String detailsNewsletterResubscribeSuccessMessage(String listName) {
-    return 'You are now subscribed to the mailing list $listName again.';
+    return 'Anda sekarang berlangganan kembali ke daftar kirim $listName.';
   }
 
   @override
-  String get detailsNewsletterResubscribeFailureTitle => 'Not subscribed';
+  String get detailsNewsletterResubscribeFailureTitle => 'Tidak berhasil berlangganan';
 
   @override
   String detailsNewsletterResubscribeFailureMessage(String listName) {
-    return 'Sorry, but the subscribe request has failed for mailing list $listName.';
+    return 'Maaf, tetapi permintaan berlangganan telah gagal untuk daftar kirim $listName.';
   }
 
   @override
-  String get detailsSendReadReceiptAction => 'Send read receipt';
+  String get detailsSendReadReceiptAction => 'Kirim tanda terima dibaca';
 
   @override
-  String get detailsReadReceiptSentStatus => 'Read receipt sent ✔';
+  String get detailsReadReceiptSentStatus => 'Tanda terima dibaca terkirim ✔';
 
   @override
-  String get detailsReadReceiptSubject => 'Read receipt';
+  String get detailsReadReceiptSubject => 'Tanda terima dibaca';
 
   @override
-  String get attachmentActionOpen => 'Open';
+  String get attachmentActionOpen => 'Buka';
 
   @override
   String attachmentDecodeError(String details) {
-    return 'This attachment has an unsupported format or encoding.\nDetails: \$$details';
+    return 'Lampiran ini memiliki format atau enkoding yang tidak didukung.\nDetail: \$$details';
   }
 
   @override
   String attachmentDownloadError(String details) {
-    return 'Unable to download this attachment.\nDetails: \$$details';
+    return 'Tidak dapat mengunduh lampiran ini.\nDetail: \$$details';
   }
 
   @override
-  String get messageActionReply => 'Reply';
+  String get messageActionReply => 'Balas';
 
   @override
-  String get messageActionReplyAll => 'Reply all';
+  String get messageActionReplyAll => 'Balas semua';
 
   @override
-  String get messageActionForward => 'Forward';
+  String get messageActionForward => 'Teruskan';
 
   @override
-  String get messageActionForwardAsAttachment => 'Forward as attachment';
+  String get messageActionForwardAsAttachment => 'Teruskan sebagai lampiran';
 
   @override
   String messageActionForwardAttachments(int number) {
@@ -510,445 +510,445 @@ class AppLocalizationsEn extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Forward $numberString attachments',
-      one: 'Forward attachment',
+      other: 'Teruskan $numberString lampiran',
+      one: 'Teruskan lampiran',
     );
     return '$_temp0';
   }
 
   @override
-  String get messagesActionForwardAttachments => 'Forward attachments';
+  String get messagesActionForwardAttachments => 'Teruskan lampiran';
 
   @override
-  String get messageActionDelete => 'Delete';
+  String get messageActionDelete => 'Hapus';
 
   @override
-  String get messageActionMoveToInbox => 'Move to inbox';
+  String get messageActionMoveToInbox => 'Pindahkan ke kotak masuk';
 
   @override
-  String get messageActionMove => 'Move';
+  String get messageActionMove => 'Pindahkan';
 
   @override
-  String get messageStatusSeen => 'Is read';
+  String get messageStatusSeen => 'Sudah dibaca';
 
   @override
-  String get messageStatusUnseen => 'Is unread';
+  String get messageStatusUnseen => 'Belum dibaca';
 
   @override
-  String get messageStatusFlagged => 'Is flagged';
+  String get messageStatusFlagged => 'Ditandai';
 
   @override
-  String get messageStatusUnflagged => 'Is not flagged';
+  String get messageStatusUnflagged => 'Tidak ditandai';
 
   @override
-  String get messageActionMarkAsJunk => 'Mark as junk';
+  String get messageActionMarkAsJunk => 'Tandai sebagai sampah';
 
   @override
-  String get messageActionMarkAsNotJunk => 'Mark as not junk';
+  String get messageActionMarkAsNotJunk => 'Tandai bukan sampah';
 
   @override
-  String get messageActionArchive => 'Archive';
+  String get messageActionArchive => 'Arsip';
 
   @override
-  String get messageActionUnarchive => 'Move to Inbox';
+  String get messageActionUnarchive => 'Pindahkan ke Kotak Masuk';
 
   @override
   String get messageActionRedirect => 'Redirect';
 
   @override
-  String get messageActionAddNotification => 'Add notification';
+  String get messageActionAddNotification => 'Tambahkan notifikasi';
 
   @override
-  String get resultDeleted => 'Deleted';
+  String get resultDeleted => 'Dihapus';
 
   @override
-  String get resultMovedToJunk => 'Marked as junk';
+  String get resultMovedToJunk => 'Ditandai sebagai sampah';
 
   @override
-  String get resultMovedToInbox => 'Moved to Inbox';
+  String get resultMovedToInbox => 'Dipindahkan ke Kotak Masuk';
 
   @override
-  String get resultArchived => 'Archived';
+  String get resultArchived => 'Diarsipkan';
 
   @override
-  String get resultRedirectedSuccess => 'Message redirected 👍';
+  String get resultRedirectedSuccess => 'Pesan dialihkan 👍';
 
   @override
   String resultRedirectedFailure(String details) {
-    return 'Unable to redirect message.\n\nThe server responded with the following details: \"$details\"';
+    return 'Tidak dapat mengalihkan pesan.\n\nServer memberikan respon dengan detail berikut: \"$details\"';
   }
 
   @override
   String get redirectTitle => 'Redirect';
 
   @override
-  String get redirectInfo => 'Redirect this message to the following recipient(s). Redirecting does not alter the message.';
+  String get redirectInfo => 'Alihkan pesan ini kepada penerima-penerima berikut. Mengalihkan tidak mengubah pesan.';
 
   @override
-  String get redirectEmailInputRequired => 'You need to add at least one valid email address.';
+  String get redirectEmailInputRequired => 'Anda perlu menambahkan setidaknya satu alamat email yang valid.';
 
   @override
   String searchQueryDescription(String folder) {
-    return 'Search in $folder...';
+    return 'Cari di $folder...';
   }
 
   @override
   String searchQueryTitle(String query) {
-    return 'Search \"$query\"';
+    return 'Cari \"$query\"';
   }
 
   @override
-  String get legaleseUsage => 'By using Maily you agree to our [PP] and to our [TC].';
+  String get legaleseUsage => 'Dengan menggunakan Maily, Anda menyetujui [PP] dan [KT].';
 
   @override
-  String get legalesePrivacyPolicy => 'Privacy Policy';
+  String get legalesePrivacyPolicy => 'Kebijakan Privasi';
 
   @override
-  String get legaleseTermsAndConditions => 'Terms & Conditions';
+  String get legaleseTermsAndConditions => 'Syarat & Ketentuan';
 
   @override
-  String get aboutApplicationLegalese => 'Maily is free software published under the GNU General Public License.';
+  String get aboutApplicationLegalese => 'Maily adalah perangkat lunak gratis yang diterbitkan di bawah Lisensi Umum GNU.';
 
   @override
-  String get feedbackActionSuggestFeature => 'Suggest a feature';
+  String get feedbackActionSuggestFeature => 'Sarankan fitur';
 
   @override
-  String get feedbackActionReportProblem => 'Report a problem';
+  String get feedbackActionReportProblem => 'Laporkan masalah';
 
   @override
-  String get feedbackActionHelpDeveloping => 'Help developing Maily';
+  String get feedbackActionHelpDeveloping => 'Bantu mengembangkan Maily';
 
   @override
-  String get feedbackTitle => 'Feedback';
+  String get feedbackTitle => 'Umpan Balik';
 
   @override
-  String get feedbackIntro => 'Thank you for testing Maily!';
+  String get feedbackIntro => 'Terima kasih telah menguji Maily!';
 
   @override
-  String get feedbackProvideInfoRequest => 'Please provide this information when you report a problem:';
+  String get feedbackProvideInfoRequest => 'Harap berikan informasi ini ketika Anda melaporkan masalah:';
 
   @override
-  String get feedbackResultInfoCopied => 'Copied to clipboard';
+  String get feedbackResultInfoCopied => 'Disalin ke clipboard';
 
   @override
-  String get accountsTitle => 'Accounts';
+  String get accountsTitle => 'Akun';
 
   @override
-  String get accountsActionReorder => 'Reorder accounts';
+  String get accountsActionReorder => 'Urutkan ulang akun';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'Pengaturan';
 
   @override
-  String get settingsSecurityBlockExternalImages => 'Block external images';
+  String get settingsSecurityBlockExternalImages => 'Blokir gambar eksternal';
 
   @override
-  String get settingsSecurityBlockExternalImagesDescriptionTitle => 'External images';
+  String get settingsSecurityBlockExternalImagesDescriptionTitle => 'Gambar eksternal';
 
   @override
-  String get settingsSecurityBlockExternalImagesDescriptionText => 'Email messages can contain images that are either integrated or hosted on external servers. The latter, external images can expose information to the sender of the message, e.g. to let the sender know that you have opened the message. This option allows you to block such external images, which reduces the risk of exposing sensitive information. You can still opt in to load such images on a per-message-basis when you read a message.';
+  String get settingsSecurityBlockExternalImagesDescriptionText => 'Pesan email dapat berisi gambar yang terintegrasi atau dihosting di server eksternal. Gambar eksternal tersebut dapat mengekspos informasi kepada pengirim pesan, misalnya untuk memberi tahu pengirim bahwa Anda telah membuka pesan tersebut. Opsi ini memungkinkan Anda untuk memblokir gambar eksternal tersebut, yang mengurangi risiko mengungkapkan informasi sensitif. Anda masih bisa memilih untuk memuat gambar tersebut secara per-pesan ketika Anda membaca pesan.';
 
   @override
-  String get settingsSecurityMessageRenderingHtml => 'Show full message contents';
+  String get settingsSecurityMessageRenderingHtml => 'Tampilkan isi pesan lengkap';
 
   @override
-  String get settingsSecurityMessageRenderingPlainText => 'Show only the text of messages';
+  String get settingsSecurityMessageRenderingPlainText => 'Hanya tampilkan teks pesan';
 
   @override
-  String get settingsSecurityLaunchModeLabel => 'How should Maily open links?';
+  String get settingsSecurityLaunchModeLabel => 'Bagaimana Maily membuka tautan?';
 
   @override
-  String get settingsSecurityLaunchModeExternal => 'Open links externally';
+  String get settingsSecurityLaunchModeExternal => 'Buka tautan secara eksternal';
 
   @override
-  String get settingsSecurityLaunchModeInApp => 'Open links in Maily';
+  String get settingsSecurityLaunchModeInApp => 'Buka tautan di Maily';
 
   @override
-  String get settingsActionAccounts => 'Manage accounts';
+  String get settingsActionAccounts => 'Kelola akun';
 
   @override
-  String get settingsActionDesign => 'Appearance';
+  String get settingsActionDesign => 'Tampilan';
 
   @override
-  String get settingsActionFeedback => 'Provide feedback';
+  String get settingsActionFeedback => 'Berikan umpan balik';
 
   @override
-  String get settingsActionWelcome => 'Show welcome';
+  String get settingsActionWelcome => 'Tampilkan selamat datang';
 
   @override
-  String get settingsReadReceipts => 'Read receipts';
+  String get settingsReadReceipts => 'Tanda terima dibaca';
 
   @override
-  String get readReceiptsSettingsIntroduction => 'Do you want to display read receipt requests?';
+  String get readReceiptsSettingsIntroduction => 'Apakah Anda ingin menampilkan permintaan tanda terima dibaca?';
 
   @override
-  String get readReceiptOptionAlways => 'Always';
+  String get readReceiptOptionAlways => 'Selalu';
 
   @override
-  String get readReceiptOptionNever => 'Never';
+  String get readReceiptOptionNever => 'Tidak pernah';
 
   @override
-  String get settingsFolders => 'Folders';
+  String get settingsFolders => 'Folder';
 
   @override
-  String get folderNamesIntroduction => 'What names do you prefer for your folders?';
+  String get folderNamesIntroduction => 'Nama apa yang Anda sukai untuk folder Anda?';
 
   @override
-  String get folderNamesSettingLocalized => 'Names given by Maily';
+  String get folderNamesSettingLocalized => 'Nama yang diberikan oleh Maily';
 
   @override
-  String get folderNamesSettingServer => 'Names given by the service';
+  String get folderNamesSettingServer => 'Nama yang diberikan oleh layanan';
 
   @override
-  String get folderNamesSettingCustom => 'My own custom names';
+  String get folderNamesSettingCustom => 'Nama kustom saya sendiri';
 
   @override
-  String get folderNamesEditAction => 'Edit custom names';
+  String get folderNamesEditAction => 'Edit nama kustom';
 
   @override
-  String get folderNamesCustomTitle => 'Custom names';
+  String get folderNamesCustomTitle => 'Nama kustom';
 
   @override
-  String get folderAddAction => 'Create folder';
+  String get folderAddAction => 'Buat folder';
 
   @override
-  String get folderAddTitle => 'Create folder';
+  String get folderAddTitle => 'Buat folder';
 
   @override
-  String get folderAddNameLabel => 'Name';
+  String get folderAddNameLabel => 'Nama';
 
   @override
-  String get folderAddNameHint => 'Name of the new folder';
+  String get folderAddNameHint => 'Nama folder baru';
 
   @override
-  String get folderAccountLabel => 'Account';
+  String get folderAccountLabel => 'Akun';
 
   @override
   String get folderMailboxLabel => 'Folder';
 
   @override
-  String get folderAddResultSuccess => 'Folder created 😊';
+  String get folderAddResultSuccess => 'Folder berhasil dibuat 😊';
 
   @override
   String folderAddResultFailure(String details) {
-    return 'Folder could not be created.\n\nThe server responded with $details';
+    return 'Folder tidak dapat dibuat.\n\nServer memberikan respon dengan $details';
   }
 
   @override
-  String get folderDeleteAction => 'Delete';
+  String get folderDeleteAction => 'Hapus';
 
   @override
-  String get folderDeleteConfirmTitle => 'Confirm';
+  String get folderDeleteConfirmTitle => 'Konfirmasi';
 
   @override
   String folderDeleteConfirmText(String name) {
-    return 'Do you really want to delete the folder $name?';
+    return 'Apakah Anda benar-benar ingin menghapus folder $name?';
   }
 
   @override
-  String get folderDeleteResultSuccess => 'Folder deleted.';
+  String get folderDeleteResultSuccess => 'Folder dihapus.';
 
   @override
   String folderDeleteResultFailure(String details) {
-    return 'Folder could not be deleted.\n\nThe server responded with $details';
+    return 'Folder tidak dapat dihapus.\n\nServer memberikan respon dengan $details';
   }
 
   @override
-  String get settingsDevelopment => 'Development settings';
+  String get settingsDevelopment => 'Pengaturan pengembangan';
 
   @override
-  String get developerModeTitle => 'Development mode';
+  String get developerModeTitle => 'Mode pengembangan';
 
   @override
-  String get developerModeIntroduction => 'If you enable the development mode you will be able to view the source code of messages and convert text attachments to messages.';
+  String get developerModeIntroduction => 'Jika Anda mengaktifkan mode pengembangan, Anda akan dapat melihat kode sumber pesan dan mengonversi lampiran teks menjadi pesan.';
 
   @override
-  String get developerModeEnable => 'Enable development mode';
+  String get developerModeEnable => 'Aktifkan mode pengembangan';
 
   @override
-  String get developerShowAsEmail => 'Convert text to email';
+  String get developerShowAsEmail => 'Konversi teks menjadi email';
 
   @override
-  String get developerShowAsEmailFailed => 'This text cannot be converted into a MIME message.';
+  String get developerShowAsEmailFailed => 'Teks ini tidak dapat dikonversi menjadi pesan MIME.';
 
   @override
-  String get designTitle => 'Design Settings';
+  String get designTitle => 'Pengaturan Tampilan';
 
   @override
-  String get designSectionThemeTitle => 'Theme';
+  String get designSectionThemeTitle => 'Tema';
 
   @override
-  String get designThemeOptionLight => 'Light';
+  String get designThemeOptionLight => 'Terang';
 
   @override
-  String get designThemeOptionDark => 'Dark';
+  String get designThemeOptionDark => 'Gelap';
 
   @override
-  String get designThemeOptionSystem => 'System';
+  String get designThemeOptionSystem => 'Sistem';
 
   @override
-  String get designThemeOptionCustom => 'Custom';
+  String get designThemeOptionCustom => 'Kustom';
 
   @override
-  String get designSectionCustomTitle => 'Enable dark theme';
+  String get designSectionCustomTitle => 'Aktifkan tema gelap';
 
   @override
   String designThemeCustomStart(String time) {
-    return 'from $time';
+    return 'mulai dari $time';
   }
 
   @override
   String designThemeCustomEnd(String time) {
-    return 'until $time';
+    return 'hingga $time';
   }
 
   @override
-  String get designSectionColorTitle => 'Color Scheme';
+  String get designSectionColorTitle => 'Skema Warna';
 
   @override
-  String get securitySettingsTitle => 'Security';
+  String get securitySettingsTitle => 'Keamanan';
 
   @override
-  String get securitySettingsIntro => 'Adapt the security settings to your personal needs.';
+  String get securitySettingsIntro => 'Sesuaikan pengaturan keamanan sesuai kebutuhan pribadi Anda.';
 
   @override
-  String get securityUnlockWithFaceId => 'Unlock Maily with Face ID.';
+  String get securityUnlockWithFaceId => 'Buka kunci Maily dengan Face ID.';
 
   @override
-  String get securityUnlockWithTouchId => 'Unlock Maily with Touch ID.';
+  String get securityUnlockWithTouchId => 'Buka kunci Maily dengan Touch ID.';
 
   @override
-  String get securityUnlockReason => 'Unlock Maily.';
+  String get securityUnlockReason => 'Buka kunci Maily.';
 
   @override
-  String get securityUnlockDisableReason => 'Unlock Maily to turn off lock.';
+  String get securityUnlockDisableReason => 'Buka kunci Maily untuk menonaktifkan kunci.';
 
   @override
-  String get securityUnlockNotAvailable => 'Your device does not support biometrics, possibly you need to set up unlock options first.';
+  String get securityUnlockNotAvailable => 'Perangkat Anda tidak mendukung biometrik, mungkin Anda perlu mengatur opsi buka kunci terlebih dahulu.';
 
   @override
-  String get securityUnlockLabel => 'Lock Maily';
+  String get securityUnlockLabel => 'Kunci Maily';
 
   @override
-  String get securityUnlockDescriptionTitle => 'Lock Maily';
+  String get securityUnlockDescriptionTitle => 'Kunci Maily';
 
   @override
-  String get securityUnlockDescriptionText => 'You can choose to lock access to Maily, so that others cannot read your email even when they have access to your device.';
+  String get securityUnlockDescriptionText => 'Anda dapat memilih untuk mengunci akses ke Maily, sehingga orang lain tidak dapat membaca email Anda bahkan ketika mereka memiliki akses ke perangkat Anda.';
 
   @override
-  String get securityLockImmediately => 'Lock immediately';
+  String get securityLockImmediately => 'Kunci segera';
 
   @override
-  String get securityLockAfter5Minutes => 'Lock after 5 minutes';
+  String get securityLockAfter5Minutes => 'Kunci setelah 5 menit';
 
   @override
-  String get securityLockAfter30Minutes => 'Lock after 30 minutes';
+  String get securityLockAfter30Minutes => 'Kunci setelah 30 menit';
 
   @override
-  String get lockScreenTitle => 'Maily is locked';
+  String get lockScreenTitle => 'Maily Terkunci';
 
   @override
-  String get lockScreenIntro => 'Maily is locked, please authenticate to proceed.';
+  String get lockScreenIntro => 'Maily terkunci, harap autentikasi untuk melanjutkan.';
 
   @override
-  String get lockScreenUnlockAction => 'Unlock';
+  String get lockScreenUnlockAction => 'Buka kunci';
 
   @override
-  String get addAccountTitle => 'Add Account';
+  String get addAccountTitle => 'Tambah Akun';
 
   @override
   String get addAccountEmailLabel => 'Email';
 
   @override
-  String get addAccountEmailHint => 'Please enter your email address';
+  String get addAccountEmailHint => 'Silakan masukkan alamat email Anda';
 
   @override
   String addAccountResolvingSettingsLabel(String email) {
-    return 'Resolving $email...';
+    return 'Memecahkan $email...';
   }
 
   @override
   String addAccountResolvedSettingsWrongAction(String provider) {
-    return 'Not on $provider?';
+    return 'Tidak di $provider?';
   }
 
   @override
   String addAccountResolvingSettingsFailedInfo(String email) {
-    return 'Unable to resolve $email. Please go back to change it or set up the account manually.';
+    return 'Tidak dapat memecahkan $email. Harap kembali untuk mengubahnya atau atur akun secara manual.';
   }
 
   @override
-  String get addAccountEditManuallyAction => 'Edit manually';
+  String get addAccountEditManuallyAction => 'Edit secara manual';
 
   @override
-  String get addAccountPasswordLabel => 'Password';
+  String get addAccountPasswordLabel => 'Kata Sandi';
 
   @override
-  String get addAccountPasswordHint => 'Please enter your password';
+  String get addAccountPasswordHint => 'Silakan masukkan kata sandi Anda';
 
   @override
-  String get addAccountApplicationPasswordRequiredInfo => 'This provider requires you to set up an app specific password.';
+  String get addAccountApplicationPasswordRequiredInfo => 'Penyedia ini mengharuskan Anda untuk mengatur kata sandi khusus aplikasi.';
 
   @override
-  String get addAccountApplicationPasswordRequiredButton => 'Create app specific password';
+  String get addAccountApplicationPasswordRequiredButton => 'Buat kata sandi khusus aplikasi';
 
   @override
-  String get addAccountApplicationPasswordRequiredAcknowledged => 'I already have an app password';
+  String get addAccountApplicationPasswordRequiredAcknowledged => 'Saya sudah memiliki kata sandi aplikasi';
 
   @override
-  String get addAccountVerificationStep => 'Verification';
+  String get addAccountVerificationStep => 'Verifikasi';
 
   @override
-  String get addAccountSetupAccountStep => 'Account Setup';
+  String get addAccountSetupAccountStep => 'Penyiapan Akun';
 
   @override
   String addAccountVerifyingSettingsLabel(String email) {
-    return 'Verifying $email...';
+    return 'Memverifikasi $email...';
   }
 
   @override
   String addAccountVerifyingSuccessInfo(String email) {
-    return 'Successfully signed into $email.';
+    return 'Berhasil masuk ke $email.';
   }
 
   @override
   String addAccountVerifyingFailedInfo(String email) {
-    return 'Sorry, but there was a problem. Please check your email $email and password.';
+    return 'Maaf, tapi ada masalah. Harap periksa email dan kata sandi Anda $email.';
   }
 
   @override
   String addAccountOauthOptionsText(String provider) {
-    return 'Sign in with $provider or create an app-specific password.';
+    return 'Masuk dengan $provider atau buat kata sandi khusus aplikasi.';
   }
 
   @override
   String addAccountOauthSignIn(String provider) {
-    return 'Sign in with $provider';
+    return 'Masuk dengan $provider';
   }
 
   @override
-  String get addAccountOauthSignInGoogle => 'Sign in with Google';
+  String get addAccountOauthSignInGoogle => 'Masuk dengan Google';
 
   @override
-  String get addAccountOauthSignInWithAppPassword => 'Alternatively, create an app password to sign in.';
+  String get addAccountOauthSignInWithAppPassword => 'Atau, buat kata sandi aplikasi untuk masuk.';
 
   @override
-  String get accountAddImapAccessSetupMightBeRequired => 'Your provider might require you to setup access for email apps manually.';
+  String get accountAddImapAccessSetupMightBeRequired => 'Penyedia Anda mungkin memerlukan Anda untuk mengatur akses untuk aplikasi email secara manual.';
 
   @override
-  String get addAccountSetupImapAccessButtonLabel => 'Setup email access';
+  String get addAccountSetupImapAccessButtonLabel => 'Atur akses email';
 
   @override
-  String get addAccountNameOfUserLabel => 'Your name';
+  String get addAccountNameOfUserLabel => 'Nama Anda';
 
   @override
-  String get addAccountNameOfUserHint => 'The name that recipients see';
+  String get addAccountNameOfUserHint => 'Nama yang dilihat penerima';
 
   @override
-  String get addAccountNameOfAccountLabel => 'Account name';
+  String get addAccountNameOfAccountLabel => 'Nama Akun';
 
   @override
-  String get addAccountNameOfAccountHint => 'Please enter the name of your account';
+  String get addAccountNameOfAccountHint => 'Silakan masukkan nama akun Anda';
 
   @override
   String editAccountTitle(String name) {
@@ -957,313 +957,313 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String editAccountFailureToConnectInfo(String name) {
-    return 'Maily could not connect $name.';
+    return 'Maily tidak dapat terhubung $name.';
   }
 
   @override
-  String get editAccountFailureToConnectRetryAction => 'Retry';
+  String get editAccountFailureToConnectRetryAction => 'Coba lagi';
 
   @override
-  String get editAccountFailureToConnectChangePasswordAction => 'Change Password';
+  String get editAccountFailureToConnectChangePasswordAction => 'Ganti Kata Sandi';
 
   @override
-  String get editAccountFailureToConnectFixedTitle => 'Connected';
+  String get editAccountFailureToConnectFixedTitle => 'Tersambung';
 
   @override
-  String get editAccountFailureToConnectFixedInfo => 'The account is connected again.';
+  String get editAccountFailureToConnectFixedInfo => 'Akun sudah terhubung kembali.';
 
   @override
-  String get editAccountIncludeInUnifiedLabel => 'Include in unified account';
+  String get editAccountIncludeInUnifiedLabel => 'Sertakan dalam akun terpadu';
 
   @override
   String editAccountAliasLabel(String email) {
-    return 'Alias email addresses for $email:';
+    return 'Alamat email alias untuk $email:';
   }
 
   @override
-  String get editAccountNoAliasesInfo => 'You have no known aliases for this account yet.';
+  String get editAccountNoAliasesInfo => 'Anda belum memiliki alias yang diketahui untuk akun ini.';
 
   @override
   String editAccountAliasRemoved(String email) {
-    return '$email alias removed';
+    return 'Alias $email dihapus';
   }
 
   @override
-  String get editAccountAddAliasAction => 'Add alias';
+  String get editAccountAddAliasAction => 'Tambah alias';
 
   @override
-  String get editAccountPlusAliasesSupported => 'Supports + aliases';
+  String get editAccountPlusAliasesSupported => 'Dukungan alias +';
 
   @override
-  String get editAccountCheckPlusAliasAction => 'Test support for + aliases';
+  String get editAccountCheckPlusAliasAction => 'Uji dukungan untuk alias +';
 
   @override
-  String get editAccountBccMyself => 'BCC myself';
+  String get editAccountBccMyself => 'BCC diri sendiri';
 
   @override
-  String get editAccountBccMyselfDescriptionTitle => 'BCC myself';
+  String get editAccountBccMyselfDescriptionTitle => 'BCC diri sendiri';
 
   @override
-  String get editAccountBccMyselfDescriptionText => 'You can automatically send messages to yourself for every message you send from this account with the \"BCC myself\" feature. Usually this is not required and wanted as all outgoing messages are stored in the \"Sent\" folder anyhow.';
+  String get editAccountBccMyselfDescriptionText => 'Anda dapat secara otomatis mengirim pesan ke diri sendiri untuk setiap pesan yang Anda kirim dari akun ini dengan fitur "BCC myself". Biasanya ini tidak diperlukan dan diinginkan karena semua pesan keluar disimpan dalam folder "Dikirim" secara otomatis.';
 
   @override
-  String get editAccountServerSettingsAction => 'Edit server settings';
+  String get editAccountServerSettingsAction => 'Edit pengaturan server';
 
   @override
-  String get editAccountDeleteAccountAction => 'Delete account';
+  String get editAccountDeleteAccountAction => 'Hapus akun';
 
   @override
-  String get editAccountDeleteAccountConfirmationTitle => 'Confirm';
+  String get editAccountDeleteAccountConfirmationTitle => 'Konfirmasi';
 
   @override
   String editAccountDeleteAccountConfirmationQuery(String name) {
-    return 'Do you want to delete the account $name?';
+    return 'Apakah Anda ingin menghapus akun $name?';
   }
 
   @override
   String editAccountTestPlusAliasTitle(String name) {
-    return '+ Aliases for $name';
+    return '+ Alias untuk $name';
   }
 
   @override
-  String get editAccountTestPlusAliasStepIntroductionTitle => 'Introduction';
+  String get editAccountTestPlusAliasStepIntroductionTitle => 'Pengantar';
 
   @override
   String editAccountTestPlusAliasStepIntroductionText(String accountName, String example) {
-    return 'Your account $accountName might support so called + aliases like $example.\nA + alias helps you to protect your identity and helps you against spam.\nTo test this, a test message will be sent to this generated address. If it arrives, your provider supports + aliases and you can easily generate them on demand when writing a new mail message.';
+    return 'Akun Anda $accountName mungkin mendukung alias + yang disebut demikian seperti $example.\nAlias + membantu Anda melindungi identitas Anda dan melindungi Anda dari spam.\nUntuk menguji ini, pesan uji akan dikirim ke alamat yang dihasilkan ini. Jika pesannya sampai, penyedia Anda mendukung alias + dan Anda dapat dengan mudah menghasilkannya sesuai kebutuhan saat menulis pesan email baru.';
   }
 
   @override
-  String get editAccountTestPlusAliasStepTestingTitle => 'Testing';
+  String get editAccountTestPlusAliasStepTestingTitle => 'Pengujian';
 
   @override
-  String get editAccountTestPlusAliasStepResultTitle => 'Result';
+  String get editAccountTestPlusAliasStepResultTitle => 'Hasil';
 
   @override
   String editAccountTestPlusAliasStepResultSuccess(String name) {
-    return 'Your account $name supports + aliases.';
+    return 'Akun Anda $name mendukung alias +.';
   }
 
   @override
   String editAccountTestPlusAliasStepResultNoSuccess(String name) {
-    return 'Your account $name does not support + aliases.';
+    return 'Akun Anda $name tidak mendukung alias +.';
   }
 
   @override
-  String get editAccountAddAliasTitle => 'Add alias';
+  String get editAccountAddAliasTitle => 'Tambah alias';
 
   @override
   String get editAccountEditAliasTitle => 'Edit alias';
 
   @override
-  String get editAccountAliasAddAction => 'Add';
+  String get editAccountAliasAddAction => 'Tambah';
 
   @override
-  String get editAccountAliasUpdateAction => 'Update';
+  String get editAccountAliasUpdateAction => 'Perbarui';
 
   @override
-  String get editAccountEditAliasNameLabel => 'Alias name';
+  String get editAccountEditAliasNameLabel => 'Nama alias';
 
   @override
-  String get editAccountEditAliasEmailLabel => 'Alias email';
+  String get editAccountEditAliasEmailLabel => 'Email alias';
 
   @override
-  String get editAccountEditAliasEmailHint => 'Your alias email address';
+  String get editAccountEditAliasEmailHint => 'Alamat email alias Anda';
 
   @override
   String editAccountEditAliasDuplicateError(String email) {
-    return 'There is already an alias with $email.';
+    return 'Sudah ada alias dengan $email.';
   }
 
   @override
-  String get editAccountEnableLogging => 'Enable logging';
+  String get editAccountEnableLogging => 'Aktifkan logging';
 
   @override
-  String get editAccountLoggingEnabled => 'Log enabled, please restart';
+  String get editAccountLoggingEnabled => 'Log diaktifkan, harap restart';
 
   @override
-  String get editAccountLoggingDisabled => 'Log disabled, please restart';
+  String get editAccountLoggingDisabled => 'Log dinonaktifkan, harap restart';
 
   @override
-  String get accountDetailsFallbackTitle => 'Server Settings';
+  String get accountDetailsFallbackTitle => 'Pengaturan Server';
 
   @override
   String get errorTitle => 'Error';
 
   @override
-  String get accountProviderStepTitle => 'Email Service Provider';
+  String get accountProviderStepTitle => 'Penyedia Layanan Email';
 
   @override
-  String get accountProviderCustom => 'Other email service';
+  String get accountProviderCustom => 'Layanan email lainnya';
 
   @override
   String accountDetailsErrorHostProblem(String incomingHost, String outgoingHost) {
-    return 'Maily cannot reach the specified mail server. Please check your incoming server setting \"$incomingHost\" and your outgoing server setting \"$outgoingHost\".';
+    return 'Maily tidak dapat mencapai server email yang ditentukan. Harap periksa pengaturan server masuk Anda "$incomingHost" dan pengaturan server keluar Anda "$outgoingHost".';
   }
 
   @override
   String accountDetailsErrorLoginProblem(String userName, String password) {
-    return 'Unable to log your in. Please check your user name \"$userName\" and your password \"$password\".';
+    return 'Tidak dapat masuk. Harap periksa nama pengguna Anda "$userName" dan kata sandi Anda "$password".';
   }
 
   @override
-  String get accountDetailsUserNameLabel => 'Login name';
+  String get accountDetailsUserNameLabel => 'Nama login';
 
   @override
-  String get accountDetailsUserNameHint => 'Your user name, if different from email';
+  String get accountDetailsUserNameHint => 'Nama pengguna Anda, jika berbeda dari email';
 
   @override
-  String get accountDetailsPasswordLabel => 'Login password';
+  String get accountDetailsPasswordLabel => 'Kata sandi login';
 
   @override
-  String get accountDetailsPasswordHint => 'Your password';
+  String get accountDetailsPasswordHint => 'Kata sandi Anda';
 
   @override
-  String get accountDetailsBaseSectionTitle => 'Base settings';
+  String get accountDetailsBaseSectionTitle => 'Pengaturan dasar';
 
   @override
-  String get accountDetailsIncomingLabel => 'Incoming server';
+  String get accountDetailsIncomingLabel => 'Server masuk';
 
   @override
-  String get accountDetailsIncomingHint => 'Domain like imap.domain.com';
+  String get accountDetailsIncomingHint => 'Domain seperti imap.domain.com';
 
   @override
-  String get accountDetailsOutgoingLabel => 'Outgoing server';
+  String get accountDetailsOutgoingLabel => 'Server keluar';
 
   @override
-  String get accountDetailsOutgoingHint => 'Domain like smtp.domain.com';
+  String get accountDetailsOutgoingHint => 'Domain seperti smtp.domain.com';
 
   @override
-  String get accountDetailsAdvancedIncomingSectionTitle => 'Advanced incoming settings';
+  String get accountDetailsAdvancedIncomingSectionTitle => 'Pengaturan masuk lanjutan';
 
   @override
-  String get accountDetailsIncomingServerTypeLabel => 'Incoming type:';
+  String get accountDetailsIncomingServerTypeLabel => 'Jenis masuk:';
 
   @override
-  String get accountDetailsOptionAutomatic => 'automatic';
+  String get accountDetailsOptionAutomatic => 'otomatis';
 
   @override
-  String get accountDetailsIncomingSecurityLabel => 'Incoming security:';
+  String get accountDetailsIncomingSecurityLabel => 'Keamanan masuk:';
 
   @override
-  String get accountDetailsSecurityOptionNone => 'Plain (no encryption)';
+  String get accountDetailsSecurityOptionNone => 'Biasa (tanpa enkripsi)';
 
   @override
-  String get accountDetailsIncomingPortLabel => 'Incoming port';
+  String get accountDetailsIncomingPortLabel => 'Port masuk';
 
   @override
-  String get accountDetailsPortHint => 'Leave empty to determine automatically';
+  String get accountDetailsPortHint => 'Biarkan kosong untuk menentukan secara otomatis';
 
   @override
-  String get accountDetailsIncomingUserNameLabel => 'Incoming user name';
+  String get accountDetailsIncomingUserNameLabel => 'Nama pengguna masuk';
 
   @override
-  String get accountDetailsAlternativeUserNameHint => 'Your user name, if different from above';
+  String get accountDetailsAlternativeUserNameHint => 'Nama pengguna Anda, jika berbeda dari di atas';
 
   @override
-  String get accountDetailsIncomingPasswordLabel => 'Incoming password';
+  String get accountDetailsIncomingPasswordLabel => 'Kata sandi masuk';
 
   @override
-  String get accountDetailsAlternativePasswordHint => 'Your password, if different from above';
+  String get accountDetailsAlternativePasswordHint => 'Kata sandi Anda, jika berbeda dari di atas';
 
   @override
-  String get accountDetailsAdvancedOutgoingSectionTitle => 'Advanced outgoing settings';
+  String get accountDetailsAdvancedOutgoingSectionTitle => 'Pengaturan keluar lanjutan';
 
   @override
-  String get accountDetailsOutgoingServerTypeLabel => 'Outgoing type:';
+  String get accountDetailsOutgoingServerTypeLabel => 'Jenis keluar:';
 
   @override
-  String get accountDetailsOutgoingSecurityLabel => 'Outgoing security:';
+  String get accountDetailsOutgoingSecurityLabel => 'Keamanan keluar:';
 
   @override
-  String get accountDetailsOutgoingPortLabel => 'Outgoing port';
+  String get accountDetailsOutgoingPortLabel => 'Port keluar';
 
   @override
-  String get accountDetailsOutgoingUserNameLabel => 'Outgoing user name';
+  String get accountDetailsOutgoingUserNameLabel => 'Nama pengguna keluar';
 
   @override
-  String get accountDetailsOutgoingPasswordLabel => 'Outgoing password';
+  String get accountDetailsOutgoingPasswordLabel => 'Kata sandi keluar';
 
   @override
-  String get composeTitleNew => 'New message';
+  String get composeTitleNew => 'Pesan baru';
 
   @override
-  String get composeTitleForward => 'Forward';
+  String get composeTitleForward => 'Teruskan';
 
   @override
-  String get composeTitleReply => 'Reply';
+  String get composeTitleReply => 'Balas';
 
   @override
-  String get composeEmptyMessage => 'empty message';
+  String get composeEmptyMessage => 'pesan kosong';
 
   @override
-  String get composeWarningNoSubject => 'You have not specified a subject. Do you want to sent the message without a subject?';
+  String get composeWarningNoSubject => 'Anda belum menentukan subjek. Apakah Anda ingin mengirimkan pesan tanpa subjek?'
 
   @override
-  String get composeActionSentWithoutSubject => 'Send';
+  String get composeActionSentWithoutSubject => 'Kirim';
 
   @override
-  String get composeMailSendSuccess => 'Mail sent 😊';
+  String get composeMailSendSuccess => 'Email terkirim 😊';
 
   @override
   String composeSendErrorInfo(String details) {
-    return 'Sorry, your mail could not be send. We received the following error:\n$details.';
+    return 'Maaf, email Anda tidak dapat dikirim. Kami menerima kesalahan berikut:\n$details.';
   }
 
   @override
-  String get composeRequestReadReceiptAction => 'Request read receipt';
+  String get composeRequestReadReceiptAction => 'Minta tanda terima baca';
 
   @override
-  String get composeSaveDraftAction => 'Save as draft';
+  String get composeSaveDraftAction => 'Simpan sebagai draf';
 
   @override
-  String get composeMessageSavedAsDraft => 'Draft saved';
+  String get composeMessageSavedAsDraft => 'Draf disimpan';
 
   @override
   String composeMessageSavedAsDraftErrorInfo(String details) {
-    return 'Your draft could not be saved with the following error:\n$details';
+    return 'Draf Anda tidak dapat disimpan dengan kesalahan berikut:\n$details';
   }
 
   @override
-  String get composeConvertToPlainTextEditorAction => 'Convert to plain text';
+  String get composeConvertToPlainTextEditorAction => 'Konversi ke teks biasa';
 
   @override
-  String get composeConvertToHtmlEditorAction => 'Convert to rich message (HTML)';
+  String get composeConvertToHtmlEditorAction => 'Konversi ke pesan kaya (HTML)';
 
   @override
-  String get composeContinueEditingAction => 'Continue editing';
+  String get composeContinueEditingAction => 'Lanjutkan mengedit';
 
   @override
-  String get composeCreatePlusAliasAction => 'Create new + alias...';
+  String get composeCreatePlusAliasAction => 'Buat alias + baru...';
 
   @override
-  String get composeSenderHint => 'Sender';
+  String get composeSenderHint => 'Pengirim';
 
   @override
-  String get composeRecipientHint => 'Recipient email';
+  String get composeRecipientHint => 'Email penerima';
 
   @override
-  String get composeSubjectLabel => 'Subject';
+  String get composeSubjectLabel => 'Subjek';
 
   @override
-  String get composeSubjectHint => 'Message subject';
+  String get composeSubjectHint => 'Subjek pesan';
 
   @override
-  String get composeAddAttachmentAction => 'Add';
+  String get composeAddAttachmentAction => 'Tambah';
 
   @override
   String composeRemoveAttachmentAction(String name) {
-    return 'Remove $name';
+    return 'Hapus $name';
   }
 
   @override
-  String get composeLeftByMistake => 'Left by mistake?';
+  String get composeLeftByMistake => 'Ditinggalkan karena kesalahan?';
 
   @override
   String get attachTypeFile => 'File';
 
   @override
-  String get attachTypePhoto => 'Photo';
+  String get attachTypePhoto => 'Foto';
 
   @override
   String get attachTypeVideo => 'Video';
@@ -1272,118 +1272,118 @@ class AppLocalizationsEn extends AppLocalizations {
   String get attachTypeAudio => 'Audio';
 
   @override
-  String get attachTypeLocation => 'Location';
+  String get attachTypeLocation => 'Lokasi';
 
   @override
-  String get attachTypeGif => 'Animated Gif';
+  String get attachTypeGif => 'GIF bergerak';
 
   @override
-  String get attachTypeGifSearch => 'search GIPHY';
+  String get attachTypeGifSearch => 'cari GIPHY';
 
   @override
-  String get attachTypeSticker => 'Sticker';
+  String get attachTypeSticker => 'Stiker';
 
   @override
-  String get attachTypeStickerSearch => 'search GIPHY';
+  String get attachTypeStickerSearch => 'cari GIPHY';
 
   @override
-  String get attachTypeAppointment => 'Appointment';
+  String get attachTypeAppointment => 'Jadwal';
 
   @override
-  String get languageSettingTitle => 'Language';
+  String get languageSettingTitle => 'Bahasa';
 
   @override
-  String get languageSettingLabel => 'Choose the language for Maily:';
+  String get languageSettingLabel => 'Pilih bahasa untuk Maily:';
 
   @override
-  String get languageSettingSystemOption => 'System language';
+  String get languageSettingSystemOption => 'Bahasa sistem';
 
   @override
-  String get languageSettingConfirmationTitle => 'Use English for Maily?';
+  String get languageSettingConfirmationTitle => 'Gunakan Bahasa Inggris untuk Maily?';
 
   @override
-  String get languageSettingConfirmationQuery => 'Please confirm to use English as your chosen language.';
+  String get languageSettingConfirmationQuery => 'Silakan konfirmasi untuk menggunakan Bahasa Inggris sebagai bahasa yang dipilih Anda.';
 
   @override
-  String get languageSetInfo => 'Maily is now shown in English.';
+  String get languageSetInfo => 'Maily sekarang ditampilkan dalam Bahasa Inggris.';
 
   @override
-  String get languageSystemSetInfo => 'Maily will now use the system\'s language or English if the system\'s language is not supported.';
+  String get languageSystemSetInfo => 'Maily sekarang akan menggunakan bahasa sistem atau Bahasa Inggris jika bahasa sistem tidak didukung.';
 
   @override
-  String get swipeSettingTitle => 'Swipe gestures';
+  String get swipeSettingTitle => 'Geser gesek';
 
   @override
-  String get swipeSettingLeftToRightLabel => 'Left to right swipe';
+  String get swipeSettingLeftToRightLabel => 'Geser dari kiri ke kanan';
 
   @override
-  String get swipeSettingRightToLeftLabel => 'Right to left swipe';
+  String get swipeSettingRightToLeftLabel => 'Geser dari kanan ke kiri';
 
   @override
-  String get swipeSettingChangeAction => 'Change';
+  String get swipeSettingChangeAction => 'Ubah';
 
   @override
-  String get signatureSettingsTitle => 'Signature';
+  String get signatureSettingsTitle => 'Tanda tangan';
 
   @override
-  String get signatureSettingsComposeActionsInfo => 'Enable the signature for the following messages:';
+  String get signatureSettingsComposeActionsInfo => 'Aktifkan tanda tangan untuk pesan-pesan berikut:';
 
   @override
-  String get signatureSettingsAccountInfo => 'You can specify account specific signatures in the account settings.';
+  String get signatureSettingsAccountInfo => 'Anda dapat menentukan tanda tangan yang spesifik untuk akun dalam pengaturan akun.';
 
   @override
   String signatureSettingsAddForAccount(String account) {
-    return 'Add signature for $account';
+    return 'Tambah tanda tangan untuk $account';
   }
 
   @override
-  String get defaultSenderSettingsTitle => 'Default sender';
+  String get defaultSenderSettingsTitle => 'Pengirim default';
 
   @override
-  String get defaultSenderSettingsLabel => 'Select the sender for new messages.';
+  String get defaultSenderSettingsLabel => 'Pilih pengirim untuk pesan baru.';
 
   @override
   String defaultSenderSettingsFirstAccount(String email) {
-    return 'First account ($email)';
+    return 'Akun pertama ($email)';
   }
 
   @override
-  String get defaultSenderSettingsAliasInfo => 'You can set up email alias addresses in the [AS].';
+  String get defaultSenderSettingsAliasInfo => 'Anda dapat menyiapkan alamat alias email di [AS].';
 
   @override
-  String get defaultSenderSettingsAliasAccountSettings => 'account settings';
+  String get defaultSenderSettingsAliasAccountSettings => 'pengaturan akun';
 
   @override
-  String get replySettingsTitle => 'Message format';
+  String get replySettingsTitle => 'Format pesan';
 
   @override
-  String get replySettingsIntro => 'In what format do you want to answer or forward email by default?';
+  String get replySettingsIntro => 'Dalam format apa Anda ingin menjawab atau meneruskan email secara default?';
 
   @override
-  String get replySettingsFormatHtml => 'Always rich format (HTML)';
+  String get replySettingsFormatHtml => 'Selalu format kaya (HTML)';
 
   @override
-  String get replySettingsFormatSameAsOriginal => 'Use same format as originating email';
+  String get replySettingsFormatSameAsOriginal => 'Gunakan format yang sama seperti email asal';
 
   @override
-  String get replySettingsFormatPlainText => 'Always text-only';
+  String get replySettingsFormatPlainText => 'Hanya teks';
 
   @override
-  String get moveTitle => 'Move message';
+  String get moveTitle => 'Pindahkan pesan';
 
   @override
   String moveSuccess(String mailbox) {
-    return 'Messaged moved to $mailbox.';
+    return 'Pesan dipindahkan ke $mailbox.';
   }
 
   @override
-  String get editorArtInputLabel => 'Your input';
+  String get editorArtInputLabel => 'Input Anda';
 
   @override
-  String get editorArtInputHint => 'Enter text here';
+  String get editorArtInputHint => 'Masukkan teks di sini';
 
   @override
-  String get editorArtWaitingForInputHint => 'waiting for input...';
+  String get editorArtWaitingForInputHint => 'menunggu input...';
 
   @override
   String get fontSerifBold => 'Serif bold';
@@ -1450,220 +1450,220 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String accountLoadError(String name) {
-    return 'Unable to connect to your account $name. Has the password been changed?';
+    return 'Tidak dapat terhubung ke akun Anda $name. Apakah kata sandi sudah diubah?';
   }
 
   @override
-  String get accountLoadErrorEditAction => 'Edit account';
+  String get accountLoadErrorEditAction => 'Edit akun';
 
   @override
-  String get extensionsTitle => 'Extensions';
+  String get extensionsTitle => 'Ekstensi';
 
   @override
-  String get extensionsIntro => 'With extensions e-mail service providers, companies and developers can adapt Maily with useful functionalities.';
+  String get extensionsIntro => 'Dengan ekstensi penyedia layanan email, perusahaan, dan pengembang dapat menyesuaikan Maily dengan fungsionalitas yang berguna.';
 
   @override
-  String get extensionsLearnMoreAction => 'Learn more about extensions';
+  String get extensionsLearnMoreAction => 'Pelajari lebih lanjut tentang ekstensi';
 
   @override
-  String get extensionsReloadAction => 'Reload extensions';
+  String get extensionsReloadAction => 'Muat ulang ekstensi';
 
   @override
-  String get extensionDeactivateAllAction => 'Deactivate all extensions';
+  String get extensionDeactivateAllAction => 'Nonaktifkan semua ekstensi';
 
   @override
-  String get extensionsManualAction => 'Load manually';
+  String get extensionsManualAction => 'Muat secara manual';
 
   @override
-  String get extensionsManualUrlLabel => 'Url of extension';
+  String get extensionsManualUrlLabel => 'URL ekstensi';
 
   @override
   String extensionsManualLoadingError(String url) {
-    return 'Unable to download extension from \"$url\".';
+    return 'Tidak dapat mengunduh ekstensi dari \"$url\".';
   }
 
   @override
-  String get icalendarAcceptTentatively => 'Tentatively';
+  String get icalendarAcceptTentatively => 'Dengan Ragukan';
 
   @override
-  String get icalendarActionChangeParticipantStatus => 'Change';
+  String get icalendarActionChangeParticipantStatus => 'Ubah';
 
   @override
-  String get icalendarLabelSummary => 'Title';
+  String get icalendarLabelSummary => 'Judul';
 
   @override
-  String get icalendarNoSummaryInfo => '(no title)';
+  String get icalendarNoSummaryInfo => '(tanpa judul)';
 
   @override
-  String get icalendarLabelDescription => 'Description';
+  String get icalendarLabelDescription => 'Deskripsi';
 
   @override
-  String get icalendarLabelStart => 'Start';
+  String get icalendarLabelStart => 'Mulai';
 
   @override
-  String get icalendarLabelEnd => 'End';
+  String get icalendarLabelEnd => 'Selesai';
 
   @override
-  String get icalendarLabelDuration => 'Duration';
+  String get icalendarLabelDuration => 'Durasi';
 
   @override
-  String get icalendarLabelLocation => 'Location';
+  String get icalendarLabelLocation => 'Lokasi';
 
   @override
-  String get icalendarLabelTeamsUrl => 'Link';
+  String get icalendarLabelTeamsUrl => 'Tautan';
 
   @override
-  String get icalendarLabelRecurrenceRule => 'Repeats';
+  String get icalendarLabelRecurrenceRule => 'Berulang';
 
   @override
-  String get icalendarLabelParticipants => 'Participants';
+  String get icalendarLabelParticipants => 'Peserta';
 
   @override
-  String get icalendarParticipantStatusNeedsAction => 'You are asked to answer this invitation.';
+  String get icalendarParticipantStatusNeedsAction => 'Anda diminta untuk menjawab undangan ini.';
 
   @override
-  String get icalendarParticipantStatusAccepted => 'You have accepted this invitation.';
+  String get icalendarParticipantStatusAccepted => 'Anda telah menerima undangan ini.';
 
   @override
-  String get icalendarParticipantStatusDeclined => 'You have declined this invitation.';
+  String get icalendarParticipantStatusDeclined => 'Anda telah menolak undangan ini.';
 
   @override
-  String get icalendarParticipantStatusAcceptedTentatively => 'You have tentatively accepted this invitation.';
+  String get icalendarParticipantStatusAcceptedTentatively => 'Anda telah dengan ragu menerima undangan ini.';
 
   @override
-  String get icalendarParticipantStatusDelegated => 'You have delegated this invitation.';
+  String get icalendarParticipantStatusDelegated => 'Anda telah memberikan undangan ini ke orang lain.';
 
   @override
-  String get icalendarParticipantStatusInProcess => 'The task is in progress.';
+  String get icalendarParticipantStatusInProcess => 'Tugas sedang berlangsung.';
 
   @override
-  String get icalendarParticipantStatusPartial => 'The task is partially done.';
+  String get icalendarParticipantStatusPartial => 'Tugas dilakukan sebagian.';
 
   @override
-  String get icalendarParticipantStatusCompleted => 'The task is done.';
+  String get icalendarParticipantStatusCompleted => 'Tugas sudah selesai.';
 
   @override
-  String get icalendarParticipantStatusOther => 'Your status is unknown.';
+  String get icalendarParticipantStatusOther => 'Status Anda tidak diketahui.';
 
   @override
-  String get icalendarParticipantStatusChangeTitle => 'Your Status';
+  String get icalendarParticipantStatusChangeTitle => 'Status Anda';
 
   @override
-  String get icalendarParticipantStatusChangeText => 'Do you want to accept this invitation?';
+  String get icalendarParticipantStatusChangeText => 'Apakah Anda ingin menerima undangan ini?';
 
   @override
   String icalendarParticipantStatusSentFailure(String details) {
-    return 'Unable to send reply.\nThe server responded with the following details:\n$details';
+    return 'Tidak dapat mengirimkan balasan.\nServer merespons dengan detail berikut:\n$details';
   }
 
   @override
-  String get icalendarExportAction => 'Export';
+  String get icalendarExportAction => 'Ekspor';
 
   @override
   String icalendarReplyStatusNeedsAction(String attendee) {
-    return '$attendee has not answered this invitation.';
+    return '$attendee belum menjawab undangan ini.';
   }
 
   @override
   String icalendarReplyStatusAccepted(String attendee) {
-    return '$attendee has accepted the appointment.';
+    return '$attendee telah menerima janji temu.';
   }
 
   @override
   String icalendarReplyStatusDeclined(String attendee) {
-    return '$attendee has declined this invitation.';
+    return '$attendee telah menolak undangan ini.';
   }
 
   @override
   String icalendarReplyStatusAcceptedTentatively(String attendee) {
-    return '$attendee has tentatively accepted this invitation.';
+    return '$attendee telah dengan ragu menerima undangan ini.';
   }
 
   @override
   String icalendarReplyStatusDelegated(String attendee) {
-    return '$attendee has delegated this invitation.';
+    return '$attendee telah memberikan undangan ini ke orang lain.';
   }
 
   @override
   String icalendarReplyStatusInProcess(String attendee) {
-    return '$attendee has started this task.';
+    return '$attendee telah memulai tugas ini.';
   }
 
   @override
   String icalendarReplyStatusPartial(String attendee) {
-    return '$attendee has partially done this task.';
+    return '$attendee telah melakukan sebagian tugas ini.';
   }
 
   @override
   String icalendarReplyStatusCompleted(String attendee) {
-    return '$attendee has finished this task.';
+    return '$attendee telah menyelesaikan tugas ini.';
   }
 
   @override
   String icalendarReplyStatusOther(String attendee) {
-    return '$attendee has answered with an unknown status.';
+    return '$attendee telah menjawab dengan status yang tidak diketahui.';
   }
 
   @override
-  String get icalendarReplyWithoutParticipants => 'This calendar reply contains no participants.';
+  String get icalendarReplyWithoutParticipants => 'Balasan kalender ini tidak mengandung peserta.';
 
   @override
   String icalendarReplyWithoutStatus(String attendee) {
-    return '$attendee replied without an participation status.';
+    return '$attendee menjawab tanpa status partisipasi.';
   }
 
   @override
-  String get composeAppointmentTitle => 'Create Appointment';
+  String get composeAppointmentTitle => 'Buat Janji Temu';
 
   @override
-  String get composeAppointmentLabelDay => 'day';
+  String get composeAppointmentLabelDay => 'hari';
 
   @override
-  String get composeAppointmentLabelTime => 'time';
+  String get composeAppointmentLabelTime => 'waktu';
 
   @override
-  String get composeAppointmentLabelAllDayEvent => 'All day';
+  String get composeAppointmentLabelAllDayEvent => 'Seharian';
 
   @override
-  String get composeAppointmentLabelRepeat => 'Repeat';
+  String get composeAppointmentLabelRepeat => 'Ulang';
 
   @override
-  String get composeAppointmentLabelRepeatOptionNever => 'Never';
+  String get composeAppointmentLabelRepeatOptionNever => 'Tidak pernah';
 
   @override
-  String get composeAppointmentLabelRepeatOptionDaily => 'Daily';
+  String get composeAppointmentLabelRepeatOptionDaily => 'Harian';
 
   @override
-  String get composeAppointmentLabelRepeatOptionWeekly => 'Weekly';
+  String get composeAppointmentLabelRepeatOptionWeekly => 'Mingguan';
 
   @override
-  String get composeAppointmentLabelRepeatOptionMonthly => 'Monthly';
+  String get composeAppointmentLabelRepeatOptionMonthly => 'Bulanan';
 
   @override
-  String get composeAppointmentLabelRepeatOptionYearly => 'Annually';
+  String get composeAppointmentLabelRepeatOptionYearly => 'Tahunan';
 
   @override
-  String get composeAppointmentRecurrenceFrequencyLabel => 'Frequency';
+  String get composeAppointmentRecurrenceFrequencyLabel => 'Frekuensi';
 
   @override
   String get composeAppointmentRecurrenceIntervalLabel => 'Interval';
 
   @override
-  String get composeAppointmentRecurrenceDaysLabel => 'On days';
+  String get composeAppointmentRecurrenceDaysLabel => 'Pada hari';
 
   @override
-  String get composeAppointmentRecurrenceUntilLabel => 'Until';
+  String get composeAppointmentRecurrenceUntilLabel => 'Hingga';
 
   @override
-  String get composeAppointmentRecurrenceUntilOptionUnlimited => 'Unlimited';
+  String get composeAppointmentRecurrenceUntilOptionUnlimited => 'Tak terbatas';
 
   @override
   String composeAppointmentRecurrenceUntilOptionRecommended(String duration) {
-    return 'Recommended ($duration)';
+    return 'Disarankan ($duration)';
   }
 
   @override
-  String get composeAppointmentRecurrenceUntilOptionSpecificDate => 'Until chosen date';
+  String get composeAppointmentRecurrenceUntilOptionSpecificDate => 'Hingga tanggal yang dipilih';
 
   @override
   String composeAppointmentRecurrenceMonthlyOnDayOfMonth(int day) {
@@ -1673,40 +1673,40 @@ class AppLocalizationsEn extends AppLocalizations {
     );
     final String dayString = dayNumberFormat.format(day);
 
-    return 'On the $dayString. day of the month';
+    return 'Pada tanggal $dayString setiap bulan';
   }
 
   @override
-  String get composeAppointmentRecurrenceMonthlyOnWeekDay => 'Weekday in month';
+  String get composeAppointmentRecurrenceMonthlyOnWeekDay => 'Hari kerja dalam bulan';
 
   @override
-  String get composeAppointmentRecurrenceFirst => 'First';
+  String get composeAppointmentRecurrenceFirst => 'Pertama';
 
   @override
-  String get composeAppointmentRecurrenceSecond => 'Second';
+  String get composeAppointmentRecurrenceSecond => 'Kedua';
 
   @override
-  String get composeAppointmentRecurrenceThird => 'Third';
+  String get composeAppointmentRecurrenceThird => 'Ketiga';
 
   @override
-  String get composeAppointmentRecurrenceLast => 'Last';
+  String get composeAppointmentRecurrenceLast => 'Terakhir';
 
   @override
-  String get composeAppointmentRecurrenceSecondLast => 'Second-last';
+  String get composeAppointmentRecurrenceSecondLast => 'Kedua dari belakang';
 
   @override
   String durationYears(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: '$numberString years',
-      one: '1 year',
+      other: '$numberString tahun',
+      one: '1 tahun',
     );
     return '$_temp0';
   }
@@ -1715,15 +1715,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String durationMonths(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: '$numberString months',
-      one: '1 month',
+      other: '$numberString bulan',
+      one: '1 bulan',
     );
     return '$_temp0';
   }
@@ -1732,15 +1732,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String durationWeeks(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: '$numberString weeks',
-      one: '1 week',
+      other: '$numberString minggu',
+      one: '1 minggu',
     );
     return '$_temp0';
   }
@@ -1749,15 +1749,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String durationDays(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: '$numberString days',
-      one: '1 day',
+      other: '$numberString hari',
+      one: '1 hari',
     );
     return '$_temp0';
   }
@@ -1766,15 +1766,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String durationHours(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: '$numberString hours',
-      one: '1 hour',
+      other: '$numberString jam',
+      one: '1 jam',
     );
     return '$_temp0';
   }
@@ -1790,12 +1790,13 @@ class AppLocalizationsEn extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: '$numberString minutes',
-      one: '1 minute',
+      other: '$numberString menit',
+      one: '1 menit',
     );
     return '$_temp0';
   }
 
   @override
-  String get durationEmpty => 'No duration';
+  String get durationEmpty => 'Tidak ada durasi';
+
 }
