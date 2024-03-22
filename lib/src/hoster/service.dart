@@ -12,13 +12,6 @@ import '../oauth/oauth.dart';
 class MailHosterService {
   MailHosterService._() {
     addAll([
-      GmailMailHoster(),
-      OutlookMailHoster(),
-      YahooMailHoster(),
-      AolMailHoster(),
-      AppleMailHoster(),
-      GmxMailHoster(),
-      MailboxOrMailHoster(),
       PematangsiantarMailHoster(),
     ]);
   }
