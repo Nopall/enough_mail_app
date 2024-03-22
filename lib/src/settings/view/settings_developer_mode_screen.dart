@@ -281,20 +281,20 @@ class SettingsDeveloperModeScreen extends HookConsumerWidget {
             const Divider(),
             const Text('Account side menus:'),
             for (final entry in accountSideMenu)
-              Text('"${entry.getLabel('en')}": ${entry.action?.url}'),
+              Text('"${entry.getLabel('id')}": ${entry.action?.url}'),
           ],
           if (forgotPasswordAction != null) ...[
             const Divider(),
             const Text('Forgot password:'),
             Text(
-              '"${forgotPasswordAction.getLabel('en')}": '
+              '"${forgotPasswordAction.getLabel('id')}": '
               '${forgotPasswordAction.action?.url}',
             ),
           ],
           if (data.signatureHtml != null) ...[
             const Divider(),
             const Text('Signature:'),
-            Text('${data.getSignatureHtml('en')}'),
+            Text('${data.getSignatureHtml('id')}'),
           ],
         ],
       ),

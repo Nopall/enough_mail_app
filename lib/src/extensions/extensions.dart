@@ -73,8 +73,8 @@ class AppExtension {
       return null;
     }
     var signature = map[languageCode];
-    if (signature == null && languageCode != 'en') {
-      signature = map['en'];
+    if (signature == null && languageCode != 'id') {
+      signature = map['id'];
     }
 
     return signature;
@@ -217,7 +217,7 @@ class AppExtensionActionDescription {
       return null;
     }
 
-    return map[languageCode] ?? map['en'];
+    return map[languageCode] ?? map['id'];
   }
 
   /// Converts this [AppExtensionActionDescription] to JSON.

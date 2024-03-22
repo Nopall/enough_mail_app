@@ -1,0 +1,2447 @@
+{
+  "@@locale": "id",
+  "signature": "Dikirim dengan Maily",
+  "@signature": {
+    "description": "Teks tanda tangan default"
+  },
+  "actionCancel": "Membatalkan",
+  "@actionCancel": {
+    "description": "Tindakan pembatalan umum"
+  },
+  "actionOk": "OKE",
+  "@actionOk": {
+    "description": "Tindakan OK yang umum"
+  },
+  "actionDone": "Selesai",
+  "@actionDone": {
+    "description": "Tindakan umum yang dilakukan"
+  },
+  "actionNext": "Berikutnya",
+  "@actionNext": {
+    "description": "Tindakan umum selanjutnya"
+  },
+  "actionSkip": "Melewati",
+  "@actionSkip": {
+    "description": "Tindakan lewati yang umum"
+  },
+  "actionUndo": "Membuka",
+  "@actionUndo": {
+    "description": "Tindakan pembatalan umum"
+  },
+  "actionDelete": "Menghapus",
+  "@actionDelete": {
+    "description": "Tindakan penghapusan umum"
+  },
+  "actionAccept": "Menerima",
+  "@actionAccept": {
+    "description": "Tindakan penerimaan umum"
+  },
+  "actionDecline": "Menolak",
+  "@actionDecline": {
+    "description": "Tindakan penolakan umum"
+  },
+  "actionEdit": "Sunting",
+  "@actionEdit": {
+    "description": "Tindakan edit umum"
+  },
+  "actionAddressCopy": "Menyalin",
+  "@actionAddressCopy": {
+    "description": "Salin tindakan untuk alamat email"
+  },
+  "actionAddressCompose": "Pesan baru",
+  "@actionAddressCompose": {
+    "description": "Tulis tindakan untuk alamat email"
+  },
+  "actionAddressSearch": "Mencari",
+  "@actionAddressSearch": {
+    "description": "Tindakan pencarian untuk alamat email"
+  },
+  "splashLoading1": "Mail dimulai...",
+  "@splashLoading1": {
+    "description": "Pesan ditampilkan di layar splash saat memuat"
+  },
+  "splashLoading2": "Mempersiapkan mesin Maily Anda...",
+  "@splashLoading2": {
+    "description": "Pesan ditampilkan di layar splash saat memuat"
+  },
+  "splashLoading3": "Meluncurkan Maily pada 10, 9, 8...",
+  "@splashLoading3": {
+    "description": "Pesan ditampilkan di layar splash saat memuat"
+  },
+  "welcomePanel1Title": "surat pos",
+  "@welcomePanel1Title": {
+    "description": "Judul panel selamat datang"
+  },
+  "welcomePanel1Text": "Selamat datang di Maily, pembantu email Anda yang ramah dan cepat!",
+  "@welcomePanel1Text": {
+    "description": "Pesan selamat datang ditampilkan di panel pertama"
+  },
+  "welcomePanel2Title": "Akun",
+  "@welcomePanel2Title": {
+    "description": "Judul panel selamat datang"
+  },
+  "welcomePanel2Text": "Kelola akun email tanpa batas. ",
+  "@welcomePanel2Text": {
+    "description": "Pesan selamat datang ditampilkan di panel kedua"
+  },
+  "welcomePanel3Title": "Geser",
+  "@welcomePanel3Title": {
+    "description": "Judul panel selamat datang"
+  },
+  "welcomePanel3Text": "Gesek email Anda untuk menghapusnya atau menandainya sebagai telah dibaca. ",
+  "@welcomePanel3Text": {
+    "description": "Pesan selamat datang ditampilkan di panel ketiga"
+  },
+  "welcomePanel4Title": "Jaga kotak masuk Anda tetap bersih",
+  "@welcomePanel4Title": {
+    "description": "Judul panel selamat datang"
+  },
+  "welcomePanel4Text": "Berhenti berlangganan buletin hanya dengan satu ketukan.",
+  "@welcomePanel4Text": {
+    "description": "Pesan selamat datang ditampilkan di panel keempat"
+  },
+  "welcomeActionSignIn": "Masuk ke akun email Anda",
+  "@welcomeActionSignIn": {
+    "description": "Tombol menampilkan opsi masuk"
+  },
+  "homeSearchHint": "Pencarian Anda",
+  "@homeSearchHint": {
+    "description": "Petunjuk ditampilkan di kolom pencarian kosong"
+  },
+  "homeActionsShowAsStack": "Tampilkan sebagai tumpukan",
+  "@homeActionsShowAsStack": {
+    "description": "Tindakan untuk menampilkan email sebagai tumpukan"
+  },
+  "homeActionsShowAsList": "Tampilkan sebagai daftar",
+  "@homeActionsShowAsList": {
+    "description": "Tindakan untuk menampilkan email sebagai daftar"
+  },
+  "homeEmptyFolderMessage": "Semua selesai!\n\n",
+  "@homeEmptyFolderMessage": {
+    "description": "Pesan ditampilkan bila tidak ada pesan dalam folder"
+  },
+  "homeEmptySearchMessage": "Tidak ada pesan yang ditemukan.",
+  "@homeEmptySearchMessage": {
+    "description": "Pesan ditampilkan ketika tidak ada pesan yang ditemukan dalam permintaan pencarian"
+  },
+  "homeDeleteAllTitle": "Mengonfirmasi",
+  "@homeDeleteAllTitle": {
+    "description": "Judul dialog konfirmasi saat menghapus semua pesan"
+  },
+  "homeDeleteAllQuestion": "Benar-benar menghapus semua pesan?",
+  "@homeDeleteAllQuestion": {
+    "description": "Pertanyaan dalam dialog konfirmasi saat menghapus semua pesan"
+  },
+  "homeDeleteAllAction": "Hapus semua",
+  "@homeDeleteAllAction": {
+    "description": "Tindakan mengetuk untuk menghapus semua pesan (harus singkat)."
+  },
+  "homeDeleteAllScrubOption": "Gosok pesan",
+  "@homeDeleteAllScrubOption": {
+    "description": "Pilihan untuk menghapus pesan yang dihapus dari disk."
+  },
+  "homeDeleteAllSuccess": "Semua pesan dihapus.",
+  "@homeDeleteAllSuccess": {
+    "description": "Pesan ditampilkan setelah semua pesan dihapus."
+  },
+  "homeMarkAllSeenAction": "Semua dibaca",
+  "@homeMarkAllSeenAction": {
+    "description": "Tindakan mengetuk untuk menandai semua pesan sebagai dilihat/dibaca (harus pendek)."
+  },
+  "homeMarkAllUnseenAction": "Semua belum dibaca",
+  "@homeMarkAllUnseenAction": {
+    "description": "Tindakan mengetuk untuk menandai semua pesan sebagai belum terlihat/belum dibaca (harus pendek)."
+  },
+  "homeFabTooltip": "Pesan baru",
+  "@homeFabTooltip": {
+    "description": "Keterangan alat untuk tombol tindakan mengambang 'buat pesan baru'."
+  },
+  "homeLoadingMessageSourceTitle": "Memuat...",
+  "@homeLoadingMessageSourceTitle": {
+    "description": "Judul ditampilkan saat sumber pesan itu sendiri sedang dimuat."
+  },
+  "homeLoading": "memuat {nama}...",
+  "@homeLoading": {
+    "description": "Pesan ditampilkan saat memuat pesan.",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "Kotak masuk"
+      }
+    }
+  },
+  "swipeActionToggleRead": "Tandai sebagai telah dibaca/belum dibaca",
+  "@swipeActionToggleRead": {
+    "description": "Tindakan gesek untuk menandai pesan sebagai sudah dibaca/belum dibaca."
+  },
+  "swipeActionDelete": "Menghapus",
+  "@swipeActionDelete": {
+    "description": "Tindakan gesek untuk menghapus pesan."
+  },
+  "swipeActionMarkJunk": "Tandai sebagai sampah",
+  "@swipeActionMarkJunk": {
+    "description": "Tindakan gesek untuk memindahkan pesan ke sampah."
+  },
+  "swipeActionArchive": "Arsip",
+  "@swipeActionArchive": {
+    "description": "Tindakan gesek untuk memindahkan pesan ke arsip."
+  },
+  "swipeActionFlag": "Alihkan bendera",
+  "@swipeActionFlag": {
+    "description": "Tindakan gesek untuk menandai pesan sebagai berbendera/tidak berbendera."
+  },
+  "multipleMovedToJunk": "{number,plural, =1{Satu pesan ditandai sebagai sampah} other{Menandai {number} pesan sebagai sampah}}",
+  "@multipleMovedToJunk": {
+    "description": "Pesan ditampilkan setelah memindahkan pesan ke sampah. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "multipleMovedToInbox": "{number,plural, =1{Memindahkan satu pesan ke kotak masuk} other{Memindahkan {number} pesan ke kotak masuk}}",
+  "@multipleMovedToInbox": {
+    "description": "Pesan ditampilkan setelah memindahkan pesan dari sampah, sampah, atau arsip kembali ke Kotak Masuk. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "multipleMovedToArchive": "{number,plural, =1{Satu pesan diarsipkan} other{Diarsipkan {number} pesan}}",
+  "@multipleMovedToArchive": {
+    "description": "Pesan ditampilkan setelah memindahkan pesan ke arsip. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "multipleMovedToTrash": "{number,plural, =1{Menghapus satu pesan} other{Menghapus {number} pesan}}",
+  "@multipleMovedToTrash": {
+    "description": "Pesan ditampilkan setelah memindahkan pesan ke sampah. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "multipleSelectionNeededInfo": "Silakan pilih pesan terlebih dahulu.",
+  "@multipleSelectionNeededInfo": {
+    "description": "Info singkat ditampilkan ketika tindakan beberapa pesan dipicu tanpa memilih setidaknya satu pesan terlebih dahulu."
+  },
+  "multipleSelectionActionFailed": "Tidak dapat melakukan tindakan\n",
+  "@multipleSelectionActionFailed": {
+    "description": "Pesan kesalahan ketika tindakan pemilihan gagal.",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "Kotak surat tidak ditemukan"
+      }
+    }
+  },
+  "multipleMoveTitle": "{number,plural, =1{Pindahkan pesan} other{Pindahkan {number} pesan}}",
+  "@multipleMoveTitle": {
+    "description": "Judul dialog pemindahan untuk beberapa pesan. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "messageActionMultipleMarkSeen": "tandai sebagai membaca",
+  "@messageActionMultipleMarkSeen": {
+    "description": "Tindakan untuk beberapa pesan."
+  },
+  "messageActionMultipleMarkUnseen": "tandai sebagai Belum dibaca",
+  "@messageActionMultipleMarkUnseen": {
+    "description": "Tindakan untuk beberapa pesan."
+  },
+  "messageActionMultipleMarkFlagged": "Tandai pesan",
+  "@messageActionMultipleMarkFlagged": {
+    "description": "Tindakan untuk beberapa pesan."
+  },
+  "messageActionMultipleMarkUnflagged": "Hapus tanda pesan",
+  "@messageActionMultipleMarkUnflagged": {
+    "description": "Tindakan untuk beberapa pesan."
+  },
+  "messageActionViewInSafeMode": "Lihat tanpa konten eksternal",
+  "@messageActionMultipleViewInSafeMode": {
+    "description": "Tindakan untuk pesan."
+  },
+  "emailSenderUnknown": "<no sender>",
+  "@emailSenderUnknown": {
+    "description": "Ditampilkan sebagai pengganti ketika tidak ada pengirim pesan yang diketahui."
+  },
+  "dateRangeFuture": "masa depan",
+  "@dateRangeFuture": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeTomorrow": "besok",
+  "@dateRangeTomorrow": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeToday": "Hari ini",
+  "@dateRangeToday": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeYesterday": "Kemarin",
+  "@dateRangeYesterday": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeCurrentWeek": "minggu ini",
+  "@dateRangeCurrentWeek": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeLastWeek": "minggu lalu",
+  "@dateRangeLastWeek": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeCurrentMonth": "bulan ini",
+  "@dateRangeCurrentMonth": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeLastMonth": "bulan lalu",
+  "@dateRangeLastMonth": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeCurrentYear": "tahun ini",
+  "@dateRangeCurrentYear": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateRangeLongAgo": "dahulu kala",
+  "@dateRangeLongAgo": {
+    "description": "Judul rentang tanggal."
+  },
+  "dateUndefined": "belum diartikan",
+  "@dateUndefined": {
+    "description": "Tanggal tidak diketahui."
+  },
+  "dateDayToday": "Hari ini",
+  "@dateDayToday": {
+    "description": "Data pesan hari ini."
+  },
+  "dateDayYesterday": "Kemarin",
+  "@dateDayYesterday": {
+    "description": "Data pesan kemarin."
+  },
+  "dateDayLastWeekday": "hari terakhir}",
+  "@dateDayLastWeekday": {
+    "description": "Data pesan adalah hari kerja terkini.",
+    "placeholders": {
+      "day": {
+        "type": "Rangkaian",
+        "example": "Selasa"
+      }
+    }
+  },
+  "drawerEntryAbout": "Tentang Mailly",
+  "@drawerEntryAbout": {
+    "description": "Entri menu untuk tentang."
+  },
+  "drawerEntrySettings": "Pengaturan",
+  "@drawerEntrySettings": {
+    "description": "Entri menu untuk pengaturan."
+  },
+  "drawerAccountsSectionTitle": "{angka, jamak, =1{Satu akun} other{{angka} akun}}",
+  "@drawerAccountsSectionTitle": {
+    "description": "Judul ditampilkan untuk drop-down akun. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "drawerEntryAddAccount": "Menambahkan akun",
+  "@drawerEntryAddAccount": {
+    "description": "Entri menu untuk menambahkan akun baru."
+  },
+  "unifiedAccountName": "Akun terpadu",
+  "@unifiedAccountName": {
+    "description": "Nama akun terpadu."
+  },
+  "unifiedFolderInbox": "Kotak Masuk Terpadu",
+  "@unifiedFolderInbox": {
+    "description": "Nama folder akun terpadu."
+  },
+  "unifiedFolderSent": "Terpadu Terkirim",
+  "@unifiedFolderSent": {
+    "description": "Nama folder akun terpadu."
+  },
+  "unifiedFolderDrafts": "Draf Terpadu",
+  "@unifiedFolderDrafts": {
+    "description": "Nama folder akun terpadu."
+  },
+  "unifiedFolderTrash": "Sampah Terpadu",
+  "@unifiedFolderTrash": {
+    "description": "Nama folder akun terpadu."
+  },
+  "unifiedFolderArchive": "Arsip Terpadu",
+  "@unifiedFolderArchive": {
+    "description": "Nama folder akun terpadu."
+  },
+  "unifiedFolderJunk": "Sampah Terpadu",
+  "@unifiedFolderJunk": {
+    "description": "Nama folder akun terpadu."
+  },
+  "folderInbox": "Kotak masuk",
+  "@folderInbox": {
+    "description": "Nama folder."
+  },
+  "folderSent": "Terkirim",
+  "@folderSent": {
+    "description": "Nama folder."
+  },
+  "folderDrafts": "Draf",
+  "@folderDrafts": {
+    "description": "Nama folder."
+  },
+  "folderTrash": "Sampah",
+  "@folderTrash": {
+    "description": "Nama folder."
+  },
+  "folderArchive": "Arsip",
+  "@folderArchive": {
+    "description": "Nama folder."
+  },
+  "folderJunk": "Sampah",
+  "@folderJunk": {
+    "description": "Nama folder."
+  },
+  "folderUnknown": "Tidak dikenal",
+  "@folderUnknown": {
+    "description": "Nama folder untuk sumber pesan tanpa nama."
+  },
+  "viewContentsAction": "Lihat isinya",
+  "@viewContentsAction": {
+    "description": "Tampilkan isi pesan pada layar terpisah."
+  },
+  "viewSourceAction": "Lihat sumber",
+  "@viewSourceAction": {
+    "description": "Tampilkan kode sumber pesan."
+  },
+  "detailsErrorDownloadInfo": "Pesan tidak dapat diunduh.",
+  "@detailsErrorDownloadInfo": {
+    "description": "Info ditampilkan ketika email tidak dapat diunduh."
+  },
+  "detailsErrorDownloadRetry": "Mencoba kembali",
+  "@detailsErrorDownloadRetry": {
+    "description": "Tindakan coba lagi ditampilkan ketika email tidak dapat diunduh."
+  },
+  "detailsHeaderFrom": "Dari",
+  "@detailsHeaderFrom": {
+    "description": "Label untuk pengirim email."
+  },
+  "detailsHeaderTo": "Ke",
+  "@detailsHeaderTo": {
+    "description": "Label untuk [kepada] penerima email."
+  },
+  "detailsHeaderCc": "CC",
+  "@detailsHeaderCc": {
+    "description": "Label untuk [CC] - salinan karbon - penerima email."
+  },
+  "detailsHeaderBcc": "SMK",
+  "@detailsHeaderBcc": {
+    "description": "Label untuk [BCC] - salinan karbon buta - penerima email."
+  },
+  "detailsHeaderDate": "Tanggal",
+  "@detailsHeaderDate": {
+    "description": "Label untuk tanggal email."
+  },
+  "subjectUndefined": "<without subject>",
+  "@subjectUndefined": {
+    "description": "Ditampilkan sebagai pengganti subjek jika tidak ditentukan."
+  },
+  "detailsActionShowImages": "Tampilkan gambar",
+  "@detailsActionShowImages": {
+    "description": "Tindakan untuk menampilkan gambar. "
+  },
+  "detailsNewsletterActionUnsubscribe": "Berhenti berlangganan",
+  "@detailsNewsletterActionUnsubscribe": {
+    "description": "Tindakan ditampilkan untuk buletin yang berhenti berlangganan."
+  },
+  "detailsNewsletterActionResubscribe": "Berlangganan kembali",
+  "@detailsNewsletterActionResubscribe": {
+    "description": "Tindakan ditampilkan setelah buletin berlangganan ulang telah berhenti berlangganan."
+  },
+  "detailsNewsletterStatusUnsubscribed": "Tidak berlangganan",
+  "@detailsNewsletterStatusUnsubscribed": {
+    "description": "Status ditampilkan untuk buletin yang berhenti berlangganan."
+  },
+  "detailsNewsletterUnsubscribeDialogTitle": "Berhenti berlangganan",
+  "@detailsNewsletterUnsubscribeDialogTitle": {
+    "description": "Judul untuk dialog berhenti berlangganan buletin."
+  },
+  "detailsNewsletterUnsubscribeDialogQuestion": "Apakah Anda ingin berhenti berlangganan dari milis {listName}?",
+  "@detailsNewsletterUnsubscribeDialogQuestion": {
+    "description": "Pertanyaan untuk dialog berhenti berlangganan buletin.",
+    "placeholders": {
+      "listName": {
+        "type": "Rangkaian",
+        "example": "Daftar nama"
+      }
+    }
+  },
+  "detailsNewsletterUnsubscribeDialogAction": "Berhenti berlangganan",
+  "@detailsNewsletterUnsubscribeDialogAction": {
+    "description": "Tindakan untuk berhenti berlangganan dialog buletin."
+  },
+  "detailsNewsletterUnsubscribeSuccessTitle": "Tidak berlangganan",
+  "@detailsNewsletterUnsubscribeSuccessTitle": {
+    "description": "Judul dialog setelah berhasil berhenti berlangganan buletin."
+  },
+  "detailsNewsletterUnsubscribeSuccessMessage": "Anda sekarang berhenti berlangganan milis {listName}.",
+  "@detailsNewsletterUnsubscribeSuccessMessage": {
+    "description": "Konfirmasi teks setelah berhasil berhenti berlangganan buletin.",
+    "placeholders": {
+      "listName": {
+        "type": "Rangkaian",
+        "example": "Daftar nama"
+      }
+    }
+  },
+  "detailsNewsletterUnsubscribeFailureTitle": "Tidak berhenti berlangganan",
+  "@detailsNewsletterUnsubscribeFailureTitle": {
+    "description": "Judul dialog setelah berhenti berlangganan buletin gagal."
+  },
+  "detailsNewsletterUnsubscribeFailureMessage": "Maaf, saya tidak dapat menghentikan langganan Anda dari {listName} secara otomatis.",
+  "@detailsNewsletterUnsubscribeFailureMessage": {
+    "description": "Konfirmasi teks setelah berhenti berlangganan buletin gagal.",
+    "placeholders": {
+      "listName": {
+        "type": "Rangkaian",
+        "example": "Daftar nama"
+      }
+    }
+  },
+  "detailsNewsletterResubscribeDialogTitle": "Berlangganan kembali",
+  "@detailsNewsletterResubscribeDialogTitle": {
+    "description": "Judul untuk dialog berlangganan kembali buletin."
+  },
+  "detailsNewsletterResubscribeDialogQuestion": "Apakah Anda ingin berlangganan milis ini {listName} lagi?",
+  "@detailsNewsletterResubscribeDialogQuestion": {
+    "description": "Pertanyaan untuk dialog berlangganan kembali buletin.",
+    "placeholders": {
+      "listName": {
+        "type": "Rangkaian",
+        "example": "Daftar nama"
+      }
+    }
+  },
+  "detailsNewsletterResubscribeDialogAction": "Langganan",
+  "@detailsNewsletterResubscribeDialogAction": {
+    "description": "Tindakan untuk berlangganan kembali dialog buletin."
+  },
+  "detailsNewsletterResubscribeSuccessTitle": "Berlangganan",
+  "@detailsNewsletterResubscribeSuccessTitle": {
+    "description": "Judul dialog setelah berhasil berlangganan kembali buletin."
+  },
+  "detailsNewsletterResubscribeSuccessMessage": "Anda sekarang berlangganan milis {listName} lagi.",
+  "@detailsNewsletterResubscribeSuccessMessage": {
+    "description": "Konfirmasi SMS setelah berhasil berlangganan kembali buletin.",
+    "placeholders": {
+      "listName": {
+        "type": "Rangkaian",
+        "example": "Daftar nama"
+      }
+    }
+  },
+  "detailsNewsletterResubscribeFailureTitle": "Tidak berlangganan",
+  "@detailsNewsletterResubscribeFailureTitle": {
+    "description": "Judul dialog setelah berlangganan kembali buletin gagal."
+  },
+  "detailsNewsletterResubscribeFailureMessage": "Maaf, permintaan berlangganan untuk milis {listName} gagal.",
+  "@detailsNewsletterResubscribeFailureMessage": {
+    "description": "Konfirmasi teks setelah berlangganan kembali buletin gagal.",
+    "placeholders": {
+      "listName": {
+        "type": "Rangkaian",
+        "example": "Daftar nama"
+      }
+    }
+  },
+  "detailsSendReadReceiptAction": "Kirim tanda terima telah dibaca",
+  "@detailsSendReadReceiptAction": {
+    "description": "Tindakan untuk mengirim tanda terima telah dibaca untuk pesan yang ditampilkan."
+  },
+  "detailsReadReceiptSentStatus": "Tanda terima telah dibaca dikirim ✔",
+  "@detailsReadReceiptSentStatus": {
+    "description": "Status setelah mengirimkan tanda terima telah dibaca untuk pesan yang ditampilkan."
+  },
+  "detailsReadReceiptSubject": "Baca tanda terima",
+  "@detailsReadReceiptSubject": {
+    "description": "Subjek pesan untuk tanda terima telah dibaca."
+  },
+  "attachmentActionOpen": "Membuka",
+  "@attachmentActionOpen": {
+    "description": "Tindakan terbuka untuk lampiran tanpa penampil interaktif."
+  },
+  "attachmentDecodeError": "Lampiran ini memiliki format atau pengkodean yang tidak didukung.\n",
+  "@attachmentDecodeError": {
+    "description": "Teks yang ditampilkan saat lampiran yang diunduh tidak dapat didekodekan.",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "FormatException"
+      }
+    }
+  },
+  "attachmentDownloadError": "Tidak dapat mengunduh lampiran ini.\n",
+  "@attachmentDownloadError": {
+    "description": "Teks ditampilkan ketika lampiran tidak dapat diunduh.",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "Tidak ditemukan"
+      }
+    }
+  },
+  "messageActionReply": "Membalas",
+  "@messageActionReply": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionReplyAll": "Membalas semua",
+  "@messageActionReplyAll": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionForward": "Maju",
+  "@messageActionForward": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionForwardAsAttachment": "Teruskan sebagai Lampiran",
+  "@messageActionForwardAsAttachment": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionForwardAttachments": "{number,plural, =1{Lampiran teruskan} other{Teruskan {number} lampiran}}",
+  "@messageActionForwardAttachments": {
+    "description": "Tindakan untuk satu pesan untuk meneruskan sejumlah lampiran tertentu.",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "messagesActionForwardAttachments": "Lampiran ke depan",
+  "@messagesActionForwardAttachments": {
+    "description": "Tindakan untuk beberapa pesan yang dipilih untuk meneruskan semua lampiran pesan."
+  },
+  "messageActionDelete": "Menghapus",
+  "@messageActionDelete": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionMoveToInbox": "Pindah ke kotak masuk",
+  "@messageActionMoveToInbox": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionMove": "Bergerak",
+  "@messageActionMove": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageStatusSeen": "Adalah membaca",
+  "@messageStatusSeen": {
+    "description": "Status pesan tunggal."
+  },
+  "messageStatusUnseen": "Belum dibaca",
+  "@messageStatusUnseen": {
+    "description": "Status pesan tunggal."
+  },
+  "messageStatusFlagged": "Ditandai",
+  "@messageStatusFlagged": {
+    "description": "Status pesan tunggal."
+  },
+  "messageStatusUnflagged": "Tidak ditandai",
+  "@messageStatusUnflagged": {
+    "description": "Status pesan tunggal."
+  },
+  "messageActionMarkAsJunk": "Tandai sebagai sampah",
+  "@messageActionMarkAsJunk": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionMarkAsNotJunk": "Tandai sebagai bukan sampah",
+  "@messageActionMarkAsNotJunk": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionArchive": "Arsip",
+  "@messageActionArchive": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionUnarchive": "Pindah ke Kotak Masuk",
+  "@messageActionUnarchive": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionRedirect": "Pengalihan",
+  "@messageActionRedirect": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "messageActionAddNotification": "Tambahkan pemberitahuan",
+  "@messageActionAddNotification": {
+    "description": "Tindakan untuk satu pesan."
+  },
+  "resultDeleted": "Dihapus",
+  "@resultDeleted": {
+    "description": "Pesan snackbar singkat berhasil setelah menghapus pesan."
+  },
+  "resultMovedToJunk": "Ditandai sebagai sampah",
+  "@resultMovedToJunk": {
+    "description": "Pesan snackbar singkat berhasil setelah memindahkan pesan ke sampah."
+  },
+  "resultMovedToInbox": "Dipindahkan ke Kotak Masuk",
+  "@resultMovedToInbox": {
+    "description": "Pesan snackbar singkat berhasil setelah memindahkan pesan ke kotak masuk."
+  },
+  "resultArchived": "Diarsipkan",
+  "@resultArchived": {
+    "description": "Pesan snackbar singkat berhasil setelah memindahkan pesan ke arsip."
+  },
+  "resultRedirectedSuccess": "Pesan dialihkan 👍",
+  "@resultRedirectedSuccess": {
+    "description": "Pesan snackbar berhasil setelah mengalihkan pesan ke penerima baru."
+  },
+  "resultRedirectedFailure": "Tidak dapat mengalihkan pesan.\n\n",
+  "@resultRedirectedFailure": {
+    "description": "Pesan snackbar gagal setelah gagal mengalihkan pesan ke penerima baru.",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "Penerima tidak valid"
+      }
+    }
+  },
+  "redirectTitle": "Pengalihan",
+  "@redirectTitle": {
+    "description": "Judul dialog pengalihan."
+  },
+  "redirectInfo": "Alihkan pesan ini ke penerima berikut. ",
+  "@redirectInfo": {
+    "description": "Penjelasan singkat tentang tindakan pengalihan dalam dialog pengalihan."
+  },
+  "redirectEmailInputRequired": "Anda perlu menambahkan setidaknya satu alamat email yang valid.",
+  "@redirectEmailInputRequired": {
+    "description": "Informasi kapan pengalihan diinginkan tetapi alamat belum dimasukkan."
+  },
+  "searchQueryDescription": "Cari di {folder}...",
+  "@searchQueryDescription": {
+    "description": "Deskripsi pencarian dalam folder tertentu.",
+    "placeholders": {
+      "folder": {
+        "type": "Rangkaian",
+        "example": "Kotak masuk"
+      }
+    }
+  },
+  "searchQueryTitle": "Telusuri \"{kueri}\"",
+  "@searchQueryTitle": {
+    "description": "Judul untuk penelusuran dengan kueri yang diberikan.",
+    "placeholders": {
+      "query": {
+        "type": "Rangkaian",
+        "example": "nama pengirim"
+      }
+    }
+  },
+  "legaleseUsage": "Dengan menggunakan Maily, Anda menyetujui [PP] dan [TC] kami.",
+  "@legaleseUsage": {
+    "description": "Info hukum ditampilkan di layar selamat datang awal dan kemudian di sekitar. "
+  },
+  "legalesePrivacyPolicy": "Kebijakan pribadi",
+  "@legalesePrivacyPolicy": {
+    "description": "Terjemahan kebijakan privasi"
+  },
+  "legaleseTermsAndConditions": "Ketentuan",
+  "@legaleseTermsAndConditions": {
+    "description": "Terjemahan Ketentuan "
+  },
+  "aboutApplicationLegalese": "Maily adalah perangkat lunak gratis yang diterbitkan di bawah Lisensi Publik Umum GNU.",
+  "@aboutApplicationLegalese": {
+    "description": "Info hukum ditampilkan dalam dialog tentang."
+  },
+  "feedbackActionSuggestFeature": "Sarankan sebuah fitur",
+  "@feedbackActionSuggestFeature": {
+    "description": "Tindakan untuk menyarankan fitur."
+  },
+  "feedbackActionReportProblem": "Laporkan masalah",
+  "@feedbackActionReportProblem": {
+    "description": "Tindakan untuk melaporkan masalah."
+  },
+  "feedbackActionHelpDeveloping": "Membantu mengembangkan Maily",
+  "@feedbackActionHelpDeveloping": {
+    "description": "Tindakan untuk membantu berkembang."
+  },
+  "feedbackTitle": "Masukan",
+  "@feedbackTitle": {
+    "description": "Judul layar pengaturan umpan balik."
+  },
+  "feedbackIntro": "Terima kasih telah menguji Maily!",
+  "@feedbackIntro": {
+    "description": "Intro untuk layar pengaturan umpan balik."
+  },
+  "feedbackProvideInfoRequest": "Harap berikan informasi ini ketika Anda melaporkan masalah:",
+  "@feedbackProvideInfoRequest": {
+    "description": "Permintaan untuk memberikan informasi perangkat dan aplikasi saat melaporkan masalah."
+  },
+  "feedbackResultInfoCopied": "Disalin ke papan klip",
+  "@feedbackResultInfoCopied": {
+    "description": "Info ditampilkan setelah menyalin info perangkat dan aplikasi ke papan klip."
+  },
+  "accountsTitle": "Akun",
+  "@accountsTitle": {
+    "description": "Layar pengaturan judul akun."
+  },
+  "accountsActionReorder": "Susun ulang akun",
+  "@accountActionReorder": {
+    "description": "Tindakan untuk mulai menyusun ulang akun."
+  },
+  "settingsTitle": "Pengaturan",
+  "@settingsTitle": {
+    "description": "Judul layar pengaturan dasar."
+  },
+  "settingsSecurityBlockExternalImages": "Blokir gambar eksternal",
+  "@settingsSecurityBlockExternalImages": {
+    "description": "Opsi pengaturan untuk memblokir opsi eksternal."
+  },
+  "settingsSecurityBlockExternalImagesDescriptionTitle": "Gambar eksternal",
+  "@settingsSecurityBlockExternalImagesDescriptionTitle": {
+    "description": "Judul dialog yang menampilkan informasi tambahan tentang opsi 'blokir gambar eksternal'."
+  },
+  "settingsSecurityBlockExternalImagesDescriptionText": "Pesan email dapat berisi gambar yang terintegrasi atau dihosting di server eksternal. ",
+  "@settingsSecurityBlockExternalImagesDescriptionText": {
+    "description": "Teks dialog yang menampilkan informasi tambahan tentang opsi 'blokir gambar eksternal'."
+  },
+  "settingsSecurityMessageRenderingHtml": "Tampilkan isi pesan lengkap",
+  "@settingsSecurityMessageRenderingHtml": {
+    "description": "Pilihan cara merender pesan."
+  },
+  "settingsSecurityMessageRenderingPlainText": "Tampilkan hanya teks pesan",
+  "@settingsSecurityMessageRenderingPlainText": {
+    "description": "Pilihan cara merender pesan."
+  },
+  "settingsSecurityLaunchModeLabel": "Bagaimana seharusnya Maily membuka tautan?",
+  "@settingsSecurityLaunchModeLabel": {
+    "description": "Opsi cara meluncurkan URL."
+  },
+  "settingsSecurityLaunchModeExternal": "Buka tautan secara eksternal",
+  "@settingsSecurityLaunchModeExternal": {
+    "description": "Opsi cara meluncurkan URL."
+  },
+  "settingsSecurityLaunchModeInApp": "Buka tautan di Maily",
+  "@settingsSecurityLaunchModeInApp": {
+    "description": "Opsi cara meluncurkan URL."
+  },
+  "settingsActionAccounts": "Mengelola akun",
+  "@settingsActionAccounts": {
+    "description": "Tindakan pengaturan untuk mengelola akun."
+  },
+  "settingsActionDesign": "Penampilan",
+  "@settingsActionDesign": {
+    "description": "Tindakan pengaturan untuk mengelola visualisasi aplikasi."
+  },
+  "settingsActionFeedback": "Berikan umpan balik",
+  "@settingsActionFeedback": {
+    "description": "Tindakan pengaturan untuk memberikan masukan tentang aplikasi."
+  },
+  "settingsActionWelcome": "Tunjukkan sambutan",
+  "@settingsActionWelcome": {
+    "description": "Tindakan pengaturan untuk menampilkan kembali layar selamat datang aplikasi."
+  },
+  "settingsReadReceipts": "Baca tanda terima",
+  "@settingsReadReceipts": {
+    "description": "Tindakan pengaturan untuk menyesuaikan tanda terima telah dibaca."
+  },
+  "readReceiptsSettingsIntroduction": "Apakah Anda ingin menampilkan permintaan tanda terima telah dibaca?",
+  "@readReceiptsSettingsIntroduction": {
+    "description": "Teks pengantar untuk mengelola permintaan tanda terima telah dibaca."
+  },
+  "readReceiptOptionAlways": "Selalu",
+  "@readReceiptOptionAlways": {
+    "description": "Opsi tampilan untuk permintaan tanda terima telah dibaca."
+  },
+  "readReceiptOptionNever": "Tidak pernah",
+  "@readReceiptOptionNever": {
+    "description": "Opsi tampilan untuk permintaan tanda terima telah dibaca."
+  },
+  "settingsFolders": "Folder",
+  "@settingsFolders": {
+    "description": "Tindakan pengaturan untuk menyesuaikan folder."
+  },
+  "folderNamesIntroduction": "Nama apa yang Anda sukai untuk folder Anda?",
+  "@folderNamesIntroduction": {
+    "description": "Pengenalan untuk pengaturan nama folder."
+  },
+  "folderNamesSettingLocalized": "Nama yang diberikan oleh Maily",
+  "@folderNamesSettingLocalized": {
+    "description": "Opsi pengaturan nama folder."
+  },
+  "folderNamesSettingServer": "Nama yang diberikan oleh layanan",
+  "@folderNamesSettingServer": {
+    "description": "Opsi pengaturan nama folder."
+  },
+  "folderNamesSettingCustom": "Nama khusus saya sendiri",
+  "@folderNamesSettingCustom": {
+    "description": "Opsi pengaturan nama folder."
+  },
+  "folderNamesEditAction": "Edit nama khusus",
+  "@folderNamesEditAction": {
+    "description": "Tindakan untuk menentukan nama folder khusus."
+  },
+  "folderNamesCustomTitle": "Nama khusus",
+  "@folderNamesCustomTitle": {
+    "description": "Judul dialog untuk menentukan nama folder khusus."
+  },
+  "folderAddAction": "Membuat folder",
+  "@folderAddAction": {
+    "description": "Tindakan untuk membuat folder baru."
+  },
+  "folderAddTitle": "Membuat folder",
+  "@folderAddTitle": {
+    "description": "Judul dialog saat membuat folder baru."
+  },
+  "folderAddNameLabel": "Nama",
+  "@folderAddNameLabel": {
+    "description": "Label untuk kolom masukan untuk nama folder."
+  },
+  "folderAddNameHint": "Nama folder baru",
+  "@folderAddNameHint": {
+    "description": "Petunjuk untuk kolom input untuk nama folder."
+  },
+  "folderAccountLabel": "Akun",
+  "@folderAddAccountLabel": {
+    "description": "Label untuk memilih akun saat ini."
+  },
+  "folderMailboxLabel": "Map",
+  "@folderAddParentFolderLabel": {
+    "description": "Label untuk memilih folder saat ini."
+  },
+  "folderAddResultSuccess": "Folder dibuat 😊",
+  "@folderAddResultSuccess": {
+    "description": "Info untuk menunjukkan keberhasilan pembuatan."
+  },
+  "folderAddResultFailure": "Folder tidak dapat dibuat.\n\n",
+  "@folderAddResultFailure": {
+    "description": "Info untuk menampilkan kesalahan pembuatan folder.",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "Salah nama"
+      }
+    }
+  },
+  "folderDeleteAction": "Menghapus",
+  "@folderDeleteAction": {
+    "description": "Tindakan untuk menghapus folder yang ada."
+  },
+  "folderDeleteConfirmTitle": "Mengonfirmasi",
+  "@folderDeleteConfirmTitle": {
+    "description": "Judul dialog untuk mengonfirmasi penghapusan folder."
+  },
+  "folderDeleteConfirmText": "Apakah Anda benar-benar ingin menghapus folder {name}?",
+  "@folderDeleteConfirmText": {
+    "description": "Teks dialog untuk mengonfirmasi penghapusan folder.",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "Folder Khusus Saya"
+      }
+    }
+  },
+  "folderDeleteResultSuccess": "Foldernya dihapus.",
+  "@folderDeleteResultSuccess": {
+    "description": "Info untuk menunjukkan keberhasilan pembuatan."
+  },
+  "folderDeleteResultFailure": "Folder tidak dapat dihapus.\n\n",
+  "@folderDeleteResultFailure": {
+    "description": "Info untuk menampilkan kesalahan penghapusan folder.",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "Salah nama"
+      }
+    }
+  },
+  "settingsDevelopment": "Pengaturan pengembangan",
+  "@settingsDevelopment": {
+    "description": "Tindakan pengaturan untuk menentukan opsi pengembangan."
+  },
+  "developerModeTitle": "Modus pengembangan",
+  "@developerModeTitle": {
+    "description": "Judul bagian mode pengembangan."
+  },
+  "developerModeIntroduction": "Jika Anda mengaktifkan mode pengembangan, Anda akan dapat melihat kode sumber pesan dan mengubah lampiran teks menjadi pesan.",
+  "@developerModeIntroduction": {
+    "description": "Teks yang menjelaskan mode pengembangan."
+  },
+  "developerModeEnable": "Aktifkan mode pengembangan",
+  "@developerModeEnable": {
+    "description": "Teks di kotak centang untuk mengaktifkan mode pengembangan."
+  },
+  "developerShowAsEmail": "Ubah teks menjadi email",
+  "@developerShowAsEmail": {
+    "description": "Tindakan untuk mengubah teks menjadi email."
+  },
+  "developerShowAsEmailFailed": "Teks ini tidak dapat diubah menjadi pesan MIME.",
+  "@developerShowAsEmailFailed": {
+    "description": "Teks ditampilkan ketika teks tidak dapat diubah menjadi email."
+  },
+  "designTitle": "Pengaturan Desain",
+  "@designTitle": {
+    "description": "Judul layar pengaturan desain."
+  },
+  "designSectionThemeTitle": "Tema",
+  "@designSectionThemeTitle": {
+    "description": "Judul bagian tema pada layar pengaturan desain."
+  },
+  "designThemeOptionLight": "Lampu",
+  "@designThemeOptionLight": {
+    "description": "Pilihan tema."
+  },
+  "designThemeOptionDark": "Gelap",
+  "@designThemeOptionDark": {
+    "description": "Pilihan tema."
+  },
+  "designThemeOptionSystem": "Sistem",
+  "@designThemeOptionSystem": {
+    "description": "Pilihan tema."
+  },
+  "designThemeOptionCustom": "Kebiasaan",
+  "@designThemeOptionCustom": {
+    "description": "Pilihan tema."
+  },
+  "designSectionCustomTitle": "Aktifkan tema gelap",
+  "@designSectionCustomTitle": {
+    "description": "Judul bagian opsi tema khusus pada layar pengaturan desain."
+  },
+  "designThemeCustomStart": "dari waktu}",
+  "@designThemeCustomStart": {
+    "description": "Waktu mulai pengaturan tema khusus.",
+    "placeholders": {
+      "time": {
+        "type": "Rangkaian",
+        "example": "jam 10 malam"
+      }
+    }
+  },
+  "designThemeCustomEnd": "sampai {waktu}",
+  "@designThemeCustomEnd": {
+    "description": "Waktu berakhirnya pengaturan tema khusus.",
+    "placeholders": {
+      "time": {
+        "type": "Rangkaian",
+        "example": "jam 7 pagi"
+      }
+    }
+  },
+  "designSectionColorTitle": "Skema warna",
+  "@designSectionColorTitle": {
+    "description": "Judul bagian warna pada layar pengaturan desain."
+  },
+  "securitySettingsTitle": "Keamanan",
+  "@securitySettingsTitle": {
+    "description": "Judul layar pengaturan keamanan."
+  },
+  "securitySettingsIntro": "Sesuaikan pengaturan keamanan dengan kebutuhan pribadi Anda.",
+  "@securitySettingsIntro": {
+    "description": "Pengenalan layar pengaturan keamanan."
+  },
+  "securityUnlockWithFaceId": "Buka kunci Maily dengan ID Wajah.",
+  "@securityUnlockWithFaceId": {
+    "description": "Alasan membuka kunci khusus iOS."
+  },
+  "securityUnlockWithTouchId": "Buka kunci Maily dengan Touch ID.",
+  "@securityUnlockWithTouchId": {
+    "description": "Alasan membuka kunci khusus iOS."
+  },
+  "securityUnlockReason": "Buka kunci Maily.",
+  "@securityUnlockReason": {
+    "description": "Alasan umum untuk membuka kunci."
+  },
+  "securityUnlockDisableReason": "Buka kunci Maily untuk mematikan kunci.",
+  "@securityUnlockDisableReason": {
+    "description": "Alasan penonaktifan buka kunci umum."
+  },
+  "securityUnlockNotAvailable": "Perangkat Anda tidak mendukung biometrik, mungkin Anda perlu mengatur opsi buka kunci terlebih dahulu.",
+  "@securityUnlockNotAvailable": {
+    "description": "Pesan ketika otentikasi biometrik tidak tersedia."
+  },
+  "securityUnlockLabel": "Kunci Mailly",
+  "@securityUnlockLabel": {
+    "description": "Label fitur kunci otentikasi biometrik."
+  },
+  "securityUnlockDescriptionTitle": "Kunci Mailly",
+  "@securityUnlockDescriptionTitle": {
+    "description": "Judul untuk menjelaskan fitur kunci melalui otentikasi biometrik."
+  },
+  "securityUnlockDescriptionText": "Anda dapat memilih untuk mengunci akses ke Maily, sehingga orang lain tidak dapat membaca email Anda meskipun mereka memiliki akses ke perangkat Anda.",
+  "@securityUnlockDescriptionText": {
+    "description": "Teks menjelaskan fitur kunci melalui otentikasi biometrik."
+  },
+  "securityLockImmediately": "Kunci segera",
+  "@securityLockImmediately": {
+    "description": "Opsi waktu kunci."
+  },
+  "securityLockAfter5Minutes": "Kunci setelah 5 menit",
+  "@securityLockAfter5Minutes": {
+    "description": "Opsi waktu kunci."
+  },
+  "securityLockAfter30Minutes": "Kunci setelah 30 menit",
+  "@securityLockAfter30Minutes": {
+    "description": "Opsi waktu kunci."
+  },
+  "lockScreenTitle": "Maily terkunci",
+  "@lockScreenTitle": {
+    "description": "Judul layar kunci."
+  },
+  "lockScreenIntro": "Maily terkunci, harap autentikasi untuk melanjutkan.",
+  "@lockScreenIntro": {
+    "description": "Teks di layar kunci."
+  },
+  "lockScreenUnlockAction": "Membuka kunci",
+  "@lockScreenUnlockAction": {
+    "description": "Tindakan untuk membuka kunci di layar kunci."
+  },
+  "addAccountTitle": "Menambahkan akun",
+  "@addAccountTitle": {
+    "description": "Judul layar tambahkan akun."
+  },
+  "addAccountEmailLabel": "Surel",
+  "@addAccountEmailLabel": {
+    "description": "Label dan header bagian dari bidang input alamat email."
+  },
+  "addAccountEmailHint": "Silakan masukkan alamat email Anda",
+  "@addAccountEmailHint": {
+    "description": "Teks petunjuk dari bidang input alamat email."
+  },
+  "addAccountResolvingSettingsLabel": "Menyelesaikan {email}...",
+  "@addAccountResolvingSettingsLabel": {
+    "description": "Label ditampilkan saat menyelesaikan pengaturan untuk alamat email yang ditentukan.",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "seseorang@domain.com"
+      }
+    }
+  },
+  "addAccountResolvedSettingsWrongAction": "Tidak ada di {provider}?",
+  "@addAccountResolvedSettingsWrongAction": {
+    "description": "Teks tombol ditampilkan kepada pengguna untuk mengedit pengaturan server secara manual ketika penyelesaian berhasil tetapi ternyata nama penyedia berbeda dari yang diharapkan.",
+    "placeholders": {
+      "provider": {
+        "type": "Rangkaian",
+        "example": "Gmail"
+      }
+    }
+  },
+  "addAccountResolvingSettingsFailedInfo": "Tidak dapat menyelesaikan {email}. ",
+  "@addAccountResolvingSettingsFailedInfo": {
+    "description": "Info ditampilkan setelah penyelesaian pengaturan untuk alamat email yang ditentukan gagal.",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "seseorang@domain.com"
+      }
+    }
+  },
+  "addAccountEditManuallyAction": "Edit secara manual",
+  "@addAccountEditManuallyAction": {
+    "description": "Tindakan yang ditampilkan setelah pengaturan akun tidak dapat ditemukan secara otomatis."
+  },
+  "addAccountPasswordLabel": "Kata sandi",
+  "@addAccountPasswordLabel": {
+    "description": "Label dan header bagian dari kolom input kata sandi."
+  },
+  "addAccountPasswordHint": "Silakan masukkan kata sandi Anda",
+  "@addAccountPasswordHint": {
+    "description": "Teks petunjuk dari kolom input kata sandi."
+  },
+  "addAccountApplicationPasswordRequiredInfo": "Penyedia ini mengharuskan Anda menyiapkan kata sandi khusus aplikasi.",
+  "@addAccountApplicationPasswordRequiredInfo": {
+    "description": "Teks ditampilkan ketika penyedia akun email memerlukan kata sandi khusus aplikasi untuk disiapkan."
+  },
+  "addAccountApplicationPasswordRequiredButton": "Buat kata sandi khusus aplikasi",
+  "@addAccountApplicationPasswordRequiredButton": {
+    "description": "Teks tombol untuk menyiapkan kata sandi khusus aplikasi."
+  },
+  "addAccountApplicationPasswordRequiredAcknowledged": "Saya sudah memiliki kata sandi aplikasi",
+  "@addAccountApplicationPasswordRequiredAcknowledged": {
+    "description": "Pengakuan harus dikonfirmasi oleh pengguna untuk mengakui fakta bahwa kata sandi khusus aplikasi diperlukan."
+  },
+  "addAccountVerificationStep": "Verifikasi",
+  "@addAccountVerificationStep": {
+    "description": "Header bagian langkah verifikasi/log masuk."
+  },
+  "addAccountSetupAccountStep": "Pengaturan akun",
+  "@addAccountSetupAccountStep": {
+    "description": "Header bagian dari langkah penyiapan akun."
+  },
+  "addAccountVerifyingSettingsLabel": "Memverifikasi {email}...",
+  "@addAccountVerifyingSettingsLabel": {
+    "description": "Info ditampilkan saat pengaturan akun untuk email yang diberikan diverifikasi.",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "seseorang@domain.com"
+      }
+    }
+  },
+  "addAccountVerifyingSuccessInfo": "Berhasil masuk ke {email}.",
+  "@addAccountVerifyingSuccessInfo": {
+    "description": "Info ditampilkan setelah pengaturan akun untuk email yang diberikan telah diverifikasi.",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "seseorang@domain.com"
+      }
+    }
+  },
+  "addAccountVerifyingFailedInfo": "Maaf, tapi ada masalah. ",
+  "@addAccountVerifyingFailedInfo": {
+    "description": "Info ditampilkan setelah pengaturan akun untuk email yang diberikan tidak dapat diverifikasi.",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "seseorang@domain.com"
+      }
+    }
+  },
+  "addAccountOauthOptionsText": "Masuk dengan {provider} atau buat sandi khusus aplikasi.",
+  "@addAccountOauthOptionsText": {
+    "description": "Info yang ditampilkan proses oauth gagal dan pengguna dapat mencoba lagi atau menggunakan kata sandi khusus aplikasi.",
+    "placeholders": {
+      "provider": {
+        "type": "Rangkaian",
+        "example": "Kotak Surat.org"
+      }
+    }
+  },
+  "addAccountOauthSignIn": "Masuk dengan {provider}",
+  "@addAccountOauthSignIn": {
+    "description": "Label tombol untuk masuk melalui oauth dengan penyedia yang diberikan.",
+    "placeholders": {
+      "provider": {
+        "type": "Rangkaian",
+        "example": "Kotak Surat.org"
+      }
+    }
+  },
+  "addAccountOauthSignInGoogle": "Masuk dengan Google",
+  "@addAccountOauthSignInGoogle": {
+    "description": "Label tombol untuk masuk melalui oauth dengan Google."
+  },
+  "addAccountOauthSignInWithAppPassword": "Alternatifnya, buat kata sandi aplikasi untuk masuk.",
+  "@addAccountOauthSignInWithAppPassword": {
+    "description": "Info untuk mengatur kata sandi khusus aplikasi."
+  },
+  "accountAddImapAccessSetupMightBeRequired": "Penyedia Anda mungkin mengharuskan Anda mengatur akses untuk aplikasi email secara manual.",
+  "@accountAddImapAccessSetupMightBeRequired": {
+    "description": "Info ditampilkan ketika login gagal untuk penyedia yang diketahui memerlukan aktivasi manual akses IMAP."
+  },
+  "addAccountSetupImapAccessButtonLabel": "Atur akses email",
+  "@addAccountSetupImapAccessButtonLabel": {
+    "description": "Label tombol untuk meluncurkan situs web dengan instruksi."
+  },
+  "addAccountNameOfUserLabel": "Namamu",
+  "@addAccountNameOfUserLabel": {
+    "description": "Label untuk kolom masukan nama pengguna."
+  },
+  "addAccountNameOfUserHint": "Nama yang dilihat penerima",
+  "@addAccountNameOfUserHint": {
+    "description": "Petunjuk untuk kolom input nama pengguna."
+  },
+  "addAccountNameOfAccountLabel": "Nama akun",
+  "@addAccountNameOfAccountLabel": {
+    "description": "Label untuk kolom input nama akun."
+  },
+  "addAccountNameOfAccountHint": "Silakan masukkan nama akun Anda",
+  "@addAccountNameOfAccountHint": {
+    "description": "Petunjuk untuk kolom input nama akun."
+  },
+  "editAccountTitle": "Sunting {nama}",
+  "@editAccountTitle": {
+    "description": "Judul layar saat mengedit akun dengan nama yang diberikan.",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      }
+    }
+  },
+  "editAccountFailureToConnectInfo": "Maily tidak dapat terhubung dengan {name}.",
+  "@editAccountFailureToConnectInfo": {
+    "description": "Info tentang tidak dapat tersambung ke layanan bernama. ",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      }
+    }
+  },
+  "editAccountFailureToConnectRetryAction": "Mencoba kembali",
+  "@editAccountFailureToConnectRetryAction": {
+    "description": "Tindakan untuk mencoba kembali menyambung ke layanan lagi."
+  },
+  "editAccountFailureToConnectChangePasswordAction": "Ganti kata sandi",
+  "@editAccountFailureToConnectChangePasswordAction": {
+    "description": "Tindakan untuk mengubah kata sandi untuk layanan ini."
+  },
+  "editAccountFailureToConnectFixedTitle": "Terhubung",
+  "@editAccountFailureToConnectFixedTitle": {
+    "description": "Judul dialog ditampilkan setelah berhasil menghubungkan kembali akun yang gagal."
+  },
+  "editAccountFailureToConnectFixedInfo": "Akun terhubung kembali.",
+  "@editAccountFailureToConnectFixedInfo": {
+    "description": "Pesan dialog ditampilkan setelah berhasil menghubungkan kembali akun yang gagal."
+  },
+  "editAccountIncludeInUnifiedLabel": "Sertakan dalam akun terpadu",
+  "@editAccountIncludeInUnifiedLabel": {
+    "description": "Label untuk memasukkan/keluar akun ini dari akun terpadu."
+  },
+  "editAccountAliasLabel": "Alamat email alias untuk {email}:",
+  "@editAccountAliasLabel": {
+    "description": "Label untuk setiap alamat alias yang telah ditentukan untuk alamat email yang diberikan.",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "seseorang@domain.com"
+      }
+    }
+  },
+  "editAccountNoAliasesInfo": "Anda belum mengetahui alias untuk akun ini.",
+  "@editAccountNoAliasesInfo": {
+    "description": "Info bila belum ada alias yang ditentukan untuk akun ini."
+  },
+  "editAccountAliasRemoved": "alias {email} dihapus",
+  "@editAccountAliasRemoved": {
+    "description": "Info diberikan setelah alias dihapus.",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "seseorang@domain.com"
+      }
+    }
+  },
+  "editAccountAddAliasAction": "Tambahkan alias",
+  "@editAccountAddAliasAction": {
+    "description": "Teks tombol untuk menambahkan alias ke akun ini."
+  },
+  "editAccountPlusAliasesSupported": "Mendukung alias",
+  "@editAccountPlusAliasesSupported": {
+    "description": "Info ditampilkan ketika alias didukung oleh akun ini."
+  },
+  "editAccountCheckPlusAliasAction": "Uji dukungan untuk alias",
+  "@editAccountCheckPlusAliasAction": {
+    "description": "Teks tombol untuk pengujian alias didukung oleh akun ini."
+  },
+  "editAccountBccMyself": "BCC sendiri",
+  "@editAccountBccMyself": {
+    "description": "Label kotak centang untuk mengaktifkan Fitur BCC-MYSELF."
+  },
+  "editAccountBccMyselfDescriptionTitle": "BCC sendiri",
+  "@editAccountBccMyselfDescriptionTitle": {
+    "description": "Judul peringatan yang menjelaskan Fitur BCC-MYSELF."
+  },
+  "editAccountBccMyselfDescriptionText": "Anda dapat mengirim pesan ke diri Anda sendiri secara otomatis untuk setiap pesan yang Anda kirim dari akun ini dengan fitur \"BCC sendiri\". ",
+  "@editAccountBccMyselfDescriptionText": {
+    "description": "Penjelasan Fitur BCC-MYSELF."
+  },
+  "editAccountServerSettingsAction": "Edit pengaturan server",
+  "@editAccountServerSettingsAction": {
+    "description": "Teks tombol untuk mengedit pengaturan server akun ini."
+  },
+  "editAccountDeleteAccountAction": "Hapus akun",
+  "@editAccountDeleteAccountAction": {
+    "description": "Teks tombol untuk menghapus akun ini."
+  },
+  "editAccountDeleteAccountConfirmationTitle": "Mengonfirmasi",
+  "@editAccountDeleteAccountConfirmationTitle": {
+    "description": "Judul dialog konfirmasi saat menghapus akun ini."
+  },
+  "editAccountDeleteAccountConfirmationQuery": "Apakah Anda ingin menghapus akun {name}?",
+  "@editAccountDeleteAccountConfirmationQuery": {
+    "description": "Minta konfirmasi saat menghapus akun ini.",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      }
+    }
+  },
+  "editAccountTestPlusAliasTitle": "Alias ​​untuk {name}",
+  "@editAccountTestPlusAliasTitle": {
+    "description": "Judul dialog yang ditampilkan saat menguji dukungan alias",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      }
+    }
+  },
+  "editAccountTestPlusAliasStepIntroductionTitle": "Perkenalan",
+  "@editAccountTestPlusAliasStepIntroductionTitle": {
+    "description": "Judul untuk memperkenalkan konsep alias."
+  },
+  "editAccountTestPlusAliasStepIntroductionText": "Akun Anda {accountName} mungkin mendukung alias seperti {example}.\n",
+  "@editAccountTestPlusAliasStepIntroductionText": {
+    "description": "Teks untuk memperkenalkan konsep alias.",
+    "placeholders": {
+      "accountName": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      },
+      "example": {
+        "type": "Rangkaian",
+        "example": "seseorang contoh@domain.com"
+      }
+    }
+  },
+  "editAccountTestPlusAliasStepTestingTitle": "Pengujian",
+  "@editAccountTestPlusAliasStepTestingTitle": {
+    "description": "Judul saat menguji konsep alias."
+  },
+  "editAccountTestPlusAliasStepResultTitle": "Hasil",
+  "@editAccountTestPlusAliasStepResultTitle": {
+    "description": "Judul setelah menguji konsep alias."
+  },
+  "editAccountTestPlusAliasStepResultSuccess": "Akun Anda {name} mendukung alias.",
+  "@editAccountTestPlusAliasStepResultSuccess": {
+    "description": "Hasil ketika akun mendukung alias",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      }
+    }
+  },
+  "editAccountTestPlusAliasStepResultNoSuccess": "Akun Anda {name} tidak mendukung alias.",
+  "@editAccountTestPlusAliasStepResultNoSuccess": {
+    "description": "Hasil ketika akun tidak mendukung alias",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      }
+    }
+  },
+  "editAccountAddAliasTitle": "Tambahkan alias",
+  "@editAccountAddAliasTitle": {
+    "description": "Judul saat menambahkan alias baru."
+  },
+  "editAccountEditAliasTitle": "Sunting alias",
+  "@editAccountEditAliasTitle": {
+    "description": "Judul saat mengedit alias."
+  },
+  "editAccountAliasAddAction": "Menambahkan",
+  "@editAccountAliasAddAction": {
+    "description": "Tindakan saat menambahkan alias baru."
+  },
+  "editAccountAliasUpdateAction": "Memperbarui",
+  "@editAccountAliasUpdateAction": {
+    "description": "Tindakan saat mengedit alias."
+  },
+  "editAccountEditAliasNameLabel": "Nama alias",
+  "@editAccountEditAliasNameLabel": {
+    "description": "Label untuk kolom masukan nama alias."
+  },
+  "editAccountEditAliasEmailLabel": "alias email",
+  "@editAccountEditAliasEmailLabel": {
+    "description": "Label untuk kolom masukan email alias."
+  },
+  "editAccountEditAliasEmailHint": "Alamat email alias Anda",
+  "@editAccountEditAliasEmailHint": {
+    "description": "Petunjuk untuk kolom input email alias."
+  },
+  "editAccountEditAliasDuplicateError": "Sudah ada alias dengan {email}.",
+  "@editAccountEditAliasDuplicateError": {
+    "description": "Error ketika email alias sudah diketahui",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "Anda@domain.com"
+      }
+    }
+  },
+  "editAccountEnableLogging": "Aktifkan pencatatan",
+  "@editAccountEnableLogging": {
+    "description": "Beri label opsi mode pengembang untuk mengaktifkan pencatatan."
+  },
+  "editAccountLoggingEnabled": "Log diaktifkan, silakan mulai ulang",
+  "@editAccountLoggingEnabled": {
+    "description": "Pesan singkat ditampilkan setelah log diaktifkan."
+  },
+  "editAccountLoggingDisabled": "Log dinonaktifkan, silakan mulai ulang",
+  "@editAccountLoggingDisabled": {
+    "description": "Pesan singkat ditampilkan setelah log dinonaktifkan."
+  },
+  "accountDetailsFallbackTitle": "Pengaturan Server",
+  "@accountDetailsFallbackTitle": {
+    "description": "Judul ditampilkan ketika nama akun tidak disetel."
+  },
+  "errorTitle": "Kesalahan",
+  "@errorTitle": {
+    "description": "Judul untuk dialog kesalahan."
+  },
+  "accountProviderStepTitle": "Penyedia Layanan Email",
+  "@accountProviderStepTitle": {
+    "description": "Langkah untuk memilih penyedia."
+  },
+  "accountProviderCustom": "Layanan email lainnya",
+  "@accountProviderCustom": {
+    "description": "Ketika tidak ada penyedia standar yang dipilih."
+  },
+  "accountDetailsErrorHostProblem": "Maily tidak dapat menjangkau server email yang ditentukan. ",
+  "@accountDetailsErrorHostProblem": {
+    "description": "Detail kesalahan ketika tidak ada koneksi ke server yang dapat dibuat sama sekali",
+    "placeholders": {
+      "incomingHost": {
+        "type": "Rangkaian",
+        "example": "imap@domain.com"
+      },
+      "outgoingHost": {
+        "type": "Rangkaian",
+        "example": "smtp@domain.com"
+      }
+    }
+  },
+  "accountDetailsErrorLoginProblem": "Anda tidak dapat masuk. Silakan periksa nama pengguna Anda \"{userName}\" dan kata sandi Anda \"{password}\".",
+  "@accountDetailsErrorLoginProblem": {
+    "description": "Detail kesalahan saat login gagal",
+    "placeholders": {
+      "userName": {
+        "type": "Rangkaian",
+        "example": "email@domain.com"
+      },
+      "password": {
+        "type": "Rangkaian",
+        "example": "rahasia"
+      }
+    }
+  },
+  "accountDetailsUserNameLabel": "Nama login",
+  "@accountDetailsUserNameLabel": {
+    "description": "Label untuk kolom masukan nama pengguna."
+  },
+  "accountDetailsUserNameHint": "Nama pengguna Anda, jika berbeda dengan email",
+  "@accountDetailsUserNameHint": {
+    "description": "Petunjuk untuk kolom input nama pengguna."
+  },
+  "accountDetailsPasswordLabel": "Kata sandi masuk",
+  "@accountDetailsPasswordLabel": {
+    "description": "Label untuk kolom masukan kata sandi."
+  },
+  "accountDetailsPasswordHint": "Kata sandi Anda",
+  "@accountDetailsPasswordHint": {
+    "description": "Petunjuk untuk kolom input kata sandi pengguna."
+  },
+  "accountDetailsBaseSectionTitle": "Pengaturan dasar",
+  "@accountDetailsBaseSectionTitle": {
+    "description": "Judul bagian pengaturan dasar."
+  },
+  "accountDetailsIncomingLabel": "Server masuk",
+  "@accountDetailsIncomingLabel": {
+    "description": "Label untuk bidang domain server masuk."
+  },
+  "accountDetailsIncomingHint": "Domain seperti imap.domain.com",
+  "@accountDetailsIncomingHint": {
+    "description": "Petunjuk untuk bidang domain server masuk."
+  },
+  "accountDetailsOutgoingLabel": "Server keluar",
+  "@accountDetailsOutgoingLabel": {
+    "description": "Label untuk bidang domain server keluar."
+  },
+  "accountDetailsOutgoingHint": "Domain seperti smtp.domain.com",
+  "@accountDetailsOutgoingHint": {
+    "description": "Petunjuk untuk bidang domain server keluar."
+  },
+  "accountDetailsAdvancedIncomingSectionTitle": "Pengaturan masuk lanjutan",
+  "@accountDetailsAdvancedIncomingSectionTitle": {
+    "description": "Judul bagian pengaturan masuk."
+  },
+  "accountDetailsIncomingServerTypeLabel": "Jenis masuk:",
+  "@accountDetailsIncomingServerTypeLabel": {
+    "description": "Label untuk tarik-turun jenis server."
+  },
+  "accountDetailsOptionAutomatic": "otomatis",
+  "@accountDetailsOptionAutomatic": {
+    "description": "Opsi kapan jenis/keamanan server harus ditemukan secara otomatis."
+  },
+  "accountDetailsIncomingSecurityLabel": "Keamanan masuk:",
+  "@accountDetailsIncomingSecurityLabel": {
+    "description": "Label untuk tarik-turun keamanan server."
+  },
+  "accountDetailsSecurityOptionNone": "Biasa (tanpa enkripsi)",
+  "@accountDetailsSecurityOptionNone": {
+    "description": "Label untuk opsi tarik-turun keamanan tanpa enkripsi."
+  },
+  "accountDetailsIncomingPortLabel": "Pelabuhan masuk",
+  "@accountDetailsIncomingPortLabel": {
+    "description": "Label untuk kolom input port masuk."
+  },
+  "accountDetailsPortHint": "Biarkan kosong untuk menentukan secara otomatis",
+  "@accountDetailsPortHint": {
+    "description": "Petunjuk untuk kolom input port."
+  },
+  "accountDetailsIncomingUserNameLabel": "Nama pengguna masuk",
+  "@accountDetailsIncomingUserNameLabel": {
+    "description": "Label untuk kolom input nama pengguna yang masuk."
+  },
+  "accountDetailsAlternativeUserNameHint": "Nama pengguna Anda, jika berbeda dari di atas",
+  "@accountDetailsAlternativeUserNameHint": {
+    "description": "Label untuk kolom masukan nama pengguna alternatif."
+  },
+  "accountDetailsIncomingPasswordLabel": "Kata sandi masuk",
+  "@accountDetailsIncomingPasswordLabel": {
+    "description": "Label untuk kolom input kata sandi masuk."
+  },
+  "accountDetailsAlternativePasswordHint": "Kata sandi Anda, jika berbeda dari di atas",
+  "@accountDetailsAlternativePasswordHint": {
+    "description": "Label untuk kolom masukan nama pengguna alternatif."
+  },
+  "accountDetailsAdvancedOutgoingSectionTitle": "Pengaturan keluar lanjutan",
+  "@accountDetailsAdvancedOutgoingSectionTitle": {
+    "description": "Judul bagian pengaturan masuk."
+  },
+  "accountDetailsOutgoingServerTypeLabel": "Jenis keluar:",
+  "@accountDetailsOutgoingServerTypeLabel": {
+    "description": "Label untuk tarik-turun jenis server."
+  },
+  "accountDetailsOutgoingSecurityLabel": "Keamanan keluar:",
+  "@accountDetailsOutgoingSecurityLabel": {
+    "description": "Label untuk tarik-turun keamanan server."
+  },
+  "accountDetailsOutgoingPortLabel": "Pelabuhan keluar",
+  "@accountDetailsOutgoingPortLabel": {
+    "description": "Label untuk kolom input port keluar."
+  },
+  "accountDetailsOutgoingUserNameLabel": "Nama pengguna keluar",
+  "@accountDetailsOutgoingUserNameLabel": {
+    "description": "Label untuk kolom input nama pengguna keluar."
+  },
+  "accountDetailsOutgoingPasswordLabel": "Kata sandi keluar",
+  "@accountDetailsOutgoingPasswordLabel": {
+    "description": "Label untuk kolom input kata sandi keluar."
+  },
+  "composeTitleNew": "Pesan baru",
+  "@composeTitleNew": {
+    "description": "Judul untuk layar penulisan ketika pesan baru dibuat."
+  },
+  "composeTitleForward": "Maju",
+  "@composeTitleForward": {
+    "description": "Judul untuk layar penulisan ketika pesan diteruskan."
+  },
+  "composeTitleReply": "Membalas",
+  "@composeTitleReply": {
+    "description": "Judul untuk layar penulisan ketika pesan dibalas."
+  },
+  "composeEmptyMessage": "pesan kosong",
+  "@composeEmptyMessage": {
+    "description": "Teks pesan untuk pesan tanpa teks."
+  },
+  "composeWarningNoSubject": "Anda belum menentukan subjek. ",
+  "@composeWarningNoSubject": {
+    "description": "Peringatan ditampilkan ketika mencoba mengirim pesan tanpa subjek."
+  },
+  "composeActionSentWithoutSubject": "Mengirim",
+  "@composeActionSentWithoutSubject": {
+    "description": "Tindakan untuk mengirim pesan tanpa subjek."
+  },
+  "composeMailSendSuccess": "Surat terkirim 😊",
+  "@composeMailSendSuccess": {
+    "description": "Pemberitahuan ditampilkan setelah email berhasil dikirim."
+  },
+  "composeSendErrorInfo": "Maaf, email Anda tidak dapat dikirim. ",
+  "@composeSendErrorInfo": {
+    "description": "Kesalahan ditampilkan ketika email tidak dapat dikirim",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "554-Tolak karena pembatasan kebijakan."
+      }
+    }
+  },
+  "composeRequestReadReceiptAction": "Minta tanda terima telah dibaca",
+  "@composeRequestReadReceiptAction": {
+    "description": "Tindakan untuk meminta tanda terima telah dibaca untuk pesan ini"
+  },
+  "composeSaveDraftAction": "Simpan sebagai draf",
+  "@composeSaveDraftAction": {
+    "description": "Tindakan untuk menyimpan pesan sebagai draf"
+  },
+  "composeMessageSavedAsDraft": "Draf disimpan",
+  "@composeMessageSavedAsDraft": {
+    "description": "Info ditampilkan ketika pesan berhasil disimpan sebagai draf"
+  },
+  "composeMessageSavedAsDraftErrorInfo": "Draf Anda tidak dapat disimpan dengan kesalahan berikut:\n",
+  "@composeMessageSavedAsDraftErrorInfo": {
+    "description": "Info ditampilkan ketika pesan tidak dapat disimpan sebagai draf",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "Tajuk tidak valid: XX"
+      }
+    }
+  },
+  "composeConvertToPlainTextEditorAction": "Konversikan ke teks biasa",
+  "@composeConvertToPlainTextEditorAction": {
+    "description": "Tindakan untuk menulis pesan teks biasa dan bukan pesan html"
+  },
+  "composeConvertToHtmlEditorAction": "Konversikan ke pesan kaya (HTML)",
+  "@composeConvertToHtmlEditorAction": {
+    "description": "Tindakan untuk menulis pesan HTML alih-alih pesan teks"
+  },
+  "composeContinueEditingAction": "Lanjutkan mengedit",
+  "@composeContinueEditingAction": {
+    "description": "Tindakan untuk kembali ke layar penulisan ketika draf tidak dapat disimpan"
+  },
+  "composeCreatePlusAliasAction": "Buat alias baru...",
+  "@composeCreatePlusAliasAction": {
+    "description": "Tindakan untuk membuat alias baru sebagai pengirim"
+  },
+  "composeSenderHint": "Pengirim",
+  "@composeSenderHint": {
+    "description": "Petunjuk untuk kolom input Dari"
+  },
+  "composeRecipientHint": "Penerima e-mail",
+  "@composeRecipientHint": {
+    "description": "Petunjuk untuk bidang masukan"
+  },
+  "composeSubjectLabel": "Subjek",
+  "@composeSubjectLabel": {
+    "description": "Label untuk bidang masukan Subjek"
+  },
+  "composeSubjectHint": "Judul Pesan",
+  "@composeSubjectHint": {
+    "description": "Petunjuk untuk kolom input Subjek"
+  },
+  "composeAddAttachmentAction": "Menambahkan",
+  "@composeAddAttachmentAction": {
+    "description": "Tindakan untuk menambahkan lampiran - harus singkat!"
+  },
+  "composeRemoveAttachmentAction": "Hapus {nama}",
+  "@composeRemoveAttachmentAction": {
+    "description": "Tindakan untuk menghapus lampiran",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "lucu.png"
+      }
+    }
+  },
+  "composeLeftByMistake": "Tertinggal karena kesalahan?",
+  "@composeLeftByMistake": {
+    "description": "Info ditampilkan setelah keluar dari layar penulisan untuk memudahkan pengembalian"
+  },
+  "attachTypeFile": "Mengajukan",
+  "@attachTypeFile": {
+    "description": "Jenis lampiran untuk ditambahkan"
+  },
+  "attachTypePhoto": "Foto",
+  "@attachTypePhoto": {
+    "description": "Jenis lampiran untuk ditambahkan"
+  },
+  "attachTypeVideo": "Video",
+  "@attachTypeVideo": {
+    "description": "Jenis lampiran untuk ditambahkan"
+  },
+  "attachTypeAudio": "Audio",
+  "@attachTypeAudio": {
+    "description": "Jenis lampiran untuk ditambahkan"
+  },
+  "attachTypeLocation": "Lokasi",
+  "@attachTypeLocation": {
+    "description": "Jenis lampiran untuk ditambahkan"
+  },
+  "attachTypeGif": "Gif Animasi",
+  "@attachTypeGif": {
+    "description": "Jenis lampiran untuk ditambahkan"
+  },
+  "attachTypeGifSearch": "cari GIPHY",
+  "@attachTypeGifSearch": {
+    "description": "Teks untuk pencarian di layanan GIPHY untuk GIF"
+  },
+  "attachTypeSticker": "Stiker",
+  "@attachTypeSticker": {
+    "description": "Jenis lampiran untuk ditambahkan"
+  },
+  "attachTypeStickerSearch": "cari GIPHY",
+  "@attachTypeStickerSearch": {
+    "description": "Teks untuk pencarian di layanan GIPHY untuk stiker"
+  },
+  "attachTypeAppointment": "Janji temu",
+  "@attachTypeAppointment": {
+    "description": "Jenis lampiran untuk ditambahkan"
+  },
+  "languageSettingTitle": "Bahasa",
+  "@languageSettingTitle": {
+    "description": "Judul layar pengaturan bahasa"
+  },
+  "languageSettingLabel": "Pilih bahasa untuk Maily:",
+  "@languageSettingLabel": {
+    "description": "Label untuk layar tarik-turun pengaturan bahasa"
+  },
+  "languageSettingSystemOption": "Bahasa sistem",
+  "@languageSettingSystemOption": {
+    "description": "Pilihan untuk menggunakan pengaturan sistem"
+  },
+  "languageSettingConfirmationTitle": "Gunakan bahasa Inggris untuk Maily?",
+  "@languageSettingConfirmationTitle": {
+    "description": "Judul dialog untuk mengonfirmasi saat mengganti bahasa"
+  },
+  "languageSettingConfirmationQuery": "Harap konfirmasi untuk menggunakan bahasa Inggris sebagai bahasa pilihan Anda.",
+  "@languageSettingConfirmationQuery": {
+    "description": "Permintaan yang harus dikonfirmasi oleh pengguna saat mengganti bahasa"
+  },
+  "languageSetInfo": "Maily sekarang ditampilkan dalam bahasa Inggris.",
+  "@languageSetInfo": {
+    "description": "Teks info setelah menentukan bahasa."
+  },
+  "languageSystemSetInfo": "Maily sekarang akan menggunakan bahasa sistem atau bahasa Inggris jika bahasa sistem tidak didukung.",
+  "@languageSystemSetInfo": {
+    "description": "Teks info setelah memilih bahasa sistem untuk Maily."
+  },
+  "swipeSettingTitle": "Gesek gerakan",
+  "@swipeSettingTitle": {
+    "description": "Judul layar pengaturan gesek"
+  },
+  "swipeSettingLeftToRightLabel": "Gesek dari kiri ke kanan",
+  "@swipeSettingLeftToRightLabel": {
+    "description": "Label untuk gerakan menggesek"
+  },
+  "swipeSettingRightToLeftLabel": "Gesek dari kanan ke kiri",
+  "@swipeSettingRightToLeftLabel": {
+    "description": "Label untuk gerakan menggesek"
+  },
+  "swipeSettingChangeAction": "Mengubah",
+  "@swipeSettingChangeAction": {
+    "description": "Tindakan untuk mengubah gerakan menggesek"
+  },
+  "signatureSettingsTitle": "Tanda tangan",
+  "@signatureSettingsTitle": {
+    "description": "Judul layar pengaturan tanda tangan"
+  },
+  "signatureSettingsComposeActionsInfo": "Aktifkan tanda tangan untuk pesan berikut:",
+  "@signatureSettingsComposeActionsInfo": {
+    "description": "Teks sebelum memilih jenis pesan untuk tanda tangan (baru, teruskan, balas)."
+  },
+  "signatureSettingsAccountInfo": "Anda dapat menentukan tanda tangan khusus akun di pengaturan akun.",
+  "@signatureSettingsAccountInfo": {
+    "description": "Teks informasi sebelum menampilkan link ke pengaturan akun."
+  },
+  "signatureSettingsAddForAccount": "Tambahkan tanda tangan untuk {account}",
+  "@signatureSettingsAddForAccount": {
+    "description": "Tindakan untuk menambahkan tanda tangan khusus akun.",
+    "placeholders": {
+      "account": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      }
+    }
+  },
+  "defaultSenderSettingsTitle": "Pengirim bawaan",
+  "@defaultSenderSettingsTitle": {
+    "description": "Judul layar pengaturan pengirim default"
+  },
+  "defaultSenderSettingsLabel": "Pilih pengirim untuk pesan baru.",
+  "@defaultSenderSettingsLabel": {
+    "description": "Deskripsi layar pengaturan pengirim default"
+  },
+  "defaultSenderSettingsFirstAccount": "Akun pertama ({email})",
+  "@defaultSenderSettingsFirstAccount": {
+    "description": "Pengirim default adalah pengirim dari akun pertama",
+    "placeholders": {
+      "email": {
+        "type": "Rangkaian",
+        "example": "email@domain.com"
+      }
+    }
+  },
+  "defaultSenderSettingsAliasInfo": "Anda dapat mengatur alamat email alias di [AS].",
+  "@defaultSenderSettingsAliasInfo": {
+    "description": "Info tentang email alias tersebut dapat diatur di pengaturan akun. "
+  },
+  "defaultSenderSettingsAliasAccountSettings": "pengaturan akun",
+  "@defaultSenderSettingsAliasAccountSettings": {
+    "description": "Teks tautan pengaturan akun."
+  },
+  "replySettingsTitle": "Format pesan",
+  "@replySettingsTitle": {
+    "description": "Judul pengaturan balasan."
+  },
+  "replySettingsIntro": "Dalam format apa Anda ingin menjawab atau meneruskan email secara default?",
+  "@replySettingsIntro": {
+    "description": "Teks pengantar pengaturan balasan."
+  },
+  "replySettingsFormatHtml": "Selalu format kaya (HTML)",
+  "@replySettingsFormatHtml": {
+    "description": "Opsi pengaturan balasan."
+  },
+  "replySettingsFormatSameAsOriginal": "Gunakan format yang sama dengan email asal",
+  "@replySettingsFormatSameAsOriginal": {
+    "description": "Opsi pengaturan balasan."
+  },
+  "replySettingsFormatPlainText": "Selalu hanya teks",
+  "@replySettingsFormatPlainText": {
+    "description": "Opsi pengaturan balasan."
+  },
+  "moveTitle": "Pindahkan pesan",
+  "@moveTitle": {
+    "description": "Judul dialog pindah ke kotak surat."
+  },
+  "moveSuccess": "Pesan dipindahkan ke {mailbox}.",
+  "@moveSuccess": {
+    "description": "Pesan setelah memindahkan pesan berhasil.",
+    "placeholders": {
+      "mailbox": {
+        "type": "Rangkaian",
+        "example": "Kotak masuk"
+      }
+    }
+  },
+  "editorArtInputLabel": "Masukan Anda",
+  "@editorArtInputLabel": {
+    "description": "Label bidang masukan saat menyisipkan teks yang diformat"
+  },
+  "editorArtInputHint": "Masukkan teks di sini",
+  "@editorArtInputHint": {
+    "description": "Petunjuk bidang masukan saat menyisipkan teks yang diformat"
+  },
+  "editorArtWaitingForInputHint": "menunggu masukan...",
+  "@editorArtWaitingForInputHint": {
+    "description": "Teks ditampilkan sambil menunggu input"
+  },
+  "fontSerifBold": "Serif berani",
+  "@fontSerifBold": {
+    "description": "Nama font"
+  },
+  "fontSerifItalic": "Serif miring",
+  "@fontSerifItalic": {
+    "description": "Nama font"
+  },
+  "fontSerifBoldItalic": "Serif miring tebal",
+  "@fontSerifBoldItalic": {
+    "description": "Nama font"
+  },
+  "fontSans": "Tanpa",
+  "@fontSans": {
+    "description": "Nama font"
+  },
+  "fontSansBold": "Tanpa berani",
+  "@fontSansBold": {
+    "description": "Nama font"
+  },
+  "fontSansItalic": "Tanpa huruf miring",
+  "@fontSansItalic": {
+    "description": "Nama font"
+  },
+  "fontSansBoldItalic": "Tanpa huruf miring tebal",
+  "@fontSansBoldItalic": {
+    "description": "Nama font"
+  },
+  "fontScript": "Naskah",
+  "@fontScript": {
+    "description": "Nama font"
+  },
+  "fontScriptBold": "Naskahnya tebal",
+  "@fontScriptBold": {
+    "description": "Nama font"
+  },
+  "fontFraktur": "Fraktur",
+  "@fontFraktur": {
+    "description": "Nama font"
+  },
+  "fontFrakturBold": "Fraktur tebal",
+  "@fontFrakturBold": {
+    "description": "Nama font"
+  },
+  "fontMonospace": "Ruang tunggal",
+  "@fontMonospace": {
+    "description": "Nama font"
+  },
+  "fontFullwidth": "Lebar penuh",
+  "@fontFullwidth": {
+    "description": "Nama font"
+  },
+  "fontDoublestruck": "Pukulan ganda",
+  "@fontDoublestruck": {
+    "description": "Nama font"
+  },
+  "fontCapitalized": "Dikapitalisasi",
+  "@fontCapitalized": {
+    "description": "Nama font"
+  },
+  "fontCircled": "Dilingkari",
+  "@fontCircled": {
+    "description": "Nama font"
+  },
+  "fontParenthesized": "Ditandai dalam tanda kurung",
+  "@fontParenthesized": {
+    "description": "Nama font"
+  },
+  "fontUnderlinedSingle": "Digarisbawahi",
+  "@fontUnderlinedSingle": {
+    "description": "Nama font"
+  },
+  "fontUnderlinedDouble": "Digarisbawahi ganda",
+  "@fontUnderlinedDouble": {
+    "description": "Nama font"
+  },
+  "fontStrikethroughSingle": "Serang",
+  "@fontStrikethroughSingle": {
+    "description": "Nama font"
+  },
+  "fontCrosshatch": "garis silang",
+  "@fontCrosshatch": {
+    "description": "Nama font"
+  },
+  "accountLoadError": "Tidak dapat terhubung ke akun Anda {name}. ",
+  "@accountLoadError": {
+    "description": "Pesan ditampilkan ketika satu akun tidak dapat dimuat.",
+    "placeholders": {
+      "name": {
+        "type": "Rangkaian",
+        "example": "domain.com"
+      }
+    }
+  },
+  "accountLoadErrorEditAction": "Mengedit akun",
+  "@accountLoadErrorEditAction": {
+    "description": "Tindakan untuk mengedit akun"
+  },
+  "extensionsTitle": "Ekstensi",
+  "@extensionsTitle": {
+    "description": "Judul bagian ekstensi dalam pengaturan pengembangan"
+  },
+  "extensionsIntro": "Dengan ekstensi penyedia layanan email, perusahaan dan pengembang dapat mengadaptasi Maily dengan fungsi yang berguna.",
+  "@extensionsIntro": {
+    "description": "Penjelasan ekstensi"
+  },
+  "extensionsLearnMoreAction": "Pelajari lebih lanjut tentang ekstensi",
+  "@extensionsLearnMoreAction": {
+    "description": "Label untuk meluncurkan situs web dengan informasi lebih lanjut"
+  },
+  "extensionsReloadAction": "Muat ulang ekstensi",
+  "@extensionsReloadAction": {
+    "description": "Tindakan untuk menyegarkan ekstensi"
+  },
+  "extensionDeactivateAllAction": "Nonaktifkan semua ekstensi",
+  "@extensionDeactivateAllAction": {
+    "description": "Tindakan untuk menonaktifkan/membongkar ekstensi apa pun"
+  },
+  "extensionsManualAction": "Muat secara manual",
+  "@extensionsManualAction": {
+    "description": "Tindakan untuk memuat ekstensi secara manual"
+  },
+  "extensionsManualUrlLabel": "Url ekstensi",
+  "@extensionsManualUrlLabel": {
+    "description": "Label untuk kolom masukan URL"
+  },
+  "extensionsManualLoadingError": "Tidak dapat mengunduh ekstensi dari \"{url}\".",
+  "@extensionsManualLoadingError": {
+    "description": "Pesan ditampilkan ketika ekstensi tidak dapat dimuat.",
+    "placeholders": {
+      "url": {
+        "type": "Rangkaian",
+        "example": "https://domain.com/.maily.json"
+      }
+    }
+  },
+  "icalendarAcceptTentatively": "Untuk sementara",
+  "@icalendarAcceptTentatively": {
+    "description": "Tindakan untuk menerima undangan kalender secara tentatif"
+  },
+  "icalendarActionChangeParticipantStatus": "Mengubah",
+  "@icalendarActionChangeParticipantStatus": {
+    "description": "Tindakan untuk mengubah status peserta undangan kalender"
+  },
+  "icalendarLabelSummary": "Judul",
+  "@icalendarLabelSummary": {
+    "description": "Label info ringkasan objek icalendar"
+  },
+  "icalendarNoSummaryInfo": "(tanpa judul)",
+  "@icalendarNoSummaryInfo": {
+    "description": "Info ditampilkan ketika objek icalendar tidak memiliki ringkasan (tidak ada judul)"
+  },
+  "icalendarLabelDescription": "Keterangan",
+  "@icalendarLabelDescription": {
+    "description": "Label info deskripsi objek icalendar"
+  },
+  "icalendarLabelStart": "Awal",
+  "@icalendarLabelStart": {
+    "description": "Label info tanggal waktu mulai objek icalendar"
+  },
+  "icalendarLabelEnd": "Akhir",
+  "@icalendarLabelEnd": {
+    "description": "Label info tanggal waktu akhir objek icalendar"
+  },
+  "icalendarLabelDuration": "Durasi",
+  "@icalendarLabelDuration": {
+    "description": "Label info durasi suatu objek icalendar"
+  },
+  "icalendarLabelLocation": "Lokasi",
+  "@icalendarLabelLocation": {
+    "description": "Label info lokasi objek icalendar"
+  },
+  "icalendarLabelTeamsUrl": "Tautan",
+  "@icalendarLabelTeamsUrl": {
+    "description": "Label info url tim ms dari objek icalendar"
+  },
+  "icalendarLabelRecurrenceRule": "Berulang",
+  "@icalendarLabelRecurrenceRule": {
+    "description": "Label info perulangan objek icalendar"
+  },
+  "icalendarLabelParticipants": "Peserta",
+  "@icalendarLabelParticipants": {
+    "description": "Label info peserta objek icalendar"
+  },
+  "icalendarParticipantStatusNeedsAction": "Anda diminta untuk menjawab undangan ini.",
+  "@icalendarParticipantStatusNeedsAction": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusAccepted": "Anda telah menerima undangan ini.",
+  "@icalendarParticipantStatusAccepted": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusDeclined": "Anda telah menolak undangan ini.",
+  "@icalendarParticipantStatusDeclined": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusAcceptedTentatively": "Anda untuk sementara telah menerima undangan ini.",
+  "@icalendarParticipantStatusAcceptedTentatively": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusDelegated": "Anda telah mendelegasikan undangan ini.",
+  "@icalendarParticipantStatusDelegated": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusInProcess": "Tugas sedang berlangsung.",
+  "@icalendarParticipantStatusInProcess": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusPartial": "Tugasnya sudah selesai sebagian.",
+  "@icalendarParticipantStatusPartial": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusCompleted": "Tugas selesai.",
+  "@icalendarParticipantStatusCompleted": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusOther": "Status Anda tidak diketahui.",
+  "@icalendarParticipantStatusOther": {
+    "description": "Status peserta dari pengguna saat ini untuk objek icalendar"
+  },
+  "icalendarParticipantStatusChangeTitle": "Statusmu",
+  "@icalendarParticipantStatusChangeTitle": {
+    "description": "Judul dialog untuk mengubah status peserta"
+  },
+  "icalendarParticipantStatusChangeText": "Apakah Anda ingin menerima undangan ini?",
+  "@icalendarParticipantStatusChangeText": {
+    "description": "Teks dialog untuk mengubah status peserta"
+  },
+  "icalendarParticipantStatusSentFailure": "Tidak dapat mengirim balasan.\n",
+  "@icalendarParticipantStatusSentFailure": {
+    "description": "Pesan kegagalan untuk balasan perubahan status",
+    "placeholders": {
+      "details": {
+        "type": "Rangkaian",
+        "example": "Tidak ada koneksi internet"
+      }
+    }
+  },
+  "icalendarExportAction": "Ekspor",
+  "@icalendarExportAction": {
+    "description": "Tindakan untuk mengekspor undangan ke kalender asli"
+  },
+  "icalendarReplyStatusNeedsAction": "{attendee} belum menjawab undangan ini.",
+  "@icalendarReplyStatusNeedsAction": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyStatusAccepted": "{attendee} telah menerima janji temu.",
+  "@icalendarReplyStatusAccepted": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyStatusDeclined": "{attendee} telah menolak undangan ini.",
+  "@icalendarReplyStatusDeclined": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyStatusAcceptedTentatively": "{attendee} untuk sementara telah menerima undangan ini.",
+  "@icalendarReplyStatusAcceptedTentatively": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyStatusDelegated": "{attendee} telah mendelegasikan undangan ini.",
+  "@icalendarReplyStatusDelegated": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyStatusInProcess": "{attendee} telah memulai tugas ini.",
+  "@icalendarReplyStatusInProcess": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyStatusPartial": "{attendee} telah menyelesaikan sebagian tugas ini.",
+  "@icalendarReplyStatusPartial": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyStatusCompleted": "{attendee} telah menyelesaikan tugas ini.",
+  "@icalendarReplyStatusCompleted": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyStatusOther": "{attendee} telah menjawab dengan status tidak diketahui.",
+  "@icalendarReplyStatusOther": {
+    "description": "Balasan Kalender yang valid",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "icalendarReplyWithoutParticipants": "Balasan kalender ini tidak berisi peserta.",
+  "@icalendarReplyWithoutParticipants": {
+    "description": "Balasan kalender tanpa peserta apa pun"
+  },
+  "icalendarReplyWithoutStatus": "{attendee} menjawab tanpa status partisipasi.",
+  "@icalendarReplyWithoutStatus": {
+    "description": "Balasan kalender tanpa status peserta apa pun",
+    "placeholders": {
+      "attendee": {
+        "type": "Rangkaian",
+        "example": "Nama belakang <user.name@domain.com>"
+      }
+    }
+  },
+  "composeAppointmentTitle": "Buat Janji Temu",
+  "@composeAppointmentTitle": {
+    "description": "Judul untuk menambahkan layar janji temu baru"
+  },
+  "composeAppointmentLabelDay": "hari",
+  "@composeAppointmentLabelDay": {
+    "description": "Label untuk tombol pilih hari"
+  },
+  "composeAppointmentLabelTime": "waktu",
+  "@composeAppointmentLabelTime": {
+    "description": "Label untuk tombol pilih waktu"
+  },
+  "composeAppointmentLabelAllDayEvent": "Sepanjang hari",
+  "@composeAppointmentLabelAllDayEvent": {
+    "description": "Label untuk adalah tombol sepanjang hari"
+  },
+  "composeAppointmentLabelRepeat": "Mengulang",
+  "@composeAppointmentLabelRepeat": {
+    "description": "Label untuk tarik-turun berulang"
+  },
+  "composeAppointmentLabelRepeatOptionNever": "Tidak pernah",
+  "@composeAppointmentLabelRepeatOptionNever": {
+    "description": "Opsi untuk drop-down berulang"
+  },
+  "composeAppointmentLabelRepeatOptionDaily": "Sehari-hari",
+  "@composeAppointmentLabelRepeatOptionDaily": {
+    "description": "Opsi untuk drop-down berulang"
+  },
+  "composeAppointmentLabelRepeatOptionWeekly": "Mingguan",
+  "@composeAppointmentLabelRepeatOptionWeekly": {
+    "description": "Opsi untuk drop-down berulang"
+  },
+  "composeAppointmentLabelRepeatOptionMonthly": "Bulanan",
+  "@composeAppointmentLabelRepeatOptionMonthly": {
+    "description": "Opsi untuk drop-down berulang"
+  },
+  "composeAppointmentLabelRepeatOptionYearly": "Setiap tahun",
+  "@composeAppointmentLabelRepeatOptionYearly": {
+    "description": "Opsi untuk drop-down berulang"
+  },
+  "composeAppointmentRecurrenceFrequencyLabel": "Frekuensi",
+  "@composeAppointmentRecurrenceFrequencyLabel": {
+    "description": "Label untuk drop-down frekuensi"
+  },
+  "composeAppointmentRecurrenceIntervalLabel": "Selang",
+  "@composeAppointmentRecurrenceIntervalLabel": {
+    "description": "Label untuk tarik-turun interval"
+  },
+  "composeAppointmentRecurrenceDaysLabel": "Pada hari-hari",
+  "@composeAppointmentRecurrenceDaysLabel": {
+    "description": "Beri label pada area pemilihan hari dalam perulangan mingguan atau bulanan"
+  },
+  "composeAppointmentRecurrenceUntilLabel": "Sampai",
+  "@composeAppointmentRecurrenceUntilLabel": {
+    "description": "Label untuk memilih tanggal akhir pengulangan"
+  },
+  "composeAppointmentRecurrenceUntilOptionUnlimited": "Tak terbatas",
+  "@composeAppointmentRecurrenceUntilOptionUnlimited": {
+    "description": "Opsi untuk pengulangan tanpa tanggal akhir"
+  },
+  "composeAppointmentRecurrenceUntilOptionRecommended": "Direkomendasikan ({duration})",
+  "@composeAppointmentRecurrenceUntilOptionRecommended": {
+    "description": "Pilihan untuk tanggal akhir pengulangan standar dengan durasi yang diberikan",
+    "placeholders": {
+      "duration": {
+        "type": "Rangkaian",
+        "example": "3 bulan"
+      }
+    }
+  },
+  "composeAppointmentRecurrenceUntilOptionSpecificDate": "Sampai tanggal yang dipilih",
+  "@composeAppointmentRecurrenceUntilOptionSpecificDate": {
+    "description": "Pilihan untuk tanggal akhir pengulangan tertentu"
+  },
+  "composeAppointmentRecurrenceMonthlyOnDayOfMonth": "Pada {hari}. ",
+  "@composeAppointmentRecurrenceMonthlyOnDayOfMonth": {
+    "description": "Pilihan untuk mengulang suatu acara selalu pada hari itu dalam sebulan",
+    "placeholders": {
+      "day": {
+        "type": "ke dalam",
+        "example": "3",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "composeAppointmentRecurrenceMonthlyOnWeekDay": "Hari kerja dalam sebulan",
+  "@composeAppointmentRecurrenceMonthlyOnWeekDay": {
+    "description": "Pengulangan bulanan pada hari kerja pada minggu yang dipilih"
+  },
+  "composeAppointmentRecurrenceFirst": "Pertama",
+  "@composeAppointmentRecurrenceFirst": {
+    "description": "Opsi hari bulanan"
+  },
+  "composeAppointmentRecurrenceSecond": "Kedua",
+  "@composeAppointmentRecurrenceSecond": {
+    "description": "Opsi hari bulanan"
+  },
+  "composeAppointmentRecurrenceThird": "Ketiga",
+  "@composeAppointmentRecurrenceThird": {
+    "description": "Opsi hari bulanan"
+  },
+  "composeAppointmentRecurrenceLast": "Terakhir",
+  "@composeAppointmentRecurrenceLast": {
+    "description": "Opsi hari bulanan"
+  },
+  "composeAppointmentRecurrenceSecondLast": "Kedua terakhir",
+  "@composeAppointmentRecurrenceSecondLast": {
+    "description": "Opsi hari bulanan"
+  },
+  "durationYears": "{angka, jamak, =1{1 tahun} other{{angka} tahun}}",
+  "@durationYears": {
+    "description": "Durasi. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "durationMonths": "{angka, jamak, =1{1 bulan} other{{angka} bulan}}",
+  "@durationMonths": {
+    "description": "Durasi. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "durationWeeks": "{angka, jamak, =1{1 minggu} other{{angka} minggu}}",
+  "@durationWeeks": {
+    "description": "Durasi. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "durationDays": "{angka, jamak, =1{1 hari} other{{angka} hari}}",
+  "@durationDays": {
+    "description": "Durasi. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "durationHours": "{angka, jamak, =1{1 jam} other{{angka} jam}}",
+  "@durationHours": {
+    "description": "Durasi. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "durationMinutes": "{angka, jamak, =1{1 menit} other{{angka} menit}}",
+  "@durationMinutes": {
+    "description": "Durasi. ",
+    "placeholders": {
+      "number": {
+        "type": "ke dalam",
+        "example": "2",
+        "format": "kompakPanjang"
+      }
+    }
+  },
+  "durationEmpty": "Tidak ada durasi",
+  "@durationEmpty": {
+    "description": "Teks ditampilkan ketika durasinya 0"
+  }
+}

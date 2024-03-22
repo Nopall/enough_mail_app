@@ -131,7 +131,7 @@ class RealAccount extends Account {
       final extensions = appExtensions;
       if (extensions != null) {
         for (final ext in extensions) {
-          final signature = ext.getSignatureHtml(languageCode ?? 'en');
+          final signature = ext.getSignatureHtml(languageCode ?? 'id');
           if (signature != null) {
             return signature;
           }

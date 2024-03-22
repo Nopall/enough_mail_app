@@ -17,9 +17,7 @@ class SettingsLanguageScreen extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final displayNames = {
-      'de': 'deutsch',
-      'en': 'English',
-      'es': 'español',
+      'id': 'Indonesia',
     };
     final available = AppLocalizations.supportedLocales
         .map(
