@@ -4,7 +4,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../settings/provider.dart';
 import 'app_localizations.g.dart';
-import 'app_localizations_en.g.dart';
+import 'app_localizations_id.g.dart';
 
 part 'provider.g.dart';
 

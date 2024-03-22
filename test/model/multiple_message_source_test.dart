@@ -3,7 +3,7 @@
 import 'package:enough_mail/enough_mail.dart';
 import 'package:enough_mail_app/src/account/model.dart';
 import 'package:enough_mail_app/src/localization/app_localizations.g.dart';
-import 'package:enough_mail_app/src/localization/app_localizations_en.g.dart';
+import 'package:enough_mail_app/src/localization/app_localizations_id.g.dart';
 import 'package:enough_mail_app/src/models/async_mime_source.dart';
 import 'package:enough_mail_app/src/models/message.dart';
 import 'package:enough_mail_app/src/models/message_source.dart';
