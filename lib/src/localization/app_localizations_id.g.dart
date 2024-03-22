@@ -1197,7 +1197,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get composeEmptyMessage => 'pesan kosong';
 
   @override
-  String get composeWarningNoSubject => 'Anda belum menentukan subjek. Apakah Anda ingin mengirimkan pesan tanpa subjek?'
+  String get composeWarningNoSubject => 'Anda belum menentukan subjek. Apakah Anda ingin mengirimkan pesan tanpa subjek?';
 
   @override
   String get composeActionSentWithoutSubject => 'Kirim';
