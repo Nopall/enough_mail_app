@@ -59,42 +59,7 @@ class WelcomeScreen extends ConsumerWidget {
           ),
           decoration: PageDecoration(pageColor: Colors.green[700]),
           footer: _buildFooter(context, localizations),
-        ),
-        PageViewModel(
-          title: localizations.welcomePanel2Title,
-          body: localizations.welcomePanel2Text,
-          image: Image.asset(
-            'assets/images/mailboxes.png',
-            height: 200,
-            fit: BoxFit.cover,
-            package: 'enough_mail_app',
-          ),
-          decoration: const PageDecoration(pageColor: Color(0xff543226)),
-          footer: _buildFooter(context, localizations),
-        ),
-        PageViewModel(
-          title: localizations.welcomePanel3Title,
-          body: localizations.welcomePanel3Text,
-          image: Image.asset(
-            'assets/images/swipe_press.png',
-            height: 200,
-            fit: BoxFit.cover,
-            package: 'enough_mail_app',
-          ),
-          decoration: const PageDecoration(pageColor: Color(0xff761711)),
-          footer: _buildFooter(context, localizations),
-        ),
-        PageViewModel(
-          title: localizations.welcomePanel4Title,
-          body: localizations.welcomePanel4Text,
-          image: Image.asset(
-            'assets/images/drawing.jpg',
-            height: 200,
-            fit: BoxFit.cover,
-            package: 'enough_mail_app',
-          ),
-          footer: _buildFooter(context, localizations),
-        ),
+        )
       ];
 
   Widget _buildFooter(BuildContext context, AppLocalizations localizations) =>
