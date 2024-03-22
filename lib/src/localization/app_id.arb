@@ -1,6 +1,6 @@
 {
   "@@locale": "id",
-  "signature": "Dikirim dengan Maily",
+  "signature": "Dikirim dengan Email Pemko Siantar",
   "@signature": {
     "description": "Teks tanda tangan default"
   },
@@ -60,11 +60,11 @@
   "@splashLoading1": {
     "description": "Pesan ditampilkan di layar splash saat memuat"
   },
-  "splashLoading2": "Mempersiapkan mesin Maily Anda...",
+  "splashLoading2": "Mempersiapkan mesin Email Pemko Siantar Anda...",
   "@splashLoading2": {
     "description": "Pesan ditampilkan di layar splash saat memuat"
   },
-  "splashLoading3": "Meluncurkan Maily pada 10, 9, 8...",
+  "splashLoading3": "Meluncurkan Email Pemko Siantar pada 10, 9, 8...",
   "@splashLoading3": {
     "description": "Pesan ditampilkan di layar splash saat memuat"
   },
@@ -72,7 +72,7 @@
   "@welcomePanel1Title": {
     "description": "Judul panel selamat datang"
   },
-  "welcomePanel1Text": "Selamat datang di Maily, pembantu email Anda yang ramah dan cepat!",
+  "welcomePanel1Text": "Selamat datang di Email Pemko Siantar, pembantu email Anda yang ramah dan cepat!",
   "@welcomePanel1Text": {
     "description": "Pesan selamat datang ditampilkan di panel pertama"
   },
@@ -753,7 +753,7 @@
       }
     }
   },
-  "legaleseUsage": "Dengan menggunakan Maily, Anda menyetujui [PP] dan [TC] kami.",
+  "legaleseUsage": "Dengan menggunakan Email Pemko Siantar, Anda menyetujui [PP] dan [TC] kami.",
   "@legaleseUsage": {
     "description": "Info hukum ditampilkan di layar selamat datang awal dan kemudian di sekitar. "
   },
@@ -765,7 +765,7 @@
   "@legaleseTermsAndConditions": {
     "description": "Terjemahan Ketentuan "
   },
-  "aboutApplicationLegalese": "Maily adalah perangkat lunak gratis yang diterbitkan di bawah Lisensi Publik Umum GNU.",
+  "aboutApplicationLegalese": "Email Pemko Siantar adalah perangkat lunak gratis yang diterbitkan di bawah Lisensi Publik Umum GNU.",
   "@aboutApplicationLegalese": {
     "description": "Info hukum ditampilkan dalam dialog tentang."
   },
@@ -777,7 +777,7 @@
   "@feedbackActionReportProblem": {
     "description": "Tindakan untuk melaporkan masalah."
   },
-  "feedbackActionHelpDeveloping": "Membantu mengembangkan Maily",
+  "feedbackActionHelpDeveloping": "Membantu mengembangkan Email Pemko Siantar",
   "@feedbackActionHelpDeveloping": {
     "description": "Tindakan untuk membantu berkembang."
   },
@@ -785,7 +785,7 @@
   "@feedbackTitle": {
     "description": "Judul layar pengaturan umpan balik."
   },
-  "feedbackIntro": "Terima kasih telah menguji Maily!",
+  "feedbackIntro": "Terima kasih telah menguji Email Pemko Siantar!",
   "@feedbackIntro": {
     "description": "Intro untuk layar pengaturan umpan balik."
   },
@@ -829,7 +829,7 @@
   "@settingsSecurityMessageRenderingPlainText": {
     "description": "Pilihan cara merender pesan."
   },
-  "settingsSecurityLaunchModeLabel": "Bagaimana seharusnya Maily membuka tautan?",
+  "settingsSecurityLaunchModeLabel": "Bagaimana seharusnya Email Pemko Siantar membuka tautan?",
   "@settingsSecurityLaunchModeLabel": {
     "description": "Opsi cara meluncurkan URL."
   },
@@ -837,7 +837,7 @@
   "@settingsSecurityLaunchModeExternal": {
     "description": "Opsi cara meluncurkan URL."
   },
-  "settingsSecurityLaunchModeInApp": "Buka tautan di Maily",
+  "settingsSecurityLaunchModeInApp": "Buka tautan di Email Pemko Siantar",
   "@settingsSecurityLaunchModeInApp": {
     "description": "Opsi cara meluncurkan URL."
   },
@@ -881,7 +881,7 @@
   "@folderNamesIntroduction": {
     "description": "Pengenalan untuk pengaturan nama folder."
   },
-  "folderNamesSettingLocalized": "Nama yang diberikan oleh Maily",
+  "folderNamesSettingLocalized": "Nama yang diberikan oleh Email Pemko Siantar",
   "@folderNamesSettingLocalized": {
     "description": "Opsi pengaturan nama folder."
   },
@@ -1055,19 +1055,19 @@
   "@securitySettingsIntro": {
     "description": "Pengenalan layar pengaturan keamanan."
   },
-  "securityUnlockWithFaceId": "Buka kunci Maily dengan ID Wajah.",
+  "securityUnlockWithFaceId": "Buka kunci Email Pemko Siantar dengan ID Wajah.",
   "@securityUnlockWithFaceId": {
     "description": "Alasan membuka kunci khusus iOS."
   },
-  "securityUnlockWithTouchId": "Buka kunci Maily dengan Touch ID.",
+  "securityUnlockWithTouchId": "Buka kunci Email Pemko Siantar dengan Touch ID.",
   "@securityUnlockWithTouchId": {
     "description": "Alasan membuka kunci khusus iOS."
   },
-  "securityUnlockReason": "Buka kunci Maily.",
+  "securityUnlockReason": "Buka kunci Email Pemko Siantar.",
   "@securityUnlockReason": {
     "description": "Alasan umum untuk membuka kunci."
   },
-  "securityUnlockDisableReason": "Buka kunci Maily untuk mematikan kunci.",
+  "securityUnlockDisableReason": "Buka kunci Email Pemko Siantar untuk mematikan kunci.",
   "@securityUnlockDisableReason": {
     "description": "Alasan penonaktifan buka kunci umum."
   },
@@ -1083,7 +1083,7 @@
   "@securityUnlockDescriptionTitle": {
     "description": "Judul untuk menjelaskan fitur kunci melalui otentikasi biometrik."
   },
-  "securityUnlockDescriptionText": "Anda dapat memilih untuk mengunci akses ke Maily, sehingga orang lain tidak dapat membaca email Anda meskipun mereka memiliki akses ke perangkat Anda.",
+  "securityUnlockDescriptionText": "Anda dapat memilih untuk mengunci akses ke Email Pemko Siantar, sehingga orang lain tidak dapat membaca email Anda meskipun mereka memiliki akses ke perangkat Anda.",
   "@securityUnlockDescriptionText": {
     "description": "Teks menjelaskan fitur kunci melalui otentikasi biometrik."
   },
@@ -1099,11 +1099,11 @@
   "@securityLockAfter30Minutes": {
     "description": "Opsi waktu kunci."
   },
-  "lockScreenTitle": "Maily terkunci",
+  "lockScreenTitle": "Email Pemko Siantar terkunci",
   "@lockScreenTitle": {
     "description": "Judul layar kunci."
   },
-  "lockScreenIntro": "Maily terkunci, harap autentikasi untuk melanjutkan.",
+  "lockScreenIntro": "Email Pemko Siantar terkunci, harap autentikasi untuk melanjutkan.",
   "@lockScreenIntro": {
     "description": "Teks di layar kunci."
   },
@@ -1277,7 +1277,7 @@
       }
     }
   },
-  "editAccountFailureToConnectInfo": "Maily tidak dapat terhubung dengan {name}.",
+  "editAccountFailureToConnectInfo": "Email Pemko Siantar tidak dapat terhubung dengan {name}.",
   "@editAccountFailureToConnectInfo": {
     "description": "Info tentang tidak dapat tersambung ke layanan bernama. ",
     "placeholders": {
@@ -1499,7 +1499,7 @@
   "@accountProviderCustom": {
     "description": "Ketika tidak ada penyedia standar yang dipilih."
   },
-  "accountDetailsErrorHostProblem": "Maily tidak dapat menjangkau server email yang ditentukan. ",
+  "accountDetailsErrorHostProblem": "Email Pemko Siantar tidak dapat menjangkau server email yang ditentukan. ",
   "@accountDetailsErrorHostProblem": {
     "description": "Detail kesalahan ketika tidak ada koneksi ke server yang dapat dibuat sama sekali",
     "placeholders": {
@@ -1785,7 +1785,7 @@
   "@languageSettingTitle": {
     "description": "Judul layar pengaturan bahasa"
   },
-  "languageSettingLabel": "Pilih bahasa untuk Maily:",
+  "languageSettingLabel": "Pilih bahasa untuk Email Pemko Siantar:",
   "@languageSettingLabel": {
     "description": "Label untuk layar tarik-turun pengaturan bahasa"
   },
@@ -1793,7 +1793,7 @@
   "@languageSettingSystemOption": {
     "description": "Pilihan untuk menggunakan pengaturan sistem"
   },
-  "languageSettingConfirmationTitle": "Gunakan bahasa Inggris untuk Maily?",
+  "languageSettingConfirmationTitle": "Gunakan bahasa Inggris untuk Email Pemko Siantar?",
   "@languageSettingConfirmationTitle": {
     "description": "Judul dialog untuk mengonfirmasi saat mengganti bahasa"
   },
@@ -1801,13 +1801,13 @@
   "@languageSettingConfirmationQuery": {
     "description": "Permintaan yang harus dikonfirmasi oleh pengguna saat mengganti bahasa"
   },
-  "languageSetInfo": "Maily sekarang ditampilkan dalam bahasa Inggris.",
+  "languageSetInfo": "Email Pemko Siantar sekarang ditampilkan dalam bahasa Inggris.",
   "@languageSetInfo": {
     "description": "Teks info setelah menentukan bahasa."
   },
-  "languageSystemSetInfo": "Maily sekarang akan menggunakan bahasa sistem atau bahasa Inggris jika bahasa sistem tidak didukung.",
+  "languageSystemSetInfo": "Email Pemko Siantar sekarang akan menggunakan bahasa sistem atau bahasa Inggris jika bahasa sistem tidak didukung.",
   "@languageSystemSetInfo": {
-    "description": "Teks info setelah memilih bahasa sistem untuk Maily."
+    "description": "Teks info setelah memilih bahasa sistem untuk Email Pemko Siantar."
   },
   "swipeSettingTitle": "Gesek gerakan",
   "@swipeSettingTitle": {
@@ -2021,7 +2021,7 @@
   "@extensionsTitle": {
     "description": "Judul bagian ekstensi dalam pengaturan pengembangan"
   },
-  "extensionsIntro": "Dengan ekstensi penyedia layanan email, perusahaan dan pengembang dapat mengadaptasi Maily dengan fungsi yang berguna.",
+  "extensionsIntro": "Dengan ekstensi penyedia layanan email, perusahaan dan pengembang dapat mengadaptasi Email Pemko Siantar dengan fungsi yang berguna.",
   "@extensionsIntro": {
     "description": "Penjelasan ekstensi"
   },
@@ -2051,7 +2051,7 @@
     "placeholders": {
       "url": {
         "type": "Rangkaian",
-        "example": "https://domain.com/.maily.json"
+        "example": "https://domain.com/.Email Pemko Siantar.json"
       }
     }
   },
