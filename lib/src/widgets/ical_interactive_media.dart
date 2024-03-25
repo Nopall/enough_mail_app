@@ -533,7 +533,7 @@ extension ExtensionParticipantStatusTextStyle on ParticipantStatus {
       case ParticipantStatus.accepted:
         return Icon(
           CommonPlatformIcons.ok,
-          color: Colors.green,
+          color: Colors.blue,
         );
       case ParticipantStatus.declined:
         return Icon(CommonPlatformIcons.cancel);

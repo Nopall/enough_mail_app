@@ -10,7 +10,7 @@ part 'provider.g.dart';
 
 /// The default color provider
 @Riverpod(keepAlive: true)
-Color defaultColorSeed(DefaultColorSeedRef ref) => Colors.green;
+Color defaultColorSeed(DefaultColorSeedRef ref) => Colors.blue;
 
 /// Provides the settings
 @Riverpod(keepAlive: true)
